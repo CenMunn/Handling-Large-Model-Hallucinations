@@ -1,8 +1,8 @@
 [
   {
     "path": ".gitignore",
-    "bytes": 74,
-    "sha256": "13584b6d771afc5ca7c222e04312f66a8a2edb185fc628e9b0bd37ca22d59e19"
+    "bytes": 65,
+    "sha256": "0952ae85c56c7a173b1b75d320a3619848e64974bcce97bc30b9b8d3eccd42b0"
   },
   {
     "path": "docs/Qwen3-8B抗幻觉方案说明.docx",
@@ -11,633 +11,633 @@
   },
   {
     "path": "LICENSE",
-    "bytes": 1085,
-    "sha256": "22abd50c9db0ff35af937ef6a56bd0d590feb09eb5330aa11c04b1eeffe222c1"
+    "bytes": 1064,
+    "sha256": "d83458b4c349dd98dc97646fed3287454e9d6425fed1409026ae2e13673eaba5"
   },
   {
     "path": "outputs/qwen-baseline/build_cases.py",
-    "bytes": 3300,
-    "sha256": "690c19e932c566c7c9eceaf2cba00f951ae30e272a56f0adb6cd63e1d3509248"
+    "bytes": 3269,
+    "sha256": "fa5e0d28b59b0ca35db464d090a6f026e7add0434ac55de61f7199f039792657"
   },
   {
     "path": "outputs/qwen-baseline/dev_cases.json",
-    "bytes": 76670,
-    "sha256": "3355252edf7fdc5ef11bf8830d093711b223538aa88e495c04d65501c3ee5a08"
+    "bytes": 75101,
+    "sha256": "100bbd150cf4d4d5ac83d23d9c900558f7e90e46ef43e73a8ac8ac4836078be9"
   },
   {
     "path": "outputs/qwen-baseline/evaluate.py",
-    "bytes": 2797,
-    "sha256": "70332b7ddcf7b7d1d13e0ea62fed486820b8f9834dd0d620c4844a49b3174081"
+    "bytes": 2765,
+    "sha256": "7b3c1a162aade1078e8855997ee38507addd662c43427d9778600e39cd44bb5c"
   },
   {
     "path": "outputs/qwen-baseline/finish_setup.py",
-    "bytes": 3076,
-    "sha256": "7bb1feb6561a77320a81ed4c71e39b2e86733ed9370d2e4308ccab0167ebae12"
+    "bytes": 3033,
+    "sha256": "8ea87552c2aab09489f846a71ab2442a2845f9d3ec849525254446327ed12aed"
   },
   {
     "path": "outputs/qwen-baseline/launch.py",
-    "bytes": 2316,
-    "sha256": "ce7cbe52fabb9b4c6ab2c1ac5eb40efba689bc7f93276e28aa15715a07252a59"
+    "bytes": 2279,
+    "sha256": "9637b825f80aae5b081c0fa921242b3656abd04fbc9e6b218aa1d95ded58dbb2"
   },
   {
     "path": "outputs/qwen-baseline/PLAN.md",
-    "bytes": 1795,
-    "sha256": "a47d22fd656c0aef767e6c6599d5f34a31550c28d14bfd9c5305a9064ecb72bd"
+    "bytes": 1778,
+    "sha256": "98547f943fffd642a650a701b0afedc89dcfb0f049e1942dff1fc6df5e7ed67d"
   },
   {
     "path": "outputs/qwen-baseline/pressure.py",
-    "bytes": 1573,
-    "sha256": "e47b6e66debb4b1c9de1eaffc2c14b1b6d0d2d9901709495fdc339e877dee967"
+    "bytes": 1552,
+    "sha256": "ea6caee3b7a74687a2563df36f11ddec7f8189d511341c574cd25333af2d7304"
   },
   {
     "path": "outputs/qwen-baseline/provenance.json",
-    "bytes": 664,
-    "sha256": "d1b0be3e427c96b236350238197d75a0c3d83da2a3f43d395285ecea5c0e3402"
+    "bytes": 651,
+    "sha256": "5d3415d4b3ecc1f201b0568451bd4d451253f76803e673ce52836cfa32b3a7c1"
   },
   {
     "path": "outputs/qwen-baseline/README.md",
-    "bytes": 3988,
-    "sha256": "2e583f00e7d74350323e9d5ae9cc69e2ced9e5f63373ab28361864df81bea3ad"
+    "bytes": 3930,
+    "sha256": "d7a37df2eb9d684031978594e9e3f89dd3d088261710fbf3119f6a06a6f8d2c5"
   },
   {
     "path": "outputs/qwen-baseline/serve.py",
-    "bytes": 1633,
-    "sha256": "aa7d1cc4128946c4ae73dbc6fa9ab1e0beb72e6c5139921f4afbb58cf91e99cf"
+    "bytes": 1598,
+    "sha256": "f22e958d5500660144b4156f21eef70169fc29954c9bafe75512501ba68dfc8a"
   },
   {
     "path": "outputs/qwen-baseline/start-ngrok.ps1",
-    "bytes": 1114,
-    "sha256": "d77945fd5e86cd0a7be7cbe14ff4234c28dedb5c62e67057f6d72064fc54c595"
+    "bytes": 1104,
+    "sha256": "7e7bb60be227c39724ffd2ef72564a7344b3dbda2d328422680beb6c433c9380"
   },
   {
     "path": "outputs/qwen-baseline/START-SERVICES.cmd",
-    "bytes": 162,
-    "sha256": "88f8f9de0336fcbb0d9b5fe6d77ac3039b37fdc081664a32328f5fb9c6984497"
+    "bytes": 158,
+    "sha256": "c2b14554748da78ea7d4feb28065252186afaafb48b02232c1b464a0ef7fc03f"
   },
   {
     "path": "outputs/qwen-baseline/start_ngrok.py",
-    "bytes": 1424,
-    "sha256": "ec7ad4926b4f00e4f6479fd999ac5968e8642a4f6d365f039d018edb2a8b4a4d"
+    "bytes": 1402,
+    "sha256": "ed60ec16acaa8186fc2360ada39d9847ea05f87e730f1945a7b10cc6217fd649"
   },
   {
     "path": "outputs/qwen-baseline/status.json",
-    "bytes": 266,
-    "sha256": "f0aa7a87d10ae8fad09fb35ce415ee1d9195a30d17df7231251c088e95932ae0"
+    "bytes": 262,
+    "sha256": "fff2f33d33eea293c4eea4b32c92ccbd584d1d975740cf01f3d96d001bd2bde9"
   },
   {
     "path": "outputs/qwen-baseline/test_adapter.py",
-    "bytes": 5258,
-    "sha256": "05a62fa1f5a5de4fb4c91bf4154fe8df8d90b33bd278ee0b5639ca4285d24fea"
+    "bytes": 5164,
+    "sha256": "8b62017b8aff50e4bd9b682e1671ac5a822a7a7c1d244146630e890439be8862"
   },
   {
     "path": "outputs/qwen-deepseek-v5/platform/model.py",
-    "bytes": 5038,
-    "sha256": "72003cab68d34869a9b80490a9af228c02e22fbd8ccedf9f2350309687f76a61"
+    "bytes": 4935,
+    "sha256": "15d4e459eff5ee67822f5047a5bc0c13bde05cb57aff7af69e536f96d80d3e77"
   },
   {
     "path": "outputs/qwen-deepseek-v5/platform/requirements.txt",
-    "bytes": 66,
-    "sha256": "2b5ec8c59d3dbe7219bbcf904924dcd4925ff0eaf176749c0724162c728437c6"
+    "bytes": 65,
+    "sha256": "3eb2e41db34c1aef25d33631da2a8ca829e2465d84fad867f029f2bd258d7f9d"
   },
   {
     "path": "outputs/qwen-deepseek-v5/platform/run.py",
-    "bytes": 629,
-    "sha256": "2199f1345145a5f584aa2265c402e67a5dce4d2ea1d0f1260110a434b79a89c9"
+    "bytes": 613,
+    "sha256": "d7a63df63aef3cd9224b4d0e29b9815fd76409cddbebd880247d6b0b7f6b88cd"
   },
   {
     "path": "outputs/qwen-deepseek-v5/platform/run.sh",
-    "bytes": 812,
-    "sha256": "bca5e47abbcfe363f73baca15a68599c9fb806fcdb2751dc89fc50595f7d58a2"
+    "bytes": 791,
+    "sha256": "a77753a7b1a362febb3ff9a099f4662a4c72e6d33cfb5a84c20797f1b85bd076"
   },
   {
     "path": "outputs/qwen-v510-launcher/platform_v510_review.py",
-    "bytes": 40140,
-    "sha256": "b4ff4ce99c835ba4938e3db3a471a125c12d614f0917bf96388c9db30c1407d1"
+    "bytes": 40061,
+    "sha256": "b076220d57043482f1c54dd49770992d4430bee4ec46667ae729fe8334b45492"
   },
   {
     "path": "outputs/qwen-v510-launcher/START-V510.cmd",
-    "bytes": 206,
-    "sha256": "0474bd874f17221108ef033dec8f33364818400f86fac8efde0566931e4948d8"
+    "bytes": 201,
+    "sha256": "5b25ca52ae78719f39681494fc33b12bdd4cce173a12482b4be06c7bb8d88e5d"
   },
   {
     "path": "outputs/qwen-v510-launcher/start_services.py",
-    "bytes": 4552,
-    "sha256": "1a070412ff2ed52cd433d92dd1c2c42549b8ae0c2d41497475a713265ac08ff9"
+    "bytes": 4469,
+    "sha256": "4171a3b3596a570715f89aaf5006d4d8a4c2cf47e32603108965f3b41345eb54"
   },
   {
     "path": "outputs/qwen-v512-dev/acceptance_cases.py",
-    "bytes": 2210,
-    "sha256": "98af3d8a830f0e860f23d71faf34efdfef2370d41cc2f0bbda7f3c18a8aa18da"
+    "bytes": 2190,
+    "sha256": "c7beb27b30fcabb5b16fa436db63040aaf1b127857189e9232a8b57d0ec0e0a9"
   },
   {
     "path": "outputs/qwen-v512-dev/access_gate.py",
-    "bytes": 959,
-    "sha256": "3676ecf69683e8b27fe99bc75357bee04f3ea773e429d19bb998cc1879afc165"
+    "bytes": 929,
+    "sha256": "1dac4511ed1b9d8a2fa401cf1b5ab9a68d6f86dde3c68f86d70a436690aea8d4"
   },
   {
     "path": "outputs/qwen-v512-dev/bibliographic_chain.py",
-    "bytes": 11839,
-    "sha256": "6dea55e4446fe2de85b0071878ae7e343239faf6cf792fdf84bca89457174840"
+    "bytes": 11680,
+    "sha256": "e332e6d5751ade3f9b8df1e1b403b6f31345669fefd117ea6d0d0408cddf6ac6"
   },
   {
     "path": "outputs/qwen-v512-dev/build_platform_acceptance.py",
-    "bytes": 4468,
-    "sha256": "b079918ec2635e7e2cccd17fe3b25a9faba75b2b25d64bbec7dcd431fdd15cc9"
+    "bytes": 4400,
+    "sha256": "6c839ab21935a6648ed1aaf9f55360384f1d637469b1f4fb3706309818ac8ff3"
   },
   {
     "path": "outputs/qwen-v512-dev/calendar_rules.py",
-    "bytes": 3015,
-    "sha256": "cddaec57108d0a65f0c867182d532f2bb3e2683be7c86bb59d331eb4f294f9ad"
+    "bytes": 2956,
+    "sha256": "2c0d0eaca36ce8509aa9ae1426d255d3514da937c55abdf7b8842bb652611919"
   },
   {
     "path": "outputs/qwen-v512-dev/cell_source.py",
-    "bytes": 4962,
-    "sha256": "cb5b97b6051535bdc7dc7012032592cb05a7cffb96eeb21a07e4a4080fcfbc92"
+    "bytes": 4889,
+    "sha256": "2ba351bb8bbe9eb16061450da152c2e9341e3b7dfbf54476c7612545c365d978"
   },
   {
     "path": "outputs/qwen-v512-dev/choice_policy.py",
-    "bytes": 2098,
-    "sha256": "77018faa4a0fb9678ab539b9553a564050c0a140a4633c6c48d4ac6084e278f8"
+    "bytes": 2064,
+    "sha256": "5d1f729a849b775a77f6a0d07b9e5b84aec6e9755c56315fd14fa05d9b9505ba"
   },
   {
     "path": "outputs/qwen-v512-dev/claim_evidence.py",
-    "bytes": 4987,
-    "sha256": "f33a360b6a8e4d0af1bca66f10403cc212e2f5845f268993879f73ef9861b7f2"
+    "bytes": 4918,
+    "sha256": "03139050102040609c152fd5dae1bc8166aa545cc57c2bc862e5ed8b10c6a888"
   },
   {
     "path": "outputs/qwen-v512-dev/count_changes.py",
-    "bytes": 2095,
-    "sha256": "5f8c28e7959f9b499f6f2ab911fc8184b280397b4f9b03c8d270efc15bb599bc"
+    "bytes": 2059,
+    "sha256": "c51ec95001dca97874940f9ed2da1696721dd62c8e610a6aded6e0af4e1f2e42"
   },
   {
     "path": "outputs/qwen-v512-dev/curate_source_graphs.py",
-    "bytes": 3839,
-    "sha256": "c64fdc0889000eeca347b33790468fa9b4454fa9c3be83675165d4ccf4b36f9d"
+    "bytes": 3788,
+    "sha256": "0098424553d68ed91153b91a0c182e93d2b426b5341036e7860121e6ca78ba45"
   },
   {
     "path": "outputs/qwen-v512-dev/curated-source-graphs.json",
-    "bytes": 597785,
-    "sha256": "2c2d1575c3300dfc95e1ae498e6d504113b161a52d6c47596a2776b2a3fd441d"
+    "bytes": 590627,
+    "sha256": "686b5ecf1c7482cd79209af61dda38e1b31f4cee49768a52ec02db604c2c1697"
   },
   {
     "path": "outputs/qwen-v512-dev/curated_chains.py",
-    "bytes": 11741,
-    "sha256": "c57c6933267249c24f48f70a3b8f08ece3932d42f6bff6d64c2ad7dae0cddb31"
+    "bytes": 11582,
+    "sha256": "a3d84af8e7dae98e555dc4f3d00f0091979af62fa6428a2595d0d8be48065511"
   },
   {
     "path": "outputs/qwen-v512-dev/deepseek_search.py",
-    "bytes": 11168,
-    "sha256": "041c66990765dd48606f387262cf2cdce1a0962e551c77c91fea8958d83b1b7a"
+    "bytes": 10930,
+    "sha256": "b176eb2fef2e52924f3af392ef2a8e87c47a01c6bf3f87202fe2c940aed6a06e"
   },
   {
     "path": "outputs/qwen-v512-dev/engine.py",
-    "bytes": 39324,
-    "sha256": "1cf76c976fcc1280d36037cb1ceff21c1420c0fbe984b78049426de00d4bbaf4"
+    "bytes": 38813,
+    "sha256": "fcc432d7747eaecbc29f781bc9d1b1753d64f45f4f7046a363fb9f8ce6264b97"
   },
   {
     "path": "outputs/qwen-v512-dev/entity_binding.py",
-    "bytes": 5137,
-    "sha256": "f06b4e641a750eac4453fb1ba88b606f121b31604637ef331af45865d76610ca"
+    "bytes": 5055,
+    "sha256": "253c8723a9eb1bb7f56bf95e4b9902a5305139a655ad65f89132ea5dfe5aade1"
   },
   {
     "path": "outputs/qwen-v512-dev/evaluate_new.py",
-    "bytes": 7916,
-    "sha256": "6f538415e8f4b25d1c6b2fc7b6440577ff05f76f5877c6865cc61265780abe44"
+    "bytes": 7767,
+    "sha256": "26561f9cdf809a2439b4c4b7f5ac52209b2bd286ea53a178e6823742102c85b1"
   },
   {
     "path": "outputs/qwen-v512-dev/evidence.py",
-    "bytes": 8813,
-    "sha256": "ca8b21e3af161472ce6976e45cbb951b3cc289585e535d4c615d33ce024564af"
+    "bytes": 8655,
+    "sha256": "aefb0efee1cd9dea191ff3f5b3985edc64ac50da6e9365406578836d3b57671a"
   },
   {
     "path": "outputs/qwen-v512-dev/evidence_graph.py",
-    "bytes": 8287,
-    "sha256": "b2b7a503fff08934ab9f0d14ff62bb85169f3d7c488b1b6a7e85586defe2ea00"
+    "bytes": 8181,
+    "sha256": "becaf740c70f6617b8fcb95f37d049f5b939c82ad3e2ef2420c8bbde5588af02"
   },
   {
     "path": "outputs/qwen-v512-dev/fact_scope.py",
-    "bytes": 17472,
-    "sha256": "82f42acd3cc65d99f7197169eba8adc588d6031a70a9df115e1060a802be19b9"
+    "bytes": 17245,
+    "sha256": "4aa738e45241ab19e16e43a1937e3065ebd8b45e191c8cafafd3f70778b61771"
   },
   {
     "path": "outputs/qwen-v512-dev/gateway.py",
-    "bytes": 4401,
-    "sha256": "d7df63ec2d77dc95a8929ef512008ebbb193a0ec8ae0a47b6ad91cf2b1019b72"
+    "bytes": 4335,
+    "sha256": "5a0d03ec32b20d7a6ce1520aeddeedf2aedafa53f01048ce7d6d2e77f7c86f6c"
   },
   {
     "path": "outputs/qwen-v512-dev/identity_graph.py",
-    "bytes": 7166,
-    "sha256": "93c5835d86bd07b7feab1a649dfe78ab04e8bf733451b8a4bffbcdb36765399f"
+    "bytes": 7054,
+    "sha256": "88609f448fcb6c7cd3e61d9a2a32d6b8b79454c4698a830142aa08b7f2b13d15"
   },
   {
     "path": "outputs/qwen-v512-dev/mathcheck.py",
-    "bytes": 5104,
-    "sha256": "b1deb6a067595892abd7dd4e7c39fc25a2563a3351924349f0fbef087fb1710b"
+    "bytes": 5002,
+    "sha256": "76b3f331b217e7bd99c2430718ff134ba41b013fac53627c754abc5079e7dc5e"
   },
   {
     "path": "outputs/qwen-v512-dev/option_checks.py",
-    "bytes": 2086,
-    "sha256": "9c590175d7d0f844bbecc6e99aa7d0430c1e7aceb372b8a4ac96ba7ff5a47716"
+    "bytes": 2053,
+    "sha256": "98218a8055ba5cf92567ae8576a8a3e5fa317688f1a5c6248b8104be854cd36c"
   },
   {
     "path": "outputs/qwen-v512-dev/persistent_rate.py",
-    "bytes": 1629,
-    "sha256": "36304dee380ac1ce30ecaa11c1eed5c3193e73dffc8e11e30266a71441c897f0"
+    "bytes": 1600,
+    "sha256": "1439bd791f5a555c99100875255e688ed6132ac866871d07de8bd7d87d9ed6a7"
   },
   {
     "path": "outputs/qwen-v512-dev/primary-sources.json",
-    "bytes": 59640,
-    "sha256": "edc9ec8e2bc9c9d8119ac199ed242cc0a3a3d8b4010ec7384a54b45be76bef7b"
+    "bytes": 59591,
+    "sha256": "7f144a49c61a511f89e5421693a154261f2d3de020d6cdbbe4f3a33312469097"
   },
   {
     "path": "outputs/qwen-v512-dev/primary_fetch.py",
-    "bytes": 6619,
-    "sha256": "76b58d279685d12b37836f951aee3c218f7c3248e982272abca3aca2cff952b8"
+    "bytes": 6501,
+    "sha256": "e4c8dd9ae56ffba0b8be432fd073c607c7e4f1a70d3e0e6fd48be4ce50e05ac6"
   },
   {
     "path": "outputs/qwen-v512-dev/probe_author_constraints.py",
-    "bytes": 689,
-    "sha256": "9bb08cd82a27675228a79ee2ce8f20d4376aa7ccc3457fda6406940b4f1bd12a"
+    "bytes": 678,
+    "sha256": "82cadb8884a7ed77cebf343fe9ae62ea88893365879ed247507ae76fa9b0beb4"
   },
   {
     "path": "outputs/qwen-v512-dev/quantities.py",
-    "bytes": 8912,
-    "sha256": "d51042af13bb79540c544079dc61cef429268d841e8f3538effa175c0686a8b4"
+    "bytes": 8770,
+    "sha256": "2777c2afd3f9fac00c69daa32c6056c42c7ba89bfdab8e41929508d3ec10dbd4"
   },
   {
     "path": "outputs/qwen-v512-dev/read_source_pack.py",
-    "bytes": 3717,
-    "sha256": "a94e8f8754707b911f156debf023cc91887c59d5041210047309891dfea92fc2"
+    "bytes": 3662,
+    "sha256": "9aaaa1cd1566db4d9cd21e0584c27101b1bbbf36f3f85e9128148beeb2776b7d"
   },
   {
     "path": "outputs/qwen-v512-dev/replay_demo21.py",
-    "bytes": 1765,
-    "sha256": "010797cb3d61182866a3c59f7df7f910ffa7124915ae66922d7ecc9f71338384"
+    "bytes": 1745,
+    "sha256": "555d7ea8d4ba11570de56fbb5706daec1daf50334027b28baf3fec1a293fa94f"
   },
   {
     "path": "outputs/qwen-v512-dev/replay_review50.py",
-    "bytes": 2074,
-    "sha256": "bc6fd57c45b88fec0783b057306747e999b23672479bf0484e4cd8783a15dd67"
+    "bytes": 2050,
+    "sha256": "73bbd838a0a0baa34109a534de8c0c56120e4dc8c66fc893f72c65ff645d2185"
   },
   {
     "path": "outputs/qwen-v512-dev/request_compat.py",
-    "bytes": 1434,
-    "sha256": "589f8fd98913842bff15f5ac3297c0d770f80c3d0d1162e77f0ad4415efa9a4d"
+    "bytes": 1407,
+    "sha256": "e1cb4cde3730efb1f2f97a5b767e8beb7df88c1d9d00e194f764cb671e8346cd"
   },
   {
     "path": "outputs/qwen-v512-dev/routing_policy.py",
-    "bytes": 1122,
-    "sha256": "2a067b9d0941fdee3a7acddd0beb952e19652432c8a43cdecefd6cebc8bac66a"
+    "bytes": 1106,
+    "sha256": "9966c96ee8f5fb95d21a30605779a8e12ebb6a29ed839e6344255b12b360c964"
   },
   {
     "path": "outputs/qwen-v512-dev/selection_semantics.py",
-    "bytes": 1696,
-    "sha256": "6e3a7c5628a998c851e29f94a1be1ae85774bac2a81fd157c0fe704bcdee21f6"
+    "bytes": 1671,
+    "sha256": "6d8c45f8cf0f1e0b138a1fa21de8e8cbf546bbda626b9042a813f3b01dadcb76"
   },
   {
     "path": "outputs/qwen-v512-dev/source_cache.py",
-    "bytes": 1523,
-    "sha256": "14c00efac243afbf6055846625b00f26b3537b33c7827d08d03629af0167d6a1"
+    "bytes": 1497,
+    "sha256": "05b1a4548eeeecdfb473af93fff83fa82ffa9eb72d4492f9b4cea10fa6a42fce"
   },
   {
     "path": "outputs/qwen-v512-dev/structured_knowledge.py",
-    "bytes": 12747,
-    "sha256": "9247c2540984944026bd31ae6ce12ede543180049da9f1132abf76301bae54d3"
+    "bytes": 12525,
+    "sha256": "7df1f73d2cc08f98703187756a4aa022aa0180104f9a4f53018684eb8dbf92e4"
   },
   {
     "path": "outputs/qwen-v512-dev/temporal_evidence.py",
-    "bytes": 4493,
-    "sha256": "6593a2b259be4ebe12970f6d6c2cf9e6f31e33bf1cd097b0521f5ce0f1e91909"
+    "bytes": 4416,
+    "sha256": "73502b948126b6317058ea85f5a6b1a635e1e0c7a64cab889851a58cf209279a"
   },
   {
     "path": "outputs/qwen-v512-dev/test_access_resilience.py",
-    "bytes": 3234,
-    "sha256": "bc76c4252fe1194c408fd94d629a12a00753e1dbb62311e36c8d3c5973715088"
+    "bytes": 3176,
+    "sha256": "3d12353f2803d5229659ba4371ba0743b2b5f44d2fb87ea0fa8a81fa75e40a6c"
   },
   {
     "path": "outputs/qwen-v512-dev/test_bibliographic_chain.py",
-    "bytes": 7737,
-    "sha256": "994460dc94dbab3275a3f497b2badafc46494c5c506c2a3d5880586d342fc547"
+    "bytes": 7638,
+    "sha256": "d0262b863cf236ee931559dcfc836e548b2e25c95f06be50c936d14cbc64e7ed"
   },
   {
     "path": "outputs/qwen-v512-dev/test_bibliographic_integration.py",
-    "bytes": 1522,
-    "sha256": "c30c2a3db0932bf4778fc657658fe55a9359bb718fa9e5d7af5f656d99ba3c79"
+    "bytes": 1500,
+    "sha256": "9b6f307f50aed02097c4fb08e915a9e76ee70dc4ae7b5dcdbf1ef410a8f8b3f4"
   },
   {
     "path": "outputs/qwen-v512-dev/test_binding_integration.py",
-    "bytes": 9025,
-    "sha256": "63cb8567c9eb896786287a7c845d3cae39f61fee7678809077ebe329f578bfea"
+    "bytes": 8865,
+    "sha256": "94911343aaaf0de5e0580be3639e4783bb516984aa75d6d5df8b0d785f98ed62"
   },
   {
     "path": "outputs/qwen-v512-dev/test_calendar_integration.py",
-    "bytes": 1061,
-    "sha256": "c0ebfbf0695f32183ac439e4a96203de6cb63d28a6bb64a54b5a6bb3daa5e628"
+    "bytes": 1040,
+    "sha256": "2a307021b2cf6539189acf2b431c5681a18ec448e8bfd48580be507fd8cde267"
   },
   {
     "path": "outputs/qwen-v512-dev/test_calendar_rules.py",
-    "bytes": 2863,
-    "sha256": "c84d783ab86b342a62ba90eabf6ee58ac7aab7ac7878ae8f90d75e4e0ff3df46"
+    "bytes": 2815,
+    "sha256": "5ab5c1e509c0bc3f4e92a82bc26b66a69bbe3704773f24180f9d3a2292c15ee6"
   },
   {
     "path": "outputs/qwen-v512-dev/test_cell_source.py",
-    "bytes": 3443,
-    "sha256": "da4c89055d9d52a81e5a2ff6cfe6efeabb3fb563a1e676374a06b822b1093dd4"
+    "bytes": 3386,
+    "sha256": "f5b2ebb435f14e62e7fd1df4832f3468dc25e1ee92a75dd30452f7d29b3f309a"
   },
   {
     "path": "outputs/qwen-v512-dev/test_choice_engine.py",
-    "bytes": 2361,
-    "sha256": "a51c2c712169699064fadbe74e6d207836296fcaf0c4920ae1cec719172790ca"
+    "bytes": 2315,
+    "sha256": "df3459bcf6a57a74652b9be3834588e27e582054a95ef48364abaad4b28d8d87"
   },
   {
     "path": "outputs/qwen-v512-dev/test_choice_policy.py",
-    "bytes": 2153,
-    "sha256": "4a4bd9abac30d3f13a0f85df0e921c94c664b999b03785ebebc49b06c1db192b"
+    "bytes": 2112,
+    "sha256": "b6d1b423f7a7974618099d86fe5d3db222fc858c8fb191fe8858b1124baed2db"
   },
   {
     "path": "outputs/qwen-v512-dev/test_claim_evidence.py",
-    "bytes": 2848,
-    "sha256": "18ce559d27fa95e5ee74ea4d1519a06ef6652b502f1f135727e55d1af980faed"
+    "bytes": 2813,
+    "sha256": "e93edefd52a5a26fd02d31c52edd52000c0cb000d1a4711bc0d4588c07c241bf"
   },
   {
     "path": "outputs/qwen-v512-dev/test_context_budget.py",
-    "bytes": 786,
-    "sha256": "03cd4869a9820b58c808493c488f1cb36fee96d81d68d5379db12858fbe67ebb"
+    "bytes": 773,
+    "sha256": "03f64b3a10fa85cc681b601e925b4f790e92ef3230770553e0f4a5c8c09d4e73"
   },
   {
     "path": "outputs/qwen-v512-dev/test_core.py",
-    "bytes": 3166,
-    "sha256": "9349575e032d464ceebbad6ea36a336b585fc819a00aa4a1c7c4c3685454c1e0"
+    "bytes": 3115,
+    "sha256": "f0360a6d41a24e0fa8d96f5dc1b1a096e4c839f51e31adf53ce128862c9050ff"
   },
   {
     "path": "outputs/qwen-v512-dev/test_count_changes.py",
-    "bytes": 2238,
-    "sha256": "bb9a1d65b1457f43c02e88aa80e61eafcd8af9367f3947128675a2ae66209b04"
+    "bytes": 2198,
+    "sha256": "c3df6d212d0f92a7b6663e0109955083afba791c127bf29ac00480bbb5633ff3"
   },
   {
     "path": "outputs/qwen-v512-dev/test_curated_chains.py",
-    "bytes": 5576,
-    "sha256": "3b1f650a8926098c61f0536280a1b1cc5ca1a5990bb0e8588072d9f2b2b91718"
+    "bytes": 5497,
+    "sha256": "5a52a09541fbf7bdaaa0052d5ac6fdb5225c3fd1162f8818f9f9ce8f53def3fa"
   },
   {
     "path": "outputs/qwen-v512-dev/test_curated_integration.py",
-    "bytes": 892,
-    "sha256": "d826dbfe8b82122ad27f99c22095b6937efe25f2f0fe66254013ac09721de5d0"
+    "bytes": 875,
+    "sha256": "8cad4b42f05ed35b380742c63748dbbc2f859e2b137a555a078bef3fea6cb54e"
   },
   {
     "path": "outputs/qwen-v512-dev/test_curated_scopes.py",
-    "bytes": 5008,
-    "sha256": "c2a02dfbc40ce3e512831900b91dc00f5ee4b553ea560859a15f08e5b589282e"
+    "bytes": 4957,
+    "sha256": "f75ee784533e481b17f09a4c6e9d674e765c7a2f3a9d06c8ee41339189649387"
   },
   {
     "path": "outputs/qwen-v512-dev/test_empirical_quantities.py",
-    "bytes": 1924,
-    "sha256": "6af4d35194dc307b843a6c87d1c7a291e66b881a1cf975ca27c9344cbd5de5db"
+    "bytes": 1888,
+    "sha256": "93701d0581ccf76829cf70c84e5ba76a44e1d5b600102c2f382d4bb38d203fe9"
   },
   {
     "path": "outputs/qwen-v512-dev/test_entity_binding.py",
-    "bytes": 5008,
-    "sha256": "1c78c3258153c99ee951772b9023661c4cf389182c238ab9b50001590b58264d"
+    "bytes": 4941,
+    "sha256": "36753f46bbc3691f1b3a2ddc03cb2483e978529f0127c541b6f5f44da7d3cb38"
   },
   {
     "path": "outputs/qwen-v512-dev/test_evidence_graph.py",
-    "bytes": 3333,
-    "sha256": "00ba10c7404f9bc8c4716b840b3706a73ae1a6e1cb3cc257ded61aafe3632b4a"
+    "bytes": 3288,
+    "sha256": "0a9b50b8a691a0ad3b74b5c1a844bb1d72616a0b6d3da71bca967e1ce2a2681b"
   },
   {
     "path": "outputs/qwen-v512-dev/test_evidence_policy.py",
-    "bytes": 5479,
-    "sha256": "86860df5accd1d05709019f7f8c6f3341a2819a699166e6d217b620b8b043dd8"
+    "bytes": 5397,
+    "sha256": "4040e4afe82be9e686bf55ffb24c6de8e5a07e508a4844429b2344e3c66530f0"
   },
   {
     "path": "outputs/qwen-v512-dev/test_evidence_prefix.py",
-    "bytes": 3699,
-    "sha256": "ae2b0a1b1d32a0b52731b74fe61b08abb166bcd7ef5f888bcf0b01b1585a8958"
+    "bytes": 3634,
+    "sha256": "4861472315edd54abaa0ec334219c5a5ded92b0caa03692ce802605cb11652a9"
   },
   {
     "path": "outputs/qwen-v512-dev/test_fact_budget.py",
-    "bytes": 1504,
-    "sha256": "0cff005c58511cb162294488fdf0bee053e55cd721ee8ce9907d7f06dbc33c09"
+    "bytes": 1477,
+    "sha256": "99986ce212abc24cb891792b7d0f000c8aa14cfc2f17651f6e13a7835da10c47"
   },
   {
     "path": "outputs/qwen-v512-dev/test_fact_scope.py",
-    "bytes": 10857,
-    "sha256": "65f4237bceb534f50daa1634f20ca28bbee4035ab77e40f08a38ba0bc01dd089"
+    "bytes": 10731,
+    "sha256": "6b2209ae5023422fb8af3a173ad73647d96a672c122d471dc34fdaee46b304fe"
   },
   {
     "path": "outputs/qwen-v512-dev/test_film_binding.py",
-    "bytes": 2983,
-    "sha256": "f1fb56666cd03f1917c343b637dbc32fd0f7134e8962a115b63d6ad1241f6f29"
+    "bytes": 2931,
+    "sha256": "5a4c9b8fff96b51a5d15a6e87354ed1294d2199f95a6a320eb2486469d23509f"
   },
   {
     "path": "outputs/qwen-v512-dev/test_gateway_compat.py",
-    "bytes": 3027,
-    "sha256": "f878c60ebf1116422d76ac6b7592bbf961983c33ea9bad5e09ec6f7574eec8f3"
+    "bytes": 2980,
+    "sha256": "b6eddffa335893413dbaff7e06dc6e32fc250217239f4a15371ff4f119dc0959"
   },
   {
     "path": "outputs/qwen-v512-dev/test_identity_graph.py",
-    "bytes": 11167,
-    "sha256": "21e9c2f643a40d2a855317cd6242218ab06fbd7e9af1311c4f7b347dd3fcfecd"
+    "bytes": 11006,
+    "sha256": "f6dc6f465683e1ccbf126624db8b4bf3a1edd4840e35efaa6c66dc0e6ed0e8e7"
   },
   {
     "path": "outputs/qwen-v512-dev/test_identity_integration.py",
-    "bytes": 2499,
-    "sha256": "340786a4e5316f65c9fef46066870d15f261c4267a2b2ef9579ba08dd18c4fb0"
+    "bytes": 2453,
+    "sha256": "cb65f6adfee6d04e58ec9b3095ce41aeb034bb50e1013818407f2ab9aeed2a46"
   },
   {
     "path": "outputs/qwen-v512-dev/test_launcher_health.py",
-    "bytes": 1538,
-    "sha256": "34a3ced1fb0f16e45e39c46c1f89f69d4046cac32e87ca8c0210a5f53ef5beda"
+    "bytes": 1508,
+    "sha256": "b1ae7d95a0ecf4c75c35362ad33d424b6ccfbaa5fd2ed84622a2603c8ac8eda1"
   },
   {
     "path": "outputs/qwen-v512-dev/test_open_answers.py",
-    "bytes": 2099,
-    "sha256": "7dcfbc8fae33c5a73f9fa670a7f96ed2f4f1767124ffcc0917abe29dd14ce664"
+    "bytes": 2055,
+    "sha256": "564ce1f0c86672727cee412e31f24fc9a274fa849d3fe41f32680502554c296d"
   },
   {
     "path": "outputs/qwen-v512-dev/test_option_checks.py",
-    "bytes": 1521,
-    "sha256": "3d16c975913d5616cbd9bc5ce53f26ac81835ca18da4c3194ade36317077283b"
+    "bytes": 1495,
+    "sha256": "289ae6800c9cc813b0605c35ff0fa76fbf857b62d3f90a3449cb978ee97eb3ea"
   },
   {
     "path": "outputs/qwen-v512-dev/test_partial_progress.py",
-    "bytes": 1932,
-    "sha256": "195f6ff795d84f024a17607930966b5a5611fef662a61d278e7138ca182935da"
+    "bytes": 1906,
+    "sha256": "8325c7bf187fd860c6e1a6bcdd22a2a1d01f7103db4f43f49167f9d6a680ba2e"
   },
   {
     "path": "outputs/qwen-v512-dev/test_primary_fetch.py",
-    "bytes": 2825,
-    "sha256": "721079e16e40f3ed34599df667f57f2e44874137d21a540da44e4368f637a41d"
+    "bytes": 2783,
+    "sha256": "f2d1dcc2954115d7bc96883d29fb03ea9594a7e1a4462306ea72b5129b79a680"
   },
   {
     "path": "outputs/qwen-v512-dev/test_quantities.py",
-    "bytes": 5364,
-    "sha256": "a101cc4836c7a9ccb0f7c4748d66d4eccd5919dffa99f6555a411d0248f6e47a"
+    "bytes": 5268,
+    "sha256": "40d27e61f1f301cd4193bce7105947796d1f521f2976855cb0a458e5542e4ad0"
   },
   {
     "path": "outputs/qwen-v512-dev/test_reboot_rates.py",
-    "bytes": 2968,
-    "sha256": "426abd9b835d4b6d85c957561e9805ea6ccee037648d5124f0f532127714ba35"
+    "bytes": 2906,
+    "sha256": "3cd8e176314b80c0a574f32aed6e2eb39b8ce455df835fa269d7c33ce8ebf259"
   },
   {
     "path": "outputs/qwen-v512-dev/test_request_compat.py",
-    "bytes": 2666,
-    "sha256": "f8c1eeb5337042081a7e2bffc96dbe11013339415f2a445d489c620296d9e47f"
+    "bytes": 2616,
+    "sha256": "53f9028f50982a7288d9559f6b01d150a192896ebace0e05f7936fa53840f3ff"
   },
   {
     "path": "outputs/qwen-v512-dev/test_retrieval_first.py",
-    "bytes": 1884,
-    "sha256": "7dfd9bc84e21dba10bae8137dfd9771b3285ebacbd13b79ca6ddc2e03e148849"
+    "bytes": 1851,
+    "sha256": "ad2280f1f5bf628b194ba74063826aacba5f366b2ab19c6195afdfc06036a0fe"
   },
   {
     "path": "outputs/qwen-v512-dev/test_routing_policy.py",
-    "bytes": 1081,
-    "sha256": "78041bc50e729e1d42c5385d89eb4faa5838fa8567c3774aa6dde36904344bf8"
+    "bytes": 1066,
+    "sha256": "9f6d6add015b25d3b153e2256ef271a65f2e4e89cc079ec2a674a4ebcfc12d1c"
   },
   {
     "path": "outputs/qwen-v512-dev/test_scope_integration.py",
-    "bytes": 4796,
-    "sha256": "a571cc94a3b62e3adb146d44d267a21b7649fa4f0f66c52e3dad8203d3849446"
+    "bytes": 4726,
+    "sha256": "034fa399562cfc6349167bd109f3023811a7bddd89133c11a983c3f860a44845"
   },
   {
     "path": "outputs/qwen-v512-dev/test_search.py",
-    "bytes": 7188,
-    "sha256": "5ff4eafc600b77dd13e468ffd1cce3373e7a5251544d66054e7a977ae1b09180"
+    "bytes": 7043,
+    "sha256": "1ef02c85c58e8c984e0ea5b7e300e384442d451ac958734b21f9e1c74b486db2"
   },
   {
     "path": "outputs/qwen-v512-dev/test_selection_semantics.py",
-    "bytes": 1552,
-    "sha256": "5c844ff461c541629b22e9de9341129ea5b8468f9e2b2edd8b3f394bb6e8f690"
+    "bytes": 1528,
+    "sha256": "b0b57704cb16368dff9316abaec9857fb58aee727fa2c8b4678586b6c3839a4a"
   },
   {
     "path": "outputs/qwen-v512-dev/test_selection_v512.py",
-    "bytes": 820,
-    "sha256": "04b62d06166c6d107e836c27a45c5915ce30a6a46b419008b3190b3554a4e87f"
+    "bytes": 805,
+    "sha256": "6f0bdac0da3249b365da82da9d1dd3d2f4226b978fe3b7997c6e520186eb399e"
   },
   {
     "path": "outputs/qwen-v512-dev/test_source_cache.py",
-    "bytes": 1352,
-    "sha256": "fd3e008090cbcf3ced6f71a0d4976f7ff42b74278ed31977fb26319926376868"
+    "bytes": 1335,
+    "sha256": "ece50f76d495d8938b160eddb67e4590cbf0daf23d56513fea7016a6f802c488"
   },
   {
     "path": "outputs/qwen-v512-dev/test_spans.py",
-    "bytes": 3262,
-    "sha256": "e75af0ced7ad5f426f363c17bd4407ce5437836bcdc453516431d5b36ea10aa4"
+    "bytes": 3208,
+    "sha256": "a71f30a928e0e70c91b571507a4d2085c37407fa7b1b113d21b12d5ede4afe4d"
   },
   {
     "path": "outputs/qwen-v512-dev/test_structured_knowledge.py",
-    "bytes": 6072,
-    "sha256": "b420a64511a6ea09645da3eb4b2d3241c0108210b0a2c57d1ac572bbfe9ad37c"
+    "bytes": 5968,
+    "sha256": "0499873ff2adfa6da7ae7f9fb1f5a2a078af98f7894835468327710d03097d7d"
   },
   {
     "path": "outputs/qwen-v512-dev/test_temporal_evidence.py",
-    "bytes": 2930,
-    "sha256": "bc2b2e47be3d2d74f1a97ac3722bfc2c474b19fad35d8d06edec1c26b894af85"
+    "bytes": 2904,
+    "sha256": "f8813507c695422602df89c65c899c383bd43bd1dea3ea0f4b5a8a0fd3f0e95c"
   },
   {
     "path": "outputs/qwen-v512-dev/test_v58_integration.py",
-    "bytes": 2432,
-    "sha256": "b6ff70a38f46ceb75f5c1ed46b91c64904cb2a570a74c7aae55f4e54c6080c30"
+    "bytes": 2399,
+    "sha256": "2842996491e08736fac9fb3d12a3fd728241ae3ea74ca089c828c8e5969c5392"
   },
   {
     "path": "outputs/qwen-v512-dev/test_walk_integration.py",
-    "bytes": 2351,
-    "sha256": "e1e26837e2e41781b2f060acc183fc2ff7f55da56c67f5a92affe6d29fb889dc"
+    "bytes": 2319,
+    "sha256": "c103e6eb5c3c1d4c1279ec45aac78927d84e26c02aeac340e30314590df49343"
   },
   {
     "path": "outputs/qwen-v512-dev/test_wikibase_http.py",
-    "bytes": 3569,
-    "sha256": "494fd27885c5be1464ef3cc97a4d493a130fdc8768869c4bd46f45ce56f4e74b"
+    "bytes": 3508,
+    "sha256": "b84288dd802e6e8e7583aa3e28d80caaa2356e2b2b1521fdadec55f16c99fe82"
   },
   {
     "path": "outputs/qwen-v512-dev/test_wikibase_walk.py",
-    "bytes": 9531,
-    "sha256": "f89889dffbebca08c2ffb83d43e25938732b27677aaded9277066c7f982ee688"
+    "bytes": 9380,
+    "sha256": "0c2a60ffd1f60b6821b0511de3d83bc1f93d4f436deb3bfe505266b226b8d404"
   },
   {
     "path": "outputs/qwen-v512-dev/validate_engine_live.py",
-    "bytes": 2495,
-    "sha256": "d439da627c311c359b2ff0d05c91d5b397b8f3b730b62479bccd214a3ff06998"
+    "bytes": 2465,
+    "sha256": "fea839560096c6cb25a77bc99e7410154a007fd4a201f7860c537e5d8a3692db"
   },
   {
     "path": "outputs/qwen-v512-dev/validate_v511.py",
-    "bytes": 4015,
-    "sha256": "39270c11d198c8760d43b85b137725b753bade074a4802c0b26864548b7df099"
+    "bytes": 3963,
+    "sha256": "7a8a47e0bdf385d43781e7ef4d4d054cb61804b2d70ec6a8d2c74b1087965227"
   },
   {
     "path": "outputs/qwen-v512-dev/validate_v512.py",
-    "bytes": 3749,
-    "sha256": "bb06417d483587346697efe4b9a405e8deaae7882c64f212d228062e06364b80"
+    "bytes": 3708,
+    "sha256": "2d168e8f1dd1c194aae3cbe36b12fc827986808724c9c2a0705793879bfec5d4"
   },
   {
     "path": "outputs/qwen-v512-dev/validate_walk_live.py",
-    "bytes": 1821,
-    "sha256": "0de94d91f381d85e92bb0a02dd65d31c49532456b0a4e421037e7faf851b9752"
+    "bytes": 1798,
+    "sha256": "84adcf1a73f7411f9e8cbc06c2d2b4cc955932a532308ee5273f337b23d109b8"
   },
   {
     "path": "outputs/qwen-v512-dev/verify_candidate_http.py",
-    "bytes": 2723,
-    "sha256": "191bf7e3f85abef5d1a869f273d5edf3a46dbb0ea1b23ad08947210dd205f283"
+    "bytes": 2690,
+    "sha256": "34993bc493e36b65b1d8fbc0a8a66fd423846e181e93e651e173cb48ba60faeb"
   },
   {
     "path": "outputs/qwen-v512-dev/wikibase_http.py",
-    "bytes": 9818,
-    "sha256": "c88cf4bec7f0060ae0a481a88a8cd9a68d31010f2548280b14f1529d1c259631"
+    "bytes": 9659,
+    "sha256": "840d7c3336ba1cae6e4f2eb813954106e0562a0f33a21595c27f45fc8af5b7f6"
   },
   {
     "path": "outputs/qwen-v512-dev/wikibase_walk.py",
-    "bytes": 22078,
-    "sha256": "43b41039a5cf90bb7995081ec785f70c16052473d9ec5e23ac103fa0809c315c"
+    "bytes": 21761,
+    "sha256": "533e47ae3b93665700b423d0ae6d30579e151290404e1169f420b5e8bdf6f135"
   },
   {
     "path": "outputs/qwen-v512-dev/外部访问修复记录.txt",
-    "bytes": 2639,
-    "sha256": "7854a6f325c1677fec4b6c1d5c4a277434c698df2b73aaee044176d9465485a4"
+    "bytes": 2615,
+    "sha256": "9309c8e0ccb3c301880603cea8550d7641ed5f079bd254deaa45afaa89998d85"
   },
   {
     "path": "outputs/qwen-v512-dev/验收记录.txt",
-    "bytes": 2880,
-    "sha256": "0e98ed8f5d96a535ac1210a04b4d478b73d4324ca47c8316483dc8caeb38ac78"
+    "bytes": 2855,
+    "sha256": "a39dae8c6e6a7239f4602a43db78ccdcfe16c6e884dab1a49ba9c33efb38fc5a"
   },
   {
     "path": "outputs/qwen-v512-launcher/platform_v512_review.py",
-    "bytes": 41530,
-    "sha256": "d0a284dbcfca9dd90a56a7b694c54e4d2098c4cc22459c6a9805ccada807f696"
+    "bytes": 41445,
+    "sha256": "9b3e739c1ca05f43f3615c38bdf6d3a1bc8f38950b7b0a3153ba78dcd53ecea1"
   },
   {
     "path": "outputs/qwen-v512-launcher/start_services.py",
-    "bytes": 4541,
-    "sha256": "74522d1ad5231f8d4a3998fc2199132f9fb42fe4193b6e4e8f6677f27dd9d447"
+    "bytes": 4458,
+    "sha256": "d2a44c2391b9d94313f18f02e69b7e4887c48309a0556bea0021404950d0131f"
   },
   {
     "path": "README.md",
-    "bytes": 5731,
-    "sha256": "c13bcbced7be7b1992c0a614e8be9a1be45bfecab54c478e9a609f0a75ca51b4"
+    "bytes": 5659,
+    "sha256": "2fa14855e4c40cfe96538e8b23d7e30e8be52cd49c47a4ed7519eccebf53eb2b"
   },
   {
     "path": "results/acceptance-demo21-1793466363311167500/manifest.json",
-    "bytes": 8654,
-    "sha256": "1dee4c1c2222f21bd964b4c26c2147e250efa55d2bda79fdb63c9926e38512b0"
+    "bytes": 8562,
+    "sha256": "d7b7b84cdef3fdda01b0b7769d132842633e3168d1a9b6d57ebd92b6a46fec8a"
   },
   {
     "path": "results/acceptance-demo21-1793466363311167500/results.json",
-    "bytes": 149832,
-    "sha256": "178aa0ddcb41a922672b25c5058d07d568c99ce1168d9d62a5ab0fc968ecdcf1"
+    "bytes": 146559,
+    "sha256": "a72e3ae9170067d5a460f77ac1b42bdf8fb78a53154b9d97bb7ec518bee99758"
   },
   {
     "path": "results/acceptance-demo21-1793466363311167500/summary.json",
-    "bytes": 293,
-    "sha256": "deb9aea79880ade3f9fde7af76b8fcf6080dc26df9b4f3055719a1cc6f1d39b3"
+    "bytes": 285,
+    "sha256": "00d7b859c1eede9545188b5b94d23b65596d158e1de63d1f474b74db5a1cfa8a"
   },
   {
     "path": "results/access-long-final-1793466823384754600/results.json",
-    "bytes": 1777,
-    "sha256": "88647c0cef1e442ae9b931e01bbb402b9c2683ed1906dcef3ced98a5bbaa7f68"
+    "bytes": 1712,
+    "sha256": "acd059fd44f2a43bac3e882468534d059315db3d1497daf2dd4e9f10651d101b"
   },
   {
     "path": "results/cold-access-1793466533300045300/results.json",
-    "bytes": 1154,
-    "sha256": "51d30bd56ad4902255e93eaedf754bd334b6642e355798c5bc389263ff4f6047"
+    "bytes": 1106,
+    "sha256": "a0785f5cbdb274bbe514a75e4ed2268148170a01b0b4ae98d70bfcc1a17f453c"
   },
   {
     "path": "results/cold-interactive-1793466670267701600/cache/search-6da859a6bec42ba15169c35780efed7777c287bf8cb3ac261904449966de9ab7.json",
@@ -661,22 +661,22 @@
   },
   {
     "path": "results/cold-interactive-1793466670267701600/results.json",
-    "bytes": 2751,
-    "sha256": "8e2ed295401c17ddd9e5406dbb63bf99c2690767a30bc7d61f83d454434f10e1"
+    "bytes": 2654,
+    "sha256": "ebdf4c9c9f95da5a310c608162bbc9558770d562bbafda8a8f0e16e4e73263db"
   },
   {
     "path": "results/http-access-1793466551748579600/results.json",
-    "bytes": 6234,
-    "sha256": "a3f012d76ad5a3f263e29259e11862a73cf6dcc18ddcfddd1fbc24119db78017"
+    "bytes": 6089,
+    "sha256": "6d63aa2974483ac4f65162c57ca0ff715d1ce9f55eed539b8209cb195c8e6f76"
   },
   {
     "path": "results/v512-new-1793466685768699900/results.json",
-    "bytes": 72470,
-    "sha256": "83309934d78609d4405ce1ac24141367e513aa479e4b073f6897860f7323deea"
+    "bytes": 70967,
+    "sha256": "b4bd92205a29ac60a64b6a02333159ff9b5565796cfc88a507f8cee53aeb0fbd"
   },
   {
     "path": "results/v512-new-1793466685768699900/summary.json",
-    "bytes": 253,
-    "sha256": "089bcc948a8e627f9800b73061f07b8558c3705a1b3ae2e8c65c1a750fe87b5a"
+    "bytes": 247,
+    "sha256": "5453c5b048630ae8f02dd35cba1d355d6049748bbc59e2cd24c9b6698d5da19e"
   }
 ]
