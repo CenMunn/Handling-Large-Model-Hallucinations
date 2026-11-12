@@ -1,0 +1,1570 @@
+[
+  {
+    "id": "1",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X01的访问代码为K7301，负责人是小林。【问题】测试站X01的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7301"
+    ],
+    "should_abstain": false,
+    "pair_id": "0",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "2",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X01的负责人是小林，开放时间为周一。【问题】测试站X01的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "0",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "3",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8100送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8100最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "4",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯1”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "5",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A0属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A0所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "6",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X02的访问代码为K7318，负责人是小林。【问题】测试站X02的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7318"
+    ],
+    "should_abstain": false,
+    "pair_id": "1",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "7",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X02的负责人是小林，开放时间为周一。【问题】测试站X02的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "1",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "8",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8101送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8101最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "9",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯2”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "10",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A1属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A1所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "11",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X03的访问代码为K7335，负责人是小林。【问题】测试站X03的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7335"
+    ],
+    "should_abstain": false,
+    "pair_id": "2",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "12",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X03的负责人是小林，开放时间为周一。【问题】测试站X03的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "2",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "13",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8102送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8102最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "14",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯3”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "15",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A2属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A2所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "16",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X04的访问代码为K7352，负责人是小林。【问题】测试站X04的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7352"
+    ],
+    "should_abstain": false,
+    "pair_id": "3",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "17",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X04的负责人是小林，开放时间为周一。【问题】测试站X04的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "3",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "18",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8103送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8103最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "19",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯4”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "20",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A3属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A3所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "21",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X05的访问代码为K7369，负责人是小林。【问题】测试站X05的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7369"
+    ],
+    "should_abstain": false,
+    "pair_id": "4",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "22",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X05的负责人是小林，开放时间为周一。【问题】测试站X05的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "4",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "23",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8104送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8104最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "24",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯5”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "25",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A4属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A4所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "26",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X06的访问代码为K7386，负责人是小林。【问题】测试站X06的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7386"
+    ],
+    "should_abstain": false,
+    "pair_id": "5",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "27",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X06的负责人是小林，开放时间为周一。【问题】测试站X06的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "5",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "28",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8105送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8105最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "29",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯6”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "30",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A5属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A5所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "31",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X07的访问代码为K7403，负责人是小林。【问题】测试站X07的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7403"
+    ],
+    "should_abstain": false,
+    "pair_id": "6",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "32",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X07的负责人是小林，开放时间为周一。【问题】测试站X07的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "6",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "33",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8106送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8106最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "34",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯7”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "35",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A6属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A6所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "36",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X08的访问代码为K7420，负责人是小林。【问题】测试站X08的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7420"
+    ],
+    "should_abstain": false,
+    "pair_id": "7",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "37",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X08的负责人是小林，开放时间为周一。【问题】测试站X08的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "7",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "38",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8107送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8107最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "39",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯8”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "40",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A7属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A7所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "41",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X09的访问代码为K7437，负责人是小林。【问题】测试站X09的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7437"
+    ],
+    "should_abstain": false,
+    "pair_id": "8",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "42",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X09的负责人是小林，开放时间为周一。【问题】测试站X09的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "8",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "43",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8108送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8108最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "44",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯9”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "45",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A8属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A8所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "46",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X10的访问代码为K7454，负责人是小林。【问题】测试站X10的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7454"
+    ],
+    "should_abstain": false,
+    "pair_id": "9",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "47",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X10的负责人是小林，开放时间为周一。【问题】测试站X10的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "9",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "48",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8109送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8109最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "49",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯10”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "50",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A9属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A9所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "51",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X11的访问代码为K7471，负责人是小林。【问题】测试站X11的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7471"
+    ],
+    "should_abstain": false,
+    "pair_id": "10",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "52",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X11的负责人是小林，开放时间为周一。【问题】测试站X11的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "10",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "53",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8110送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8110最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "54",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯11”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "55",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A10属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A10所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "56",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X12的访问代码为K7488，负责人是小林。【问题】测试站X12的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7488"
+    ],
+    "should_abstain": false,
+    "pair_id": "11",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "57",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X12的负责人是小林，开放时间为周一。【问题】测试站X12的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "11",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "58",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8111送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8111最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "59",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯12”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "60",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A11属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A11所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "61",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X13的访问代码为K7505，负责人是小林。【问题】测试站X13的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7505"
+    ],
+    "should_abstain": false,
+    "pair_id": "12",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "62",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X13的负责人是小林，开放时间为周一。【问题】测试站X13的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "12",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "63",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8112送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8112最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "64",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯13”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "65",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A12属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A12所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "66",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X14的访问代码为K7522，负责人是小林。【问题】测试站X14的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7522"
+    ],
+    "should_abstain": false,
+    "pair_id": "13",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "67",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X14的负责人是小林，开放时间为周一。【问题】测试站X14的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "13",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "68",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8113送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8113最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "69",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯14”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "70",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A13属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A13所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "71",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X15的访问代码为K7539，负责人是小林。【问题】测试站X15的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7539"
+    ],
+    "should_abstain": false,
+    "pair_id": "14",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "72",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X15的负责人是小林，开放时间为周一。【问题】测试站X15的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "14",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "73",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8114送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8114最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "74",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯15”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "75",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A14属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A14所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "76",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X16的访问代码为K7556，负责人是小林。【问题】测试站X16的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7556"
+    ],
+    "should_abstain": false,
+    "pair_id": "15",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "77",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X16的负责人是小林，开放时间为周一。【问题】测试站X16的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "15",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "78",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8115送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8115最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "79",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯16”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "80",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A15属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A15所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "81",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X17的访问代码为K7573，负责人是小林。【问题】测试站X17的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7573"
+    ],
+    "should_abstain": false,
+    "pair_id": "16",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "82",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X17的负责人是小林，开放时间为周一。【问题】测试站X17的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "16",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "83",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8116送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8116最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "84",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯17”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "85",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A16属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A16所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "86",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X18的访问代码为K7590，负责人是小林。【问题】测试站X18的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7590"
+    ],
+    "should_abstain": false,
+    "pair_id": "17",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "87",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X18的负责人是小林，开放时间为周一。【问题】测试站X18的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "17",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "88",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8117送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8117最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "89",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯18”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "90",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A17属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A17所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "91",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X19的访问代码为K7607，负责人是小林。【问题】测试站X19的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7607"
+    ],
+    "should_abstain": false,
+    "pair_id": "18",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "92",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X19的负责人是小林，开放时间为周一。【问题】测试站X19的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "18",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "93",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8118送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8118最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "94",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯19”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "95",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A18属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A18所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "96",
+    "category": "evidence",
+    "问题": "只根据材料回答。【材料】测试站X20的访问代码为K7624，负责人是小林。【问题】测试站X20的访问代码是什么？只回答代码。",
+    "expected": [
+      "K7624"
+    ],
+    "should_abstain": false,
+    "pair_id": "19",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "97",
+    "category": "missing_evidence",
+    "问题": "只根据材料回答。【材料】测试站X20的负责人是小林，开放时间为周一。【问题】测试站X20的访问代码是什么？",
+    "expected": [
+      "不足",
+      "无法确定",
+      "未提供",
+      "不知道",
+      "未知",
+      "无相关信息"
+    ],
+    "should_abstain": true,
+    "pair_id": "19",
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "98",
+    "category": "revision",
+    "问题": "只根据对话回答。【对话记录】最初：订单8119送至青港。更正：改送松湾。最终更正：前述松湾地址作废，最终改送白岭。【最终问题】订单8119最终送到哪里？只回答地点。",
+    "expected": [
+      "白岭"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "99",
+    "category": "false_premise",
+    "问题": "只根据材料回答。【材料】虚构赛事“晨星杯20”因场地问题取消，从未举办，也未颁奖。【问题】该赛事冠军是谁？",
+    "expected": [
+      "未举办",
+      "从未举办",
+      "取消",
+      "没有冠军",
+      "未产生",
+      "不存在冠军"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "100",
+    "category": "counterfactual",
+    "问题": "【世界设定】本题为虚构世界。城市A19属于星岚国，星岚国首都为月砂城，现实世界资料不适用。【最终问题】城市A19所属国家的首都是什么？只回答城市名。",
+    "expected": [
+      "月砂城"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "101",
+    "category": "knowledge",
+    "问题": "12乘以13等于多少？只回答数字。",
+    "expected": [
+      "156"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "102",
+    "category": "knowledge",
+    "问题": "法国的首都是哪里？",
+    "expected": [
+      "巴黎"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "103",
+    "category": "knowledge",
+    "问题": "一米等于多少厘米？只回答数字。",
+    "expected": [
+      "100"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "104",
+    "category": "knowledge",
+    "问题": "水的化学式是什么？",
+    "expected": [
+      "H2O"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "105",
+    "category": "knowledge",
+    "问题": "太阳系中距离太阳最近的行星是什么？",
+    "expected": [
+      "水星"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "106",
+    "category": "knowledge",
+    "问题": "三角形有几条边？只回答数字。",
+    "expected": [
+      "3"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "107",
+    "category": "knowledge",
+    "问题": "9的平方是多少？只回答数字。",
+    "expected": [
+      "81"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "108",
+    "category": "knowledge",
+    "问题": "中国的首都是哪里？",
+    "expected": [
+      "北京"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "109",
+    "category": "long_context",
+    "问题": "仅根据记录回答。\n背景记录0：本条仅为无关的噪声信息。\n背景记录1：本条仅为无关的噪声信息。\n背景记录2：本条仅为无关的噪声信息。\n背景记录3：本条仅为无关的噪声信息。\n背景记录4：本条仅为无关的噪声信息。\n背景记录5：本条仅为无关的噪声信息。\n背景记录6：本条仅为无关的噪声信息。\n背景记录7：本条仅为无关的噪声信息。\n背景记录8：本条仅为无关的噪声信息。\n背景记录9：本条仅为无关的噪声信息。\n背景记录10：本条仅为无关的噪声信息。\n背景记录11：本条仅为无关的噪声信息。\n背景记录12：本条仅为无关的噪声信息。\n背景记录13：本条仅为无关的噪声信息。\n背景记录14：本条仅为无关的噪声信息。\n背景记录15：本条仅为无关的噪声信息。\n背景记录16：本条仅为无关的噪声信息。\n背景记录17：本条仅为无关的噪声信息。\n背景记录18：本条仅为无关的噪声信息。\n背景记录19：本条仅为无关的噪声信息。\n背景记录20：本条仅为无关的噪声信息。\n背景记录21：本条仅为无关的噪声信息。\n背景记录22：本条仅为无关的噪声信息。\n背景记录23：本条仅为无关的噪声信息。\n背景记录24：本条仅为无关的噪声信息。\n背景记录25：本条仅为无关的噪声信息。\n背景记录26：本条仅为无关的噪声信息。\n背景记录27：本条仅为无关的噪声信息。\n背景记录28：本条仅为无关的噪声信息。\n背景记录29：本条仅为无关的噪声信息。\n背景记录30：本条仅为无关的噪声信息。\n背景记录31：本条仅为无关的噪声信息。\n背景记录32：本条仅为无关的噪声信息。\n背景记录33：本条仅为无关的噪声信息。\n背景记录34：本条仅为无关的噪声信息。\n背景记录35：本条仅为无关的噪声信息。\n背景记录36：本条仅为无关的噪声信息。\n背景记录37：本条仅为无关的噪声信息。\n背景记录38：本条仅为无关的噪声信息。\n背景记录39：本条仅为无关的噪声信息。\n背景记录40：本条仅为无关的噪声信息。\n背景记录41：本条仅为无关的噪声信息。\n背景记录42：本条仅为无关的噪声信息。\n背景记录43：本条仅为无关的噪声信息。\n背景记录44：本条仅为无关的噪声信息。\n背景记录45：本条仅为无关的噪声信息。\n背景记录46：本条仅为无关的噪声信息。\n背景记录47：本条仅为无关的噪声信息。\n背景记录48：本条仅为无关的噪声信息。\n背景记录49：本条仅为无关的噪声信息。\n背景记录\n关键记录：设备Z0的最终密钥为R9120。\n50：本条仅为无关的噪声信息。\n背景记录51：本条仅为无关的噪声信息。\n背景记录52：本条仅为无关的噪声信息。\n背景记录53：本条仅为无关的噪声信息。\n背景记录54：本条仅为无关的噪声信息。\n背景记录55：本条仅为无关的噪声信息。\n背景记录56：本条仅为无关的噪声信息。\n背景记录57：本条仅为无关的噪声信息。\n背景记录58：本条仅为无关的噪声信息。\n背景记录59：本条仅为无关的噪声信息。\n背景记录60：本条仅为无关的噪声信息。\n背景记录61：本条仅为无关的噪声信息。\n背景记录62：本条仅为无关的噪声信息。\n背景记录63：本条仅为无关的噪声信息。\n背景记录64：本条仅为无关的噪声信息。\n背景记录65：本条仅为无关的噪声信息。\n背景记录66：本条仅为无关的噪声信息。\n背景记录67：本条仅为无关的噪声信息。\n背景记录68：本条仅为无关的噪声信息。\n背景记录69：本条仅为无关的噪声信息。\n背景记录70：本条仅为无关的噪声信息。\n背景记录71：本条仅为无关的噪声信息。\n背景记录72：本条仅为无关的噪声信息。\n背景记录73：本条仅为无关的噪声信息。\n背景记录74：本条仅为无关的噪声信息。\n背景记录75：本条仅为无关的噪声信息。\n背景记录76：本条仅为无关的噪声信息。\n背景记录77：本条仅为无关的噪声信息。\n背景记录78：本条仅为无关的噪声信息。\n背景记录79：本条仅为无关的噪声信息。\n背景记录80：本条仅为无关的噪声信息。\n背景记录81：本条仅为无关的噪声信息。\n背景记录82：本条仅为无关的噪声信息。\n背景记录83：本条仅为无关的噪声信息。\n背景记录84：本条仅为无关的噪声信息。\n背景记录85：本条仅为无关的噪声信息。\n背景记录86：本条仅为无关的噪声信息。\n背景记录87：本条仅为无关的噪声信息。\n背景记录88：本条仅为无关的噪声信息。\n背景记录89：本条仅为无关的噪声信息。\n背景记录90：本条仅为无关的噪声信息。\n背景记录91：本条仅为无关的噪声信息。\n背景记录92：本条仅为无关的噪声信息。\n背景记录93：本条仅为无关的噪声信息。\n背景记录94：本条仅为无关的噪声信息。\n背景记录95：本条仅为无关的噪声信息。\n背景记录96：本条仅为无关的噪声信息。\n背景记录97：本条仅为无关的噪声信息。\n背景记录98：本条仅为无关的噪声信息。\n背景记录99：本条仅为无关的噪声信息。\n【最终问题】设备Z0的最终密钥是什么？只回答密钥。",
+    "expected": [
+      "R9120"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "110",
+    "category": "long_context",
+    "问题": "仅根据记录回答。\n背景记录0：本条仅为无关的噪声信息。\n背景记录1：本条仅为无关的噪声信息。\n背景记录2：本条仅为无关的噪声信息。\n背景记录3：本条仅为无关的噪声信息。\n背景记录4：本条仅为无关的噪声信息。\n背景记录5：本条仅为无关的噪声信息。\n背景记录6：本条仅为无关的噪声信息。\n背景记录7：本条仅为无关的噪声信息。\n背景记录8：本条仅为无关的噪声信息。\n背景记录9：本条仅为无关的噪声信息。\n背景记录10：本条仅为无关的噪声信息。\n背景记录11：本条仅为无关的噪声信息。\n背景记录12：本条仅为无关的噪声信息。\n背景记录13：本条仅为无关的噪声信息。\n背景记录14：本条仅为无关的噪声信息。\n背景记录15：本条仅为无关的噪声信息。\n背景记录16：本条仅为无关的噪声信息。\n背景记录17：本条仅为无关的噪声信息。\n背景记录18：本条仅为无关的噪声信息。\n背景记录19：本条仅为无关的噪声信息。\n背景记录20：本条仅为无关的噪声信息。\n背景记录21：本条仅为无关的噪声信息。\n背景记录22：本条仅为无关的噪声信息。\n背景记录23：本条仅为无关的噪声信息。\n背景记录24：本条仅为无关的噪声信息。\n背景记录25：本条仅为无关的噪声信息。\n背景记录26：本条仅为无关的噪声信息。\n背景记录27：本条仅为无关的噪声信息。\n背景记录28：本条仅为无关的噪声信息。\n背景记录29：本条仅为无关的噪声信息。\n背景记录30：本条仅为无关的噪声信息。\n背景记录31：本条仅为无关的噪声信息。\n背景记录32：本条仅为无关的噪声信息。\n背景记录33：本条仅为无关的噪声信息。\n背景记录34：本条仅为无关的噪声信息。\n背景记录35：本条仅为无关的噪声信息。\n背景记录36：本条仅为无关的噪声信息。\n背景记录37：本条仅为无关的噪声信息。\n背景记录38：本条仅为无关的噪声信息。\n背景记录39：本条仅为无关的噪声信息。\n背景记录40：本条仅为无关的噪声信息。\n背景记录41：本条仅为无关的噪声信息。\n背景记录42：本条仅为无关的噪声信息。\n背景记录43：本条仅为无关的噪声信息。\n背景记录44：本条仅为无关的噪声信息。\n背景记录45：本条仅为无关的噪声信息。\n背景记录46：本条仅为无关的噪声信息。\n背景记录47：本条仅为无关的噪声信息。\n背景记录48：本条仅为无关的噪声信息。\n背景记录49：本条仅为无关的噪声信息。\n背景记录\n关键记录：设备Z1的最终密钥为R9121。\n50：本条仅为无关的噪声信息。\n背景记录51：本条仅为无关的噪声信息。\n背景记录52：本条仅为无关的噪声信息。\n背景记录53：本条仅为无关的噪声信息。\n背景记录54：本条仅为无关的噪声信息。\n背景记录55：本条仅为无关的噪声信息。\n背景记录56：本条仅为无关的噪声信息。\n背景记录57：本条仅为无关的噪声信息。\n背景记录58：本条仅为无关的噪声信息。\n背景记录59：本条仅为无关的噪声信息。\n背景记录60：本条仅为无关的噪声信息。\n背景记录61：本条仅为无关的噪声信息。\n背景记录62：本条仅为无关的噪声信息。\n背景记录63：本条仅为无关的噪声信息。\n背景记录64：本条仅为无关的噪声信息。\n背景记录65：本条仅为无关的噪声信息。\n背景记录66：本条仅为无关的噪声信息。\n背景记录67：本条仅为无关的噪声信息。\n背景记录68：本条仅为无关的噪声信息。\n背景记录69：本条仅为无关的噪声信息。\n背景记录70：本条仅为无关的噪声信息。\n背景记录71：本条仅为无关的噪声信息。\n背景记录72：本条仅为无关的噪声信息。\n背景记录73：本条仅为无关的噪声信息。\n背景记录74：本条仅为无关的噪声信息。\n背景记录75：本条仅为无关的噪声信息。\n背景记录76：本条仅为无关的噪声信息。\n背景记录77：本条仅为无关的噪声信息。\n背景记录78：本条仅为无关的噪声信息。\n背景记录79：本条仅为无关的噪声信息。\n背景记录80：本条仅为无关的噪声信息。\n背景记录81：本条仅为无关的噪声信息。\n背景记录82：本条仅为无关的噪声信息。\n背景记录83：本条仅为无关的噪声信息。\n背景记录84：本条仅为无关的噪声信息。\n背景记录85：本条仅为无关的噪声信息。\n背景记录86：本条仅为无关的噪声信息。\n背景记录87：本条仅为无关的噪声信息。\n背景记录88：本条仅为无关的噪声信息。\n背景记录89：本条仅为无关的噪声信息。\n背景记录90：本条仅为无关的噪声信息。\n背景记录91：本条仅为无关的噪声信息。\n背景记录92：本条仅为无关的噪声信息。\n背景记录93：本条仅为无关的噪声信息。\n背景记录94：本条仅为无关的噪声信息。\n背景记录95：本条仅为无关的噪声信息。\n背景记录96：本条仅为无关的噪声信息。\n背景记录97：本条仅为无关的噪声信息。\n背景记录98：本条仅为无关的噪声信息。\n背景记录99：本条仅为无关的噪声信息。\n【最终问题】设备Z1的最终密钥是什么？只回答密钥。",
+    "expected": [
+      "R9121"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "111",
+    "category": "long_context",
+    "问题": "仅根据记录回答。\n背景记录0：本条仅为无关的噪声信息。\n背景记录1：本条仅为无关的噪声信息。\n背景记录2：本条仅为无关的噪声信息。\n背景记录3：本条仅为无关的噪声信息。\n背景记录4：本条仅为无关的噪声信息。\n背景记录5：本条仅为无关的噪声信息。\n背景记录6：本条仅为无关的噪声信息。\n背景记录7：本条仅为无关的噪声信息。\n背景记录8：本条仅为无关的噪声信息。\n背景记录9：本条仅为无关的噪声信息。\n背景记录10：本条仅为无关的噪声信息。\n背景记录11：本条仅为无关的噪声信息。\n背景记录12：本条仅为无关的噪声信息。\n背景记录13：本条仅为无关的噪声信息。\n背景记录14：本条仅为无关的噪声信息。\n背景记录15：本条仅为无关的噪声信息。\n背景记录16：本条仅为无关的噪声信息。\n背景记录17：本条仅为无关的噪声信息。\n背景记录18：本条仅为无关的噪声信息。\n背景记录19：本条仅为无关的噪声信息。\n背景记录20：本条仅为无关的噪声信息。\n背景记录21：本条仅为无关的噪声信息。\n背景记录22：本条仅为无关的噪声信息。\n背景记录23：本条仅为无关的噪声信息。\n背景记录24：本条仅为无关的噪声信息。\n背景记录25：本条仅为无关的噪声信息。\n背景记录26：本条仅为无关的噪声信息。\n背景记录27：本条仅为无关的噪声信息。\n背景记录28：本条仅为无关的噪声信息。\n背景记录29：本条仅为无关的噪声信息。\n背景记录30：本条仅为无关的噪声信息。\n背景记录31：本条仅为无关的噪声信息。\n背景记录32：本条仅为无关的噪声信息。\n背景记录33：本条仅为无关的噪声信息。\n背景记录34：本条仅为无关的噪声信息。\n背景记录35：本条仅为无关的噪声信息。\n背景记录36：本条仅为无关的噪声信息。\n背景记录37：本条仅为无关的噪声信息。\n背景记录38：本条仅为无关的噪声信息。\n背景记录39：本条仅为无关的噪声信息。\n背景记录40：本条仅为无关的噪声信息。\n背景记录41：本条仅为无关的噪声信息。\n背景记录42：本条仅为无关的噪声信息。\n背景记录43：本条仅为无关的噪声信息。\n背景记录44：本条仅为无关的噪声信息。\n背景记录45：本条仅为无关的噪声信息。\n背景记录46：本条仅为无关的噪声信息。\n背景记录47：本条仅为无关的噪声信息。\n背景记录48：本条仅为无关的噪声信息。\n背景记录49：本条仅为无关的噪声信息。\n背景记录\n关键记录：设备Z2的最终密钥为R9122。\n50：本条仅为无关的噪声信息。\n背景记录51：本条仅为无关的噪声信息。\n背景记录52：本条仅为无关的噪声信息。\n背景记录53：本条仅为无关的噪声信息。\n背景记录54：本条仅为无关的噪声信息。\n背景记录55：本条仅为无关的噪声信息。\n背景记录56：本条仅为无关的噪声信息。\n背景记录57：本条仅为无关的噪声信息。\n背景记录58：本条仅为无关的噪声信息。\n背景记录59：本条仅为无关的噪声信息。\n背景记录60：本条仅为无关的噪声信息。\n背景记录61：本条仅为无关的噪声信息。\n背景记录62：本条仅为无关的噪声信息。\n背景记录63：本条仅为无关的噪声信息。\n背景记录64：本条仅为无关的噪声信息。\n背景记录65：本条仅为无关的噪声信息。\n背景记录66：本条仅为无关的噪声信息。\n背景记录67：本条仅为无关的噪声信息。\n背景记录68：本条仅为无关的噪声信息。\n背景记录69：本条仅为无关的噪声信息。\n背景记录70：本条仅为无关的噪声信息。\n背景记录71：本条仅为无关的噪声信息。\n背景记录72：本条仅为无关的噪声信息。\n背景记录73：本条仅为无关的噪声信息。\n背景记录74：本条仅为无关的噪声信息。\n背景记录75：本条仅为无关的噪声信息。\n背景记录76：本条仅为无关的噪声信息。\n背景记录77：本条仅为无关的噪声信息。\n背景记录78：本条仅为无关的噪声信息。\n背景记录79：本条仅为无关的噪声信息。\n背景记录80：本条仅为无关的噪声信息。\n背景记录81：本条仅为无关的噪声信息。\n背景记录82：本条仅为无关的噪声信息。\n背景记录83：本条仅为无关的噪声信息。\n背景记录84：本条仅为无关的噪声信息。\n背景记录85：本条仅为无关的噪声信息。\n背景记录86：本条仅为无关的噪声信息。\n背景记录87：本条仅为无关的噪声信息。\n背景记录88：本条仅为无关的噪声信息。\n背景记录89：本条仅为无关的噪声信息。\n背景记录90：本条仅为无关的噪声信息。\n背景记录91：本条仅为无关的噪声信息。\n背景记录92：本条仅为无关的噪声信息。\n背景记录93：本条仅为无关的噪声信息。\n背景记录94：本条仅为无关的噪声信息。\n背景记录95：本条仅为无关的噪声信息。\n背景记录96：本条仅为无关的噪声信息。\n背景记录97：本条仅为无关的噪声信息。\n背景记录98：本条仅为无关的噪声信息。\n背景记录99：本条仅为无关的噪声信息。\n【最终问题】设备Z2的最终密钥是什么？只回答密钥。",
+    "expected": [
+      "R9122"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "112",
+    "category": "long_context",
+    "问题": "仅根据记录回答。\n背景记录0：本条仅为无关的噪声信息。\n背景记录1：本条仅为无关的噪声信息。\n背景记录2：本条仅为无关的噪声信息。\n背景记录3：本条仅为无关的噪声信息。\n背景记录4：本条仅为无关的噪声信息。\n背景记录5：本条仅为无关的噪声信息。\n背景记录6：本条仅为无关的噪声信息。\n背景记录7：本条仅为无关的噪声信息。\n背景记录8：本条仅为无关的噪声信息。\n背景记录9：本条仅为无关的噪声信息。\n背景记录10：本条仅为无关的噪声信息。\n背景记录11：本条仅为无关的噪声信息。\n背景记录12：本条仅为无关的噪声信息。\n背景记录13：本条仅为无关的噪声信息。\n背景记录14：本条仅为无关的噪声信息。\n背景记录15：本条仅为无关的噪声信息。\n背景记录16：本条仅为无关的噪声信息。\n背景记录17：本条仅为无关的噪声信息。\n背景记录18：本条仅为无关的噪声信息。\n背景记录19：本条仅为无关的噪声信息。\n背景记录20：本条仅为无关的噪声信息。\n背景记录21：本条仅为无关的噪声信息。\n背景记录22：本条仅为无关的噪声信息。\n背景记录23：本条仅为无关的噪声信息。\n背景记录24：本条仅为无关的噪声信息。\n背景记录25：本条仅为无关的噪声信息。\n背景记录26：本条仅为无关的噪声信息。\n背景记录27：本条仅为无关的噪声信息。\n背景记录28：本条仅为无关的噪声信息。\n背景记录29：本条仅为无关的噪声信息。\n背景记录30：本条仅为无关的噪声信息。\n背景记录31：本条仅为无关的噪声信息。\n背景记录32：本条仅为无关的噪声信息。\n背景记录33：本条仅为无关的噪声信息。\n背景记录34：本条仅为无关的噪声信息。\n背景记录35：本条仅为无关的噪声信息。\n背景记录36：本条仅为无关的噪声信息。\n背景记录37：本条仅为无关的噪声信息。\n背景记录38：本条仅为无关的噪声信息。\n背景记录39：本条仅为无关的噪声信息。\n背景记录40：本条仅为无关的噪声信息。\n背景记录41：本条仅为无关的噪声信息。\n背景记录42：本条仅为无关的噪声信息。\n背景记录43：本条仅为无关的噪声信息。\n背景记录44：本条仅为无关的噪声信息。\n背景记录45：本条仅为无关的噪声信息。\n背景记录46：本条仅为无关的噪声信息。\n背景记录47：本条仅为无关的噪声信息。\n背景记录48：本条仅为无关的噪声信息。\n背景记录49：本条仅为无关的噪声信息。\n背景记录\n关键记录：设备Z3的最终密钥为R9123。\n50：本条仅为无关的噪声信息。\n背景记录51：本条仅为无关的噪声信息。\n背景记录52：本条仅为无关的噪声信息。\n背景记录53：本条仅为无关的噪声信息。\n背景记录54：本条仅为无关的噪声信息。\n背景记录55：本条仅为无关的噪声信息。\n背景记录56：本条仅为无关的噪声信息。\n背景记录57：本条仅为无关的噪声信息。\n背景记录58：本条仅为无关的噪声信息。\n背景记录59：本条仅为无关的噪声信息。\n背景记录60：本条仅为无关的噪声信息。\n背景记录61：本条仅为无关的噪声信息。\n背景记录62：本条仅为无关的噪声信息。\n背景记录63：本条仅为无关的噪声信息。\n背景记录64：本条仅为无关的噪声信息。\n背景记录65：本条仅为无关的噪声信息。\n背景记录66：本条仅为无关的噪声信息。\n背景记录67：本条仅为无关的噪声信息。\n背景记录68：本条仅为无关的噪声信息。\n背景记录69：本条仅为无关的噪声信息。\n背景记录70：本条仅为无关的噪声信息。\n背景记录71：本条仅为无关的噪声信息。\n背景记录72：本条仅为无关的噪声信息。\n背景记录73：本条仅为无关的噪声信息。\n背景记录74：本条仅为无关的噪声信息。\n背景记录75：本条仅为无关的噪声信息。\n背景记录76：本条仅为无关的噪声信息。\n背景记录77：本条仅为无关的噪声信息。\n背景记录78：本条仅为无关的噪声信息。\n背景记录79：本条仅为无关的噪声信息。\n背景记录80：本条仅为无关的噪声信息。\n背景记录81：本条仅为无关的噪声信息。\n背景记录82：本条仅为无关的噪声信息。\n背景记录83：本条仅为无关的噪声信息。\n背景记录84：本条仅为无关的噪声信息。\n背景记录85：本条仅为无关的噪声信息。\n背景记录86：本条仅为无关的噪声信息。\n背景记录87：本条仅为无关的噪声信息。\n背景记录88：本条仅为无关的噪声信息。\n背景记录89：本条仅为无关的噪声信息。\n背景记录90：本条仅为无关的噪声信息。\n背景记录91：本条仅为无关的噪声信息。\n背景记录92：本条仅为无关的噪声信息。\n背景记录93：本条仅为无关的噪声信息。\n背景记录94：本条仅为无关的噪声信息。\n背景记录95：本条仅为无关的噪声信息。\n背景记录96：本条仅为无关的噪声信息。\n背景记录97：本条仅为无关的噪声信息。\n背景记录98：本条仅为无关的噪声信息。\n背景记录99：本条仅为无关的噪声信息。\n【最终问题】设备Z3的最终密钥是什么？只回答密钥。",
+    "expected": [
+      "R9123"
+    ],
+    "should_abstain": false,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "113",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石0”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "114",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石1”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "115",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石2”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "116",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石3”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "117",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石4”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "118",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石5”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "119",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石6”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  },
+  {
+    "id": "120",
+    "category": "unresolvable",
+    "问题": "仅根据材料回答。【材料】截至2026年10月30日，虚构项目“雨石7”尚未开奖，结果没有产生。【问题】这个项目最终中奖号码是多少？",
+    "expected": [
+      "未开奖",
+      "尚未",
+      "未产生",
+      "没有产生",
+      "未知",
+      "无法确定",
+      "不足"
+    ],
+    "should_abstain": true,
+    "pair_id": null,
+    "provenance": "synthetic-rule-derived; manual review pending"
+  }
+]

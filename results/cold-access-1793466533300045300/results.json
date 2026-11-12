@@ -1,0 +1,49 @@
+[
+  {
+    "name": "麦克白",
+    "ok": false,
+    "error_type": "APIError",
+    "seconds": 0.656,
+    "requests": [
+      {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "parameters": {
+          "format": "json",
+          "maxlag": 5,
+          "action": "wbsearchentities",
+          "search": "麦克白",
+          "language": "zh",
+          "uselang": "zh-hans",
+          "limit": 5
+        },
+        "accessed_at": "2026-10-31T17:08:53.356524+00:00",
+        "status": 200,
+        "response_sha256": "fb4bf0f969aac45251671df2a0efb01fa4d31b77bf15f6d81edd17f442aba596",
+        "content_type": "application/json; charset=utf-8",
+        "api_error_code": "maxlag",
+        "seconds": 0.609
+      }
+    ]
+  },
+  {
+    "name": "红与黑",
+    "ok": false,
+    "error_type": "APIError",
+    "seconds": 0.672,
+    "requests": []
+  },
+  {
+    "name": "居里夫人",
+    "ok": false,
+    "error_type": "APIError",
+    "seconds": 0.687,
+    "requests": []
+  },
+  {
+    "name": "伦敦",
+    "ok": false,
+    "error_type": "APIError",
+    "seconds": 0.687,
+    "requests": []
+  }
+]

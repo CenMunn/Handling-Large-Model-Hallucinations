@@ -1,0 +1,146 @@
+[
+  {
+    "id": "history-14",
+    "content_check": true,
+    "answer": "若题干指C++，历史地点证据指向新泽西州（New Jersey）。相关工作始于1979年，首个商业实现发布为1985年；设计起点与发布时期的地点端点记录一致，但不等于已逐年核实整个期间。题干中的年代不能直接当作开始设计年份。 来源：https://www.stroustrup.com/bio.html；https://www.stroustrup.com/bs_faq.html；https://www.stroustrup.com/1st.html；https://www.stroustrup.com/1st_pref.html",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "curated_historical_workplace",
+    "ok": true,
+    "elapsed_seconds": 2.281
+  },
+  {
+    "id": "river-5",
+    "content_check": true,
+    "answer": "若题干指杭州附近的钱塘江，按水利普查河流名录口径，钱塘江长度约609公里。另有北源起算至入海口约668公里的资料，两者口径不同，不能直接取最大值。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "curated_river_length",
+    "ok": true,
+    "elapsed_seconds": 3.062
+  },
+  {
+    "id": "language-4",
+    "content_check": true,
+    "answer": "若题干指詹姆斯·瓦特，按出生地现今所属主权国家英国理解，主要使用语言是英语。未核实全国层面的法定官方语言，以上明确采用主要使用语言的替代口径；地区法律地位不能等同全国法律地位。 来源：https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf；https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt；https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/；https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "curated_birth_country_language",
+    "ok": true,
+    "elapsed_seconds": 4.968
+  },
+  {
+    "id": "founder-15",
+    "content_check": true,
+    "answer": "按乐视网创始人贾跃亭出生地的现今行政归属查询：山西省。 来源：Wikidata（https://www.wikidata.org/wiki/Q27808154）。",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "structured_evidence",
+    "ok": true,
+    "elapsed_seconds": 4.125
+  },
+  {
+    "id": "capital-31",
+    "content_check": true,
+    "answer": "按《堂吉诃德》作者米格尔·德·塞万提斯的出生地现今所属国家查询：西班牙的首都是马德里。 来源：Wikidata（https://www.wikidata.org/wiki/Q480）。",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "structured_evidence",
+    "ok": true,
+    "elapsed_seconds": 3.531
+  },
+  {
+    "id": "author-47",
+    "content_check": true,
+    "answer": "根据检索到的情节描述，所指应为《呼啸山庄》，其作者是艾米莉·勃朗特。 来源：https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html；https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "bibliographic_evidence",
+    "ok": true,
+    "elapsed_seconds": 3.86
+  },
+  {
+    "id": "organization-9",
+    "content_check": true,
+    "answer": "按该组织改组成立的口径，《共产党宣言》相关组织共产主义者同盟的成立年份为1847年。 来源：https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml；https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "bibliographic_evidence",
+    "ok": true,
+    "elapsed_seconds": 3.922
+  },
+  {
+    "id": "cell-count-22",
+    "content_check": true,
+    "answer": "按每个人体细胞中该结构的数量理解，通常为数百至数千个；这是一般描述，不能作为所有细胞类型的统一数量。 来源：https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "functional_cell_evidence",
+    "ok": true,
+    "elapsed_seconds": 3.75
+  },
+  {
+    "id": "new-choice-direction",
+    "content_check": true,
+    "answer": "A,C",
+    "usage": {
+      "completion_tokens": 138,
+      "prompt_tokens": 313,
+      "total_tokens": 451,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "option_checks",
+    "ok": true,
+    "elapsed_seconds": 5.047
+  },
+  {
+    "id": "new-missing-measurement",
+    "content_check": true,
+    "answer": "所给信息不足，无法确定具体数值；题目没有提供可构成所问单位的原始测量值。",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "measurement_missing",
+    "ok": true,
+    "elapsed_seconds": 0.312
+  },
+  {
+    "id": "extra-condition",
+    "content_check": true,
+    "answer": "已取得资料，但无法可靠核实所问事实；暂不作未经证实的回答。",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "external_evidence",
+    "ok": true,
+    "elapsed_seconds": 4.516
+  },
+  {
+    "id": "wrong-named-structure",
+    "content_check": true,
+    "answer": "已取得资料，但无法可靠核实所问事实；暂不作未经证实的回答。",
+    "usage": {},
+    "finish_reason": "stop",
+    "route": "external_evidence",
+    "ok": true,
+    "elapsed_seconds": 5.203
+  },
+  {
+    "id": "new-history-world",
+    "content_check": true,
+    "answer": "截至2029年9月，林杉在潮汐项目的职务是副负责人，职责是光谱分析。",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 8311,
+      "total_tokens": 8338,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "closed_scope",
+    "ok": true,
+    "elapsed_seconds": 9.11
+  }
+]

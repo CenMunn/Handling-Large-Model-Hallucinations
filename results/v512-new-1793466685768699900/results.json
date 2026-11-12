@@ -1,0 +1,1504 @@
+[
+  {
+    "id": "historical-named",
+    "question": "C++设计开始到首次发布时，设计者的历史工作地点属于美国哪个州？",
+    "answer": "按C++理解，历史地点证据指向新泽西州（New Jersey）。相关工作始于1979年，首个商业实现发布为1985年；设计起点与发布时期的地点端点记录一致，但不等于已逐年核实整个期间。 来源：https://www.stroustrup.com/bio.html；https://www.stroustrup.com/bs_faq.html；https://www.stroustrup.com/1st.html；https://www.stroustrup.com/1st_pref.html",
+    "audit": {
+      "route": "curated_historical_workplace",
+      "sources": [
+        {
+          "id": "independent-cache-f67cd88fa5e99ea6",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+          "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "primary-3f3d242b1e9d",
+          "title": "Bjarne Stroustrup biography",
+          "url": "https://stroustrup.com/bio.html",
+          "source_kind": "primary_or_original_reporting",
+          "entity_tags": [
+            "C++",
+            "Stroustrup",
+            "贝尔实验室",
+            "斯特劳斯特鲁普"
+          ],
+          "retrieved_at": "2026-10-30T05:42:47.098958+00:00",
+          "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+          "text_sha256": "ae2aa6f236c8c6ed8c2d01d24bd4e95e61ff4297de1127a0e630f11411e4a536"
+        },
+        {
+          "id": "web-f8713773b0076f1b",
+          "title": "you have checked \"Yes\" to indicate that the work was \"made for hire,\" give the full legal name of the employer (or other person ...",
+          "url": "http://mail.ipmall.info/sites/default/files/BAYHDOLE/3_DIV_SCAN/2896_001_OCR_DBL_ZIP_0.pdf",
+          "text_sha256": "57757a033efb38dd6ae1b6d1ac1ebfafc5787128e4464f1183038bf3c455bdc8",
+          "retrieved_at": "2026-10-31T17:11:28.210520+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计开始到首次发布期间设计者历史工作地点 美国州",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.4629526436328888,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-5447f16a3ed17fd3",
+          "title": "Name of Author: The fullest form of the author's name should be given",
+          "url": "https://storage.courtlistener.com/recap/gov.uscourts.ca2.60412/gov.uscourts.ca2.60412.104.0_1.pdf",
+          "text_sha256": "91603ccd2b09673ca26aa9db9d3c108f58885288213c46eaccc68957c30dc8b4",
+          "retrieved_at": "2026-10-31T17:11:28.211518+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计开始到首次发布期间设计者历史工作地点 美国州",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.4173429608345032,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-5b1344513a49edb7",
+          "title": "elsewhere in the registration materials",
+          "url": "https://www.copyright.gov/comp3/2017version/redlines/chap600.pdf",
+          "text_sha256": "e21926f64b4da0d5b8d4192a573d88e3e29f8e5e890e38a8e85aa590b5638fac",
+          "retrieved_at": "2026-10-31T17:11:28.211518+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计开始到首次发布期间设计者历史工作地点 美国州",
+          "provider_authority": 4,
+          "provider_rerank_score": 0.39823585748672485,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-82059775a60ac59a",
+          "title": "WorkSourceWA - Design jobs in Washington",
+          "url": "https://seeker.worksourcewa.com/jobsearch/powersearch.aspx?tjt=Design&tm=30&rad=30&sort=rv.di.dt&brd=3%2c1&vw=d&jbf47538=1",
+          "text_sha256": "de7af76c9af5354ccd34bdb5fd29e78854713e121dc1851ff147340576619af7",
+          "retrieved_at": "2026-10-31T17:11:28.212517+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计者设计开始至首次发布期间工作地点 美国州",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.4140625,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-d97d71c6e396327c",
+          "title": "为什么 C++ / PHP / Delphi / C# 的设计者都是丹麦人？ - 为什么 C++ / PHP / Delphi / C# 的设计者都是丹麦人？",
+          "url": "https://www.php.cn/faq/284893.html",
+          "text_sha256": "7db067fded9bf72a1d5f75661f42c323a86ac6534ac2a984f51b563c5d63c0c8",
+          "retrieved_at": "2026-10-31T17:11:28.212517+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计者设计开始至首次发布期间工作地点 美国州",
+          "provider_authority": 2,
+          "provider_rerank_score": 0.40980711579322815,
+          "page_date": "2016-07-05T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-81026352a0840c70",
+          "title": "Top Design Jobs - Maximum of 25 job preferences reached",
+          "url": "https://builtin.com/jobs/other-us-location/design-ux?page=198",
+          "text_sha256": "3755a9b938e8a8b41613d6bede4651148d830ed29b9376e2c40e7499b3cc61b1",
+          "retrieved_at": "2026-10-31T17:11:28.213518+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C++设计者设计开始至首次发布期间工作地点 美国州",
+          "provider_authority": 2,
+          "provider_rerank_score": 0.375,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/bio.html",
+          "retrieved_at": "2026-10-31T15:05:00.374266+00:00",
+          "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+          "text_sha256": "e6722f3c2c664f6ff0ab9148073a499b44d267e629160e7f8a7f30719f2296ee"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/bs_faq.html",
+          "retrieved_at": "2026-10-31T15:05:04.991995+00:00",
+          "raw_sha256": "2f0e35a9519217a12dfac5cd033a61c08e78d423671c8ddbcc4257c299c0d87e",
+          "text_sha256": "dfaa5f23bc4d14367a438c1ad02b7aa05853fbbff9b52f52ffcab68110cdae60"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/1st.html",
+          "retrieved_at": "2026-10-31T15:05:00.734473+00:00",
+          "raw_sha256": "e7ab4296b9b36ccd1741bb497248c70389672688234a18b3c4e3cccfc1850648",
+          "text_sha256": "93a7504811511d3b7e7ef2e8ceb4144be83e829890aeb9b020d9dc6fe7089620"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/1st_pref.html",
+          "retrieved_at": "2026-10-31T15:04:59.418696+00:00",
+          "raw_sha256": "70231b4c805ddc3dbb8e97496e5280e9d7eaff536e97398151ed0f8817934a1f",
+          "text_sha256": "19c38a6f7413539997d359bf5c4137f4c92424518a1892419d79c6ef4e2e484b"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "workplace",
+        "preferred_scopes": [
+          "employment"
+        ],
+        "retrieval_hint": "开始设计 首次发布 任职 起止时间 历史工作地点",
+        "instruction": "优先开始设计到首次发布期间的工作地点。核查时间窗，区分设计、命名、发布和图书出版日期；不使用当前工作地点代替。期间发生变动应保留多个地点及日期。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 2.343,
+      "retrieval_seconds": 0.063,
+      "queries": [
+        "C++设计开始到首次发布期间设计者历史工作地点 美国州",
+        "C++设计者设计开始至首次发布期间工作地点 美国州"
+      ],
+      "curated_evidence": {
+        "status": "qualified",
+        "kind": "historical_workplace",
+        "subject": "C++",
+        "answer": "按C++理解，历史地点证据指向新泽西州（New Jersey）。相关工作始于1979年，首个商业实现发布为1985年；设计起点与发布时期的地点端点记录一致，但不等于已逐年核实整个期间。 来源：https://www.stroustrup.com/bio.html；https://www.stroustrup.com/bs_faq.html；https://www.stroustrup.com/1st.html；https://www.stroustrup.com/1st_pref.html",
+        "source_access": [
+          {
+            "url": "https://www.stroustrup.com/bio.html",
+            "retrieved_at": "2026-10-31T15:05:00.374266+00:00",
+            "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+            "text_sha256": "e6722f3c2c664f6ff0ab9148073a499b44d267e629160e7f8a7f30719f2296ee"
+          },
+          {
+            "url": "https://www.stroustrup.com/bs_faq.html",
+            "retrieved_at": "2026-10-31T15:05:04.991995+00:00",
+            "raw_sha256": "2f0e35a9519217a12dfac5cd033a61c08e78d423671c8ddbcc4257c299c0d87e",
+            "text_sha256": "dfaa5f23bc4d14367a438c1ad02b7aa05853fbbff9b52f52ffcab68110cdae60"
+          },
+          {
+            "url": "https://www.stroustrup.com/1st.html",
+            "retrieved_at": "2026-10-31T15:05:00.734473+00:00",
+            "raw_sha256": "e7ab4296b9b36ccd1741bb497248c70389672688234a18b3c4e3cccfc1850648",
+            "text_sha256": "93a7504811511d3b7e7ef2e8ceb4144be83e829890aeb9b020d9dc6fe7089620"
+          },
+          {
+            "url": "https://www.stroustrup.com/1st_pref.html",
+            "retrieved_at": "2026-10-31T15:04:59.418696+00:00",
+            "raw_sha256": "70231b4c805ddc3dbb8e97496e5280e9d7eaff536e97398151ed0f8817934a1f",
+            "text_sha256": "19c38a6f7413539997d359bf5c4137f4c92424518a1892419d79c6ef4e2e484b"
+          }
+        ],
+        "coverage": "dated_endpoints",
+        "limitation": "Small curated corpus; exact quote/fingerprint checks do not prove arbitrary semantic entailment."
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 2.422
+  },
+  {
+    "id": "river-north",
+    "question": "钱塘江从北源至入海口全长多少公里？",
+    "answer": "按北源至入海口口径，钱塘江长度约668公里。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+    "audit": {
+      "route": "curated_river_length",
+      "sources": [
+        {
+          "id": "web-3214dcd85e310837",
+          "title": "钱塘江 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E9%92%B1%E5%A1%98%E6%B1%9F",
+          "text_sha256": "34228d2a8a56d003c5f7c9b6c3f26bbcbbf14a29616befb0f38fd882ae436bae",
+          "retrieved_at": "2026-10-31T17:11:30.043674+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江从北源至入海口全长多少公里？",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.648983597755432,
+          "page_date": "2005-04-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-e79f54544fc01042",
+          "title": "钱塘江 - 维基百科，自由的百科全书 - 钱塘江",
+          "url": "https://zh.wikipedia.org/wiki/%e9%92%b1%e5%a1%98%e6%b1%9f?oldformat=true",
+          "text_sha256": "82f85d6604692a952761a1f61929055dd80fc06f96cfbdb7f3a93aaea902cee1",
+          "retrieved_at": "2026-10-31T17:11:30.043674+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江从北源至入海口全长多少公里？",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.648983597755432,
+          "page_date": "2005-04-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-4c7c3a53ce10ea23",
+          "title": "钱塘江（杭州湾水系河流）_百度百科 - 搜词条",
+          "url": "https://wapbaike.baidu.com/item/%E9%92%B1%E5%A1%98%E6%B1%9F/389131?fromModule=lemma_starMap&lemmaFrom=lemma_relation_starMap&structureId=ca30211267456541444629b2&structureClickId=389131&structureItemId=d44f4524bb4d52abe3205c55&lemmaIdFrom=389131",
+          "text_sha256": "14af3876fb3f8c4949c31b46bfde98de0489ae9183993c86bcc0311d2b68a7da",
+          "retrieved_at": "2026-10-31T17:11:30.043674+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江从北源至入海口全长多少公里？",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6412975788116455,
+          "page_date": "2026-07-27T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+          "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+          "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+          "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+          "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+          "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+          "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+          "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+          "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+          "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+          "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+          "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+          "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "length",
+        "preferred_scopes": [
+          "whole",
+          "mainstem",
+          "reach"
+        ],
+        "retrieval_hint": "全河 源头至河口 干流 长度 测量口径",
+        "instruction": "优先全河或水系干流长度；同一范围的不同值要核查冲突，不能直接取最大。仅有河段时说明河段名与范围，不将它当作全河长度。"
+      },
+      "phase": "retrieval",
+      "planner_timeout": true,
+      "plan_seconds": 4.156,
+      "query_fallback": "original_question",
+      "retrieval_seconds": 0.078,
+      "queries": [
+        "钱塘江从北源至入海口全长多少公里？"
+      ],
+      "curated_evidence": {
+        "kind": "river_length",
+        "source_access": [
+          {
+            "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+            "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+            "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+            "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+            "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+            "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+            "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+            "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+            "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+            "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+            "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+            "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+            "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+            "transport": "independent_https"
+          }
+        ],
+        "limitation": "Small editorially curated corpus; scope guards do not prove general entailment.",
+        "status": "qualified",
+        "answer": "按北源至入海口口径，钱塘江长度约668公里。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+        "scope": "north_source"
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 4.25
+  },
+  {
+    "id": "river-census",
+    "question": "钱塘江按水利普查名录的河流长度是多少公里？",
+    "answer": "按水利普查河流名录口径，钱塘江长度约609公里。另有北源起算至入海口约668公里的资料，两者口径不同，不能直接取最大值。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+    "audit": {
+      "route": "curated_river_length",
+      "sources": [
+        {
+          "id": "web-b77616acb1c87843",
+          "title": "前言",
+          "url": "https://zjjcmspublicnew.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/cms_files/jcms1/web2514/site/attach/0/7d85762ce9fd404896607789272311be.pdf?fileName=7d85762ce9fd404896607789272311be.pdf",
+          "text_sha256": "7e487bcc74a4633db18aac1477129b9e225d40e757ebca6f0863a5040867341e",
+          "retrieved_at": "2026-10-31T17:11:29.793529+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 水利普查名录 全河长度",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.2584471702575684,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-6259a9cb8d8df5f8",
+          "title": "钱塘江干流岸线保护与利用规划",
+          "url": "http://minyi.zjzwfw.gov.cn/dczjnewls/upload/attachment/634595b98d0a4495b37018caa2c1d544.pdf",
+          "text_sha256": "0567411f68674f37228c4c1ad3b29893a17ab3bddcf9fefb75f248b56954c8d7",
+          "retrieved_at": "2026-10-31T17:11:29.793529+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 水利普查名录 全河长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.9578282833099364,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-cbb2ee5e2e749d4b",
+          "title": "“南北游荡”、“江口夺食” 身边的钱塘江，你真的了解吗-杭州新闻中心-杭州网",
+          "url": "https://hznews.hangzhou.com.cn/chengshi/content/2017-09/13/content_6655747_3.htm",
+          "text_sha256": "a8eac8fe94621feedfc6d1c926d182ec6563657d89a880be7a1a613a2475aa6f",
+          "retrieved_at": "2026-10-31T17:11:29.793529+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 水利普查名录 全河长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.8473536372184753,
+          "page_date": "2017-09-12T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-e79f54544fc01042",
+          "title": "钱塘江 - 维基百科，自由的百科全书 - 钱塘江",
+          "url": "https://zh.wikipedia.org/wiki/%e9%92%b1%e5%a1%98%e6%b1%9f?oldformat=true",
+          "text_sha256": "82f85d6604692a952761a1f61929055dd80fc06f96cfbdb7f3a93aaea902cee1",
+          "retrieved_at": "2026-10-31T17:11:29.800153+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 源头至河口 干流长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.687633991241455,
+          "page_date": "2005-04-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-3214dcd85e310837",
+          "title": "钱塘江 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki/%E9%92%B1%E5%A1%98%E6%B1%9F",
+          "text_sha256": "34228d2a8a56d003c5f7c9b6c3f26bbcbbf14a29616befb0f38fd882ae436bae",
+          "retrieved_at": "2026-10-31T17:11:29.801159+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 源头至河口 干流长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6720572710037231,
+          "page_date": "2005-04-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-4c7c3a53ce10ea23",
+          "title": "钱塘江（杭州湾水系河流）_百度百科 - 搜词条",
+          "url": "https://wapbaike.baidu.com/item/%E9%92%B1%E5%A1%98%E6%B1%9F/389131?fromModule=lemma_starMap&lemmaFrom=lemma_relation_starMap&structureId=ca30211267456541444629b2&structureClickId=389131&structureItemId=d44f4524bb4d52abe3205c55&lemmaIdFrom=389131",
+          "text_sha256": "14af3876fb3f8c4949c31b46bfde98de0489ae9183993c86bcc0311d2b68a7da",
+          "retrieved_at": "2026-10-31T17:11:29.801159+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "钱塘江 源头至河口 干流长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6566694974899292,
+          "page_date": "2026-07-27T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+          "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+          "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+          "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+          "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+          "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+          "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+          "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+          "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+          "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+          "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+          "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+          "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "length",
+        "preferred_scopes": [
+          "whole",
+          "mainstem",
+          "reach"
+        ],
+        "retrieval_hint": "全河 源头至河口 干流 长度 测量口径",
+        "instruction": "优先全河或水系干流长度；同一范围的不同值要核查冲突，不能直接取最大。仅有河段时说明河段名与范围，不将它当作全河长度。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 3.937,
+      "retrieval_seconds": 0.063,
+      "queries": [
+        "钱塘江 水利普查名录 全河长度",
+        "钱塘江 源头至河口 干流长度"
+      ],
+      "curated_evidence": {
+        "kind": "river_length",
+        "source_access": [
+          {
+            "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+            "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+            "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+            "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+            "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+            "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+            "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+            "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+            "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+            "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+            "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+            "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+            "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+            "transport": "independent_https"
+          }
+        ],
+        "limitation": "Small editorially curated corpus; scope guards do not prove general entailment.",
+        "status": "qualified",
+        "answer": "按水利普查河流名录口径，钱塘江长度约609公里。另有北源起算至入海口约668公里的资料，两者口径不同，不能直接取最大值。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+        "scope": "census_whole"
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 4.015
+  },
+  {
+    "id": "country-usage",
+    "question": "英国的官方语言主要是什么？",
+    "answer": "按出生地现今所属主权国家英国理解，主要使用语言是英语。未核实全国层面的法定官方语言，以上明确采用主要使用语言的替代口径；地区法律地位不能等同全国法律地位。 来源：https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf；https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt；https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/；https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+    "audit": {
+      "route": "curated_birth_country_language",
+      "sources": [
+        {
+          "id": "independent-cache-e26b9674c0b5703d",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-afc7a33624f0508e",
+          "title": "National Identity: Languages - Hansard - UK Parliament",
+          "url": "https://hansard.parliament.uk/commons/2009-02-09/debates/09020935000039/NationalIdentityLanguages",
+          "text_sha256": "ffff575099f1250e466953126b5b0e3b0239e1b5c8803176995425dfbfc0ca5a",
+          "retrieved_at": "2026-10-31T17:11:28.879403+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "英国 官方语言 法律地位",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.8729981184005735,
+          "page_date": "2009-02-08T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-edb2390337f44477",
+          "title": "Status: No official legal status within the UK, but recognised by the Government as a legitimate autochthonous language",
+          "url": "https://www.osce.org/files/f/documents/3/1/78058.pdf",
+          "text_sha256": "7bc546ab998fa65dd728884103682ccb437fdcab10449398b99875a483b7d966",
+          "retrieved_at": "2026-10-31T17:11:28.879403+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "英国 官方语言 法律地位",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.7733055353164673,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-d5a435088fef5adc",
+          "title": "for Regional or Minority Languages",
+          "url": "https://www.osce.org/files/f/documents/d/7/13602.pdf",
+          "text_sha256": "8583de2aa9ee285fd6bcee8236e303f2c711a68e67f941266d6bf260edc889b1",
+          "retrieved_at": "2026-10-31T17:11:28.880404+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "英国 官方语言 法律地位",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.765517234802246,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-d12e8b91ccff0d23",
+          "title": "Written evidence submitted by Wilson McLeod",
+          "url": "https://committees.parliament.uk/writtenevidence/119168/pdf/",
+          "text_sha256": "a1c18f3412e3eff23bf1e4698617aeab9f9872979bf868f9bf73a0ae8dc65e77",
+          "retrieved_at": "2026-10-31T17:11:28.881411+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "英国 主要使用语言 法律地位",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.7343639135360718,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf",
+          "retrieved_at": "2026-10-31T15:58:04.320077+00:00",
+          "raw_sha256": "cd222a577e32339db0c017ff12080380e00b3936964f75f44c7a60280943b4cd",
+          "text_sha256": "ecc86ebec27aeb5f8d0fa2f750e6de25eb1267aee4824ffa8aba47b347391501",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt",
+          "retrieved_at": "2026-10-31T16:12:24.169197+00:00",
+          "text_sha256": "1de11685f38a280a9633c15cfc1bb6de5599b0a675c42165fd645de99c0f6135",
+          "transport": "independent_web_primary_reader_excerpt"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/",
+          "retrieved_at": "2026-10-31T15:35:18.846415+00:00",
+          "raw_sha256": "f70754fe139fc4f19ed8c3b4a8146287744f61c9e43c38c1244713ac7daed313",
+          "text_sha256": "addfa92b37740028c410588bbd39c5ca751902c4508414b680d490f95568b6e7",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+          "retrieved_at": "2026-10-31T16:12:24.169212+00:00",
+          "text_sha256": "40bda32e137cdf7af3866e4fae80acb0395868b53da0a42efb6b65925261707c",
+          "transport": "independent_web_primary_reader_excerpt"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "language",
+        "preferred_scopes": [
+          "legal",
+          "usage"
+        ],
+        "retrieval_hint": "法定官方语言 法律地位 主要使用语言",
+        "instruction": "优先核查具有法律地位的官方语言。未取得法律地位证据时，主要使用语言只能标注为替代口径；检索不到不代表法律上不存在。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 3.031,
+      "retrieval_seconds": 0.047,
+      "queries": [
+        "英国 官方语言 法律地位",
+        "英国 主要使用语言 法律地位"
+      ],
+      "curated_evidence": {
+        "kind": "birth_country_language",
+        "source_access": [
+          {
+            "url": "https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf",
+            "retrieved_at": "2026-10-31T15:58:04.320077+00:00",
+            "raw_sha256": "cd222a577e32339db0c017ff12080380e00b3936964f75f44c7a60280943b4cd",
+            "text_sha256": "ecc86ebec27aeb5f8d0fa2f750e6de25eb1267aee4824ffa8aba47b347391501",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt",
+            "retrieved_at": "2026-10-31T16:12:24.169197+00:00",
+            "text_sha256": "1de11685f38a280a9633c15cfc1bb6de5599b0a675c42165fd645de99c0f6135",
+            "transport": "independent_web_primary_reader_excerpt"
+          },
+          {
+            "url": "https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/",
+            "retrieved_at": "2026-10-31T15:35:18.846415+00:00",
+            "raw_sha256": "f70754fe139fc4f19ed8c3b4a8146287744f61c9e43c38c1244713ac7daed313",
+            "text_sha256": "addfa92b37740028c410588bbd39c5ca751902c4508414b680d490f95568b6e7",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+            "retrieved_at": "2026-10-31T16:12:24.169212+00:00",
+            "text_sha256": "40bda32e137cdf7af3866e4fae80acb0395868b53da0a42efb6b65925261707c",
+            "transport": "independent_web_primary_reader_excerpt"
+          }
+        ],
+        "limitation": "Small editorially curated corpus; scope guards do not prove general entailment.",
+        "status": "qualified",
+        "answer": "按出生地现今所属主权国家英国理解，主要使用语言是英语。未核实全国层面的法定官方语言，以上明确采用主要使用语言的替代口径；地区法律地位不能等同全国法律地位。 来源：https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf；https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt；https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/；https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+        "scope": "national_usage_fallback"
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 3.093
+  },
+  {
+    "id": "new-capital",
+    "question": "创作《动物农场》的作者，其出生地现今所属国家的首都是什么？",
+    "answer": "已取得资料，但无法可靠核实所问事实；暂不作未经证实的回答。",
+    "audit": {
+      "route": "external_evidence",
+      "sources": [
+        {
+          "id": "web-ef9629c7953fd85b",
+          "title": "乔治·奥威尔 - 维基百科，自由的百科全书 - 乔治·奥威尔 编辑",
+          "url": "https://zh.m.wikipedia.org/wiki/%E4%B9%94%E6%B2%BB%C2%B7%E5%A5%A5%E5%A8%81%E5%B0%94",
+          "text_sha256": "e654727c122a38c80ccc6d07c1b65fab55a3b6ff174d31af92de70501143b8d5",
+          "retrieved_at": "2026-10-31T17:11:31.545267+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "George Orwell 出生地 现今所属国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.320075511932373,
+          "page_date": "2004-12-30T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-0a22ce43f3a83253",
+          "title": "佐治·奧威爾 - 維基百科，自由的百科全書",
+          "url": "https://zh.wikipedia.org/zh-hk/Special:MyLanguage/%E5%96%AC%E6%B2%BB%C2%B7%E5%A5%A7%E5%A8%81%E7%88%BE",
+          "text_sha256": "ccb8e30945ad8c7e4bc97599003ac0a8f42fc01e10f00403bf512f65a088f812",
+          "retrieved_at": "2026-10-31T17:11:31.546266+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "George Orwell 出生地 现今所属国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.312475085258484,
+          "page_date": "2004-12-30T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-15ec0a08f61cea87",
+          "title": "喬治·歐威爾 - 維基百科，自由的百科全書 - 喬治·歐威爾",
+          "url": "https://zh.m.wikipedia.org/zh-tw/%E4%B9%94%E6%B2%BB%C2%B7%E5%A5%A5%E5%A8%81%E5%B0%94",
+          "text_sha256": "6e677ae57fce6af2be1829dac9c552bd62e51bf752fab497451f8e90354739a5",
+          "retrieved_at": "2026-10-31T17:11:31.546266+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "George Orwell 出生地 现今所属国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.1882511377334597,
+          "page_date": "2004-12-30T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-2d4806101bc476cf",
+          "title": "Autoridades - Vista completa del registro",
+          "url": "https://catalogo.bn.gov.ar/F/?func=direct&local_base=BNA10&doc_number=000030873",
+          "text_sha256": "cf3211ca4be783b03a110d1d65b82c1e195234772f2deff2b3e7625b8d5369a2",
+          "retrieved_at": "2026-10-31T17:11:31.992558+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "George Orwell 出生地 国家首都",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.101439118385315,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "binding_unresolved",
+      "factual_scope": {
+        "kind": "birthplace",
+        "preferred_scopes": [
+          "birthplace"
+        ],
+        "retrieval_hint": "出生地 born in 传记",
+        "instruction": "出生地、祖籍、籍贯和住所是不同属性。缺少出生地证据时保留已确认身份，明确缺失出生地，不能用祖籍替代。"
+      },
+      "phase": "structured_evidence",
+      "plan_seconds": 2.937,
+      "retrieval_seconds": 0.828,
+      "queries": [
+        "George Orwell 出生地 现今所属国家首都",
+        "George Orwell 出生地 国家首都"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "structured_evidence": {
+        "plan": {
+          "anchor": "动物农场",
+          "kind": "work_birth_capital",
+          "types": [],
+          "scope": "current_birthplace_country"
+        },
+        "scope": "current_birthplace_country",
+        "provider": "wikidata",
+        "identity_limitation": "Positive typed matches among at most five exact-name candidates; not globally exhaustive.",
+        "source_limitation": "Community-maintained structured evidence, not authoritative independent truth verification.",
+        "root": "Q1396889",
+        "candidate_ids": [
+          "Q1396889"
+        ],
+        "search_exhaustive": true,
+        "status": "qualified_unresolved",
+        "detail": "P19",
+        "edges": [
+          {
+            "subject": "Q1396889",
+            "property": "P50",
+            "object": "Q3335",
+            "statement_id": "q1396889$168E77B7-133C-4FC4-923A-A51D4AA59CB0",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "103dce6ad764e93e6aa75eb7afc785f5fb4634bc",
+                "snaks": {
+                  "P957": [
+                    {
+                      "snaktype": "value",
+                      "property": "P957",
+                      "hash": "e230a503874d992a4fde8343f0cbe8052b63cfd2",
+                      "datavalue": {
+                        "value": "0-89356-451-6",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P957"
+                ]
+              },
+              {
+                "hash": "cabaa50fc2fa044a17fef2e41578b73718470295",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "871891c242389d06b23bf809fdc0301df1ed9c77",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 2629164,
+                          "id": "Q2629164"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1274": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1274",
+                      "hash": "e0ec5370042320f23293bef5c6b4250e7076b136",
+                      "datavalue": {
+                        "value": "2423",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "04811fc19e5e67aedb6d73cda13320e313c06105",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2025-04-22T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P1274",
+                  "P813"
+                ]
+              }
+            ],
+            "revision": 2560922754,
+            "source_url": "https://www.wikidata.org/wiki/Q1396889",
+            "accessed_at": "2026-10-31T16:37:10.655045+00:00",
+            "response_sha256": "eddcd3349af3da6d6eabb00c7d64d0530e98afdb3469e33b7fa8654613a74658"
+          }
+        ],
+        "disambiguation": [],
+        "network_requests": []
+      },
+      "structured_seconds": 0.172,
+      "skipped_unverifiable_extraction": true,
+      "binding_checks": [
+        {
+          "source_id": "web-ef9629c7953fd85b",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-0a22ce43f3a83253",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-15ec0a08f61cea87",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-2d4806101bc476cf",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        }
+      ],
+      "visible_source_ids": [
+        "web-ef9629c7953fd85b",
+        "web-0a22ce43f3a83253",
+        "web-15ec0a08f61cea87",
+        "web-2d4806101bc476cf"
+      ],
+      "reason": "已检索；现有验证器未能完成实体、限定条件或关系链的核验，跳过无效的模型抽取与修复"
+    },
+    "ok": true,
+    "content_check": false,
+    "seconds": 3.953
+  },
+  {
+    "id": "new-capital-2",
+    "question": "创作《变形记》的作者，其出生地现今所属国家的首都是什么？",
+    "answer": "已取得资料，但无法可靠核实所问事实；暂不作未经证实的回答。",
+    "audit": {
+      "route": "external_evidence",
+      "sources": [
+        {
+          "id": "web-4989273f434d9739",
+          "title": "卡夫卡中短篇全集Ⅳ",
+          "url": "https://books.google.com.sg/books/about/%E5%8D%A1%E5%A4%AB%E5%8D%A1%E4%B8%AD%E7%9F%AD%E7%AF%87%E5%85%A8%E9%9B%86%E2%85%A3.html?id=eirMDQAAQBAJ&redir_esc=y",
+          "text_sha256": "acb01f20656c8c28e07997d56e628dc59bf213ed6f87e56fbd841332dcdccdea",
+          "retrieved_at": "2026-10-31T17:11:32.119403+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "卡夫卡 出生地 现今所属国家首都",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.7810938358306885,
+          "page_date": "2014-08-11T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-099b86c60e06d29e",
+          "title": "布拉格的卡夫卡情结",
+          "url": "https://news.sina.cn/sa/2003-08-21/detail-ikknscsi1043459.d.html",
+          "text_sha256": "8945bbcaa34fde78faee3cd4c919a07e7fec077b4c5633782257fe02b1e2a463",
+          "retrieved_at": "2026-10-31T17:11:32.120094+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "卡夫卡 出生地 现今所属国家首都",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.7810938358306885,
+          "page_date": "2003-08-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-7680e8ce217c9b8b",
+          "title": "卡夫卡与世界的分歧 --文史--中国作家网 - 卡夫卡与世界的分歧",
+          "url": "http://www.chinawriter.com.cn/n1/2019/1021/c404064-31411401.html",
+          "text_sha256": "20daa0aea4eab5d3a56f6be7fa82ad22bbb9784be4e16a4d6d6a886d98717900",
+          "retrieved_at": "2026-10-31T17:11:32.120094+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "卡夫卡 出生地 现今所属国家首都",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.687633991241455,
+          "page_date": "2019-10-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-49c3c6bef1dd21a8",
+          "title": "卡夫卡變形記",
+          "url": "https://isbn.tw/9789574554478",
+          "text_sha256": "3d8dbee376ad4284cdcbaecc4cb1c3d58bfc12497fef57251a97a2f6804697fa",
+          "retrieved_at": "2026-10-31T17:11:32.120598+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "《变形记》作者 出生地 国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6412975788116455,
+          "page_date": "2003-06-30T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-d8c201846ae28228",
+          "title": "",
+          "url": "https://opac.cdclib.org/opac/book/1003862877?flag=printer&view=simple",
+          "text_sha256": "87bad7e9f523cab98f419cf09faeefa1ea050e81ed62db8bc11ceef4a5d7945b",
+          "retrieved_at": "2026-10-31T17:11:32.120598+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "《变形记》作者 出生地 国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.5346684455871582,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "binding_unresolved",
+      "factual_scope": {
+        "kind": "birthplace",
+        "preferred_scopes": [
+          "birthplace"
+        ],
+        "retrieval_hint": "出生地 born in 传记",
+        "instruction": "出生地、祖籍、籍贯和住所是不同属性。缺少出生地证据时保留已确认身份，明确缺失出生地，不能用祖籍替代。"
+      },
+      "phase": "structured_evidence",
+      "plan_seconds": 3.157,
+      "retrieval_seconds": 0.062,
+      "queries": [
+        "卡夫卡 出生地 现今所属国家首都",
+        "《变形记》作者 出生地 国家首都"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "structured_evidence": {
+        "plan": {
+          "anchor": "变形记",
+          "kind": "work_birth_capital",
+          "types": [],
+          "scope": "current_birthplace_country"
+        },
+        "scope": "current_birthplace_country",
+        "provider": "wikidata",
+        "identity_limitation": "Positive typed matches among at most five exact-name candidates; not globally exhaustive.",
+        "source_limitation": "Community-maintained structured evidence, not authoritative independent truth verification.",
+        "status": "identity_unresolved",
+        "detail": "multiple or no type-backed exact matches",
+        "edges": [],
+        "disambiguation": [
+          {
+            "id": "Q118208128",
+            "status": "exact_alias_not_found"
+          },
+          {
+            "id": "Q25136602",
+            "status": "requested_role_not_supported",
+            "property": "P50"
+          },
+          {
+            "id": "Q10912879",
+            "status": "requested_role_not_supported",
+            "property": "P50"
+          }
+        ],
+        "network_requests": []
+      },
+      "structured_seconds": 0.172,
+      "skipped_unverifiable_extraction": true,
+      "binding_checks": [
+        {
+          "source_id": "web-4989273f434d9739",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-099b86c60e06d29e",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-7680e8ce217c9b8b",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-49c3c6bef1dd21a8",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-d8c201846ae28228",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        }
+      ],
+      "visible_source_ids": [
+        "web-4989273f434d9739",
+        "web-099b86c60e06d29e",
+        "web-7680e8ce217c9b8b",
+        "web-49c3c6bef1dd21a8",
+        "web-d8c201846ae28228"
+      ],
+      "reason": "已检索；现有验证器未能完成实体、限定条件或关系链的核验，跳过无效的模型抽取与修复"
+    },
+    "ok": true,
+    "content_check": false,
+    "seconds": 3.422
+  },
+  {
+    "id": "multi-wrong",
+    "question": "本题为不定项选择题。选出所有错误的等式。\nA. 11+7=19\nB. 9*4=36\nC. 17-8=8\nD. 35/5=7",
+    "answer": "A,C",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "false_statements",
+      "judgment_field": "statement_true",
+      "usage": {
+        "completion_tokens": 154,
+        "prompt_tokens": 321,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "statement_true": false,
+          "reason": "11 + 7 = 18，而不是19。",
+          "independent_check": "numeric_equality",
+          "selected": true
+        },
+        {
+          "label": "B",
+          "statement_true": true,
+          "reason": "9 * 4 = 36 是正确的。",
+          "independent_check": "numeric_equality",
+          "selected": false
+        },
+        {
+          "label": "C",
+          "statement_true": false,
+          "reason": "17 - 8 = 9，而不是8。",
+          "independent_check": "numeric_equality",
+          "selected": true
+        },
+        {
+          "label": "D",
+          "statement_true": true,
+          "reason": "35 / 5 = 7 是正确的。",
+          "independent_check": "numeric_equality",
+          "selected": false
+        }
+      ]
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 4.891
+  },
+  {
+    "id": "multi-right",
+    "question": "本题为不定项选择题。选出所有正确的等式。\nA. 6*8=48\nB. 12/3=5\nC. 19-6=13\nD. 8+5=12",
+    "answer": "A,C",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "true_statements",
+      "judgment_field": "statement_true",
+      "usage": {
+        "completion_tokens": 155,
+        "prompt_tokens": 320,
+        "total_tokens": 475,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "statement_true": true,
+          "reason": "6乘以8确实等于48。",
+          "independent_check": "numeric_equality",
+          "selected": true
+        },
+        {
+          "label": "B",
+          "statement_true": false,
+          "reason": "12除以3等于4，而不是5。",
+          "independent_check": "numeric_equality",
+          "selected": false
+        },
+        {
+          "label": "C",
+          "statement_true": true,
+          "reason": "19减去6等于13是错误的，正确结果是13。",
+          "independent_check": "numeric_equality",
+          "selected": true
+        },
+        {
+          "label": "D",
+          "statement_true": false,
+          "reason": "8加5等于13，而不是12。",
+          "independent_check": "numeric_equality",
+          "selected": false
+        }
+      ]
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 7.343
+  },
+  {
+    "id": "scope-extra",
+    "question": "负责产生ATP且具有自身DNA、没有细胞膜的细胞结构，其人体细胞数量通常达到什么范围？",
+    "answer": "已取得资料，但无法可靠核实所问事实；暂不作未经证实的回答。",
+    "audit": {
+      "route": "external_evidence",
+      "sources": [
+        {
+          "id": "independent-cache-e26b9674c0b5703d",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-b530cb033310aa19",
+          "title": "知识点 1-2：细胞的结构与各自功能",
+          "url": "http://zzdsj.jyt.henan.gov.cn/preview/08/2019/09/29/03C95004668523A9D9335417BCCD8032.pdf",
+          "text_sha256": "daef7e71c58bf00823c38fb55df945b5fae32e8e3f996f5321a924be2224b23f",
+          "retrieved_at": "2026-10-31T17:11:36.334391+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "负责产生ATP且具有自身DNA、没有细胞膜的细胞结构，其人体细胞数量通常达到什么范围？",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.8473536372184753,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-ed9987242db0ec96",
+          "title": "Sanjay Joshi",
+          "url": "https://www.snia.org/sites/default/files/SDC15_presentations/etc/SanjayJoshi__etc_Human_Cell.pdf",
+          "text_sha256": "f9baef9f8fe677fd4dd708e46076cdbc982e2363f4ac41c2ac30551d30af58e5",
+          "retrieved_at": "2026-10-31T17:11:36.334391+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "负责产生ATP且具有自身DNA、没有细胞膜的细胞结构，其人体细胞数量通常达到什么范围？",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.7837072610855103,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-b40f8ed8b2e27a2f",
+          "title": "专题01 细胞的分子组成与结构",
+          "url": "http://www.sneduyun.com/huodong/2018/topicThree/files/sw/ja/%e4%b8%93%e9%a2%9801%20%e7%bb%86%e8%83%9e%e7%9a%84%e5%88%86%e5%ad%90%e7%bb%84%e6%88%90%e4%b8%8e%e7%bb%93%e6%9e%84%e6%95%99%e5%ad%a6%e6%a1%88.doc",
+          "text_sha256": "32d123e5394c9fa3734c691959711ef0e922167f6c27ca0c59219a128f49e972",
+          "retrieved_at": "2026-10-31T17:11:36.334391+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "负责产生ATP且具有自身DNA、没有细胞膜的细胞结构，其人体细胞数量通常达到什么范围？",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.6478942036628723,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "binding_unresolved",
+      "factual_scope": {
+        "kind": "count",
+        "preferred_scopes": [
+          "per_human_cell"
+        ],
+        "retrieval_hint": "每个人体细胞 细胞器 数量范围 细胞类型",
+        "instruction": "默认问每个人体细胞中该结构的数量，明确问全身总数时尊重原题。核对物种、分母、细胞类型和数量范围，不将特殊细胞类型推广到所有细胞。"
+      },
+      "phase": "evidence_binding",
+      "planner_timeout": true,
+      "plan_seconds": 4.078,
+      "query_fallback": "original_question",
+      "retrieval_seconds": 0.078,
+      "queries": [
+        "负责产生ATP且具有自身DNA、没有细胞膜的细胞结构，其人体细胞数量通常达到什么范围？"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "scoped_evidence": {
+        "policy": {
+          "kind": "count",
+          "preferred_scopes": [
+            "per_human_cell"
+          ],
+          "retrieval_hint": "每个人体细胞 细胞器 数量范围 细胞类型",
+          "instruction": "默认问每个人体细胞中该结构的数量，明确问全身总数时尊重原题。核对物种、分母、细胞类型和数量范围，不将特殊细胞类型推广到所有细胞。"
+        },
+        "accepted_records": [],
+        "limitation": "Literal source/subject/scope binding, not comprehensive semantic or source-truth verification.",
+        "status": "insufficient"
+      },
+      "scoped_extraction_errors": [],
+      "skipped_unverifiable_extraction": true,
+      "binding_checks": [
+        {
+          "source_id": "independent-cache-e26b9674c0b5703d",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-b530cb033310aa19",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-ed9987242db0ec96",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        },
+        {
+          "source_id": "web-b40f8ed8b2e27a2f",
+          "entity": "unresolved",
+          "qualifiers": "unresolved",
+          "attribute": "unresolved",
+          "conflict": "unresolved"
+        }
+      ],
+      "visible_source_ids": [
+        "independent-cache-e26b9674c0b5703d",
+        "web-b530cb033310aa19",
+        "web-ed9987242db0ec96",
+        "web-b40f8ed8b2e27a2f"
+      ],
+      "reason": "已检索；现有验证器未能完成实体、限定条件或关系链的核验，跳过无效的模型抽取与修复"
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 4.172
+  },
+  {
+    "id": "missing",
+    "question": "新钢管的质量是原钢管的2.8倍，现有13根，总质量是多少千克？",
+    "answer": "所给信息不足，无法确定具体数值；题目没有提供可构成所问单位的原始测量值。",
+    "audit": {
+      "route": "measurement_missing",
+      "sources": [],
+      "retrieval_errors": [],
+      "quantity_check": {
+        "status": "missing",
+        "quantities": [
+          {
+            "id": "q0",
+            "literal": "2.8倍",
+            "value": 2.8,
+            "unit": "倍",
+            "si_value": 2.8,
+            "dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "base_dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "delta": false,
+            "position": 11
+          },
+          {
+            "id": "q1",
+            "literal": "13",
+            "value": 13.0,
+            "unit": "",
+            "si_value": 13.0,
+            "dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "base_dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "delta": false,
+            "position": 18
+          }
+        ],
+        "target_unit": "千克",
+        "target_scale": 1,
+        "target_dimensions": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "reason": "题目没有提供可构成所问单位的原始测量值。"
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 0.0
+  },
+  {
+    "id": "history-new",
+    "question": "【世界设定】【对话记录】2026年田雨任山岚项目副负责人。2028年升任负责人。2030年的宣传误写她2026年已任负责人，随后正式撤回。乙世界她2026年是会计。【最终问题】原世界中2027年田雨的职务是什么？",
+    "answer": "原世界中2027年田雨的职务是山岚项目副负责人。",
+    "audit": {
+      "route": "closed_scope",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "material_verification",
+      "usage": {
+        "completion_tokens": 20,
+        "prompt_tokens": 209,
+        "total_tokens": 229,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 5.563
+  },
+  {
+    "id": "history-missing",
+    "question": "【世界设定】【对话记录】2027年蓝舟公司负责人为李谷，资料未给公司利润。【最终问题】仅根据材料，2027年公司的利润是多少万元？",
+    "answer": "材料中未提供2027年公司的利润信息，无法确定。",
+    "audit": {
+      "route": "closed_scope",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "material_verification",
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 171,
+        "total_tokens": 188,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "ok": true,
+    "content_check": true,
+    "seconds": 3.562
+  }
+]

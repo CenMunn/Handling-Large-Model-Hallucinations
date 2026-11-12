@@ -1,0 +1,5 @@
+{
+  "phase": "offline_awaiting_user_console_start",
+  "reason": "Both local model and ngrok processes were absent during platform timeout diagnosis.",
+  "next": "Double-click START-SERVICES.cmd in Windows, keep console open, then verify /health from platform."
+}

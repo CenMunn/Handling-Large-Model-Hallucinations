@@ -1,0 +1,98 @@
+[
+  {
+    "name": "麦克白",
+    "ok": true,
+    "hits": 5,
+    "seconds": 0.813,
+    "requests": [
+      {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "parameters": {
+          "format": "json",
+          "action": "wbsearchentities",
+          "search": "麦克白",
+          "language": "zh",
+          "uselang": "zh-hans",
+          "limit": 5
+        },
+        "accessed_at": "2026-10-31T17:11:10.322246+00:00",
+        "status": 200,
+        "response_sha256": "b22d612f17dcae5fd9c540e324894517890df1ba2d02ca29488af981d3e2a7a5",
+        "content_type": "application/json; charset=utf-8",
+        "seconds": 0.766
+      }
+    ]
+  },
+  {
+    "name": "红与黑",
+    "ok": true,
+    "hits": 5,
+    "seconds": 1.954,
+    "requests": [
+      {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "parameters": {
+          "format": "json",
+          "action": "wbsearchentities",
+          "search": "红与黑",
+          "language": "zh",
+          "uselang": "zh-hans",
+          "limit": 5
+        },
+        "accessed_at": "2026-10-31T17:11:11.556245+00:00",
+        "status": 200,
+        "response_sha256": "e25a640293630f5ce23d2bfd7af54833eb291600c1ce25f3de0fe37cfd222eee",
+        "content_type": "application/json; charset=utf-8",
+        "seconds": 0.672
+      }
+    ]
+  },
+  {
+    "name": "居里夫人",
+    "ok": true,
+    "hits": 5,
+    "seconds": 4.454,
+    "requests": [
+      {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "parameters": {
+          "format": "json",
+          "action": "wbsearchentities",
+          "search": "居里夫人",
+          "language": "zh",
+          "uselang": "zh-hans",
+          "limit": 5
+        },
+        "accessed_at": "2026-10-31T17:11:14.069289+00:00",
+        "status": 200,
+        "response_sha256": "3fb21bc27ccdfe693612ead16515cc167024b4c909a00bb16d4f6d565d5ead0a",
+        "content_type": "application/json; charset=utf-8",
+        "seconds": 0.657
+      }
+    ]
+  },
+  {
+    "name": "伦敦",
+    "ok": true,
+    "hits": 5,
+    "seconds": 3.204,
+    "requests": [
+      {
+        "endpoint": "https://www.wikidata.org/w/api.php",
+        "parameters": {
+          "format": "json",
+          "action": "wbsearchentities",
+          "search": "伦敦",
+          "language": "zh",
+          "uselang": "zh-hans",
+          "limit": 5
+        },
+        "accessed_at": "2026-10-31T17:11:12.795995+00:00",
+        "status": 200,
+        "response_sha256": "26adbea047d74728dfa3fd55f3d206760dc92813082a4e4a886edb43b3c91c73",
+        "content_type": "application/json; charset=utf-8",
+        "seconds": 0.672
+      }
+    ]
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "count": 12,
+  "successful_calls": 12,
+  "content_checks": 10,
+  "max_seconds": 7.343,
+  "limitations": "12 first-run new prompts, but 4 directly concern curated corpus; substring checks are not independent human grading or hidden accuracy."
+}

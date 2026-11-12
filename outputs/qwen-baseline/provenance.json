@@ -1,0 +1,14 @@
+[
+  {
+    "path": "D:\\\u5e7b\u89c9\u6bd4\u8d5b\\work\\runtime\\llama-vulkan.zip",
+    "url": "https://github.com/ggml-org/llama.cpp/releases/download/b11985/llama-b11985-bin-win-vulkan-x64.zip?download=1",
+    "bytes": 37347310,
+    "sha256": "3aebe02c5c8f0ed7bd8a32b967413b76c8b9a6127319c4dc46103511835c08f5"
+  },
+  {
+    "path": "D:\\\u5e7b\u89c9\u6bd4\u8d5b\\work\\models\\Qwen3-8B-Q4_K_M.gguf",
+    "url": "https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/7c41481f57cb95916b40956ab2f0b139b296d974/Qwen3-8B-Q4_K_M.gguf?download=true",
+    "bytes": 5027783488,
+    "sha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785"
+  }
+]

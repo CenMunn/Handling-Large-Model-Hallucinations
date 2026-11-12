@@ -1,0 +1,9 @@
+{
+  "suite": "demo21",
+  "count": 21,
+  "calls_ok": 21,
+  "max_seconds": 13.172,
+  "wall_seconds": 27.797,
+  "content_checks": null,
+  "scope": "Small local four-worker Engine replay; caches partly warm. Not public/container acceptance, independent hidden accuracy or human scoring."
+}

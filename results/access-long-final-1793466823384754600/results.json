@@ -1,0 +1,66 @@
+[
+  {
+    "content_check": true,
+    "answer": "截至2029年9月，林杉在潮汐项目的职务是副负责人，职责是光谱分析。",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 8315,
+      "total_tokens": 8342,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "closed_scope",
+    "ok": true,
+    "elapsed_seconds": 10.563
+  },
+  {
+    "content_check": true,
+    "answer": "截至2029年9月，林杉在潮汐项目的职务是副负责人，职责是光谱分析。",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 8315,
+      "total_tokens": 8342,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "closed_scope",
+    "ok": true,
+    "elapsed_seconds": 6.079
+  },
+  {
+    "content_check": true,
+    "answer": "截至2029年9月，林杉在潮汐项目的职务是副负责人，职责是光谱分析。",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 8315,
+      "total_tokens": 8342,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "closed_scope",
+    "ok": true,
+    "elapsed_seconds": 20.11
+  },
+  {
+    "content_check": true,
+    "answer": "截至2029年9月，林杉在潮汐项目的职务是副负责人，职责是光谱分析。",
+    "usage": {
+      "completion_tokens": 27,
+      "prompt_tokens": 8315,
+      "total_tokens": 8342,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "finish_reason": "stop",
+    "route": "closed_scope",
+    "ok": true,
+    "elapsed_seconds": 15.266
+  }
+]

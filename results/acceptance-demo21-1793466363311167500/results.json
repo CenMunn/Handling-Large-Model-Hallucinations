@@ -1,0 +1,3274 @@
+[
+  {
+    "id": "10",
+    "question": "【设问知识】时间单位换算\n----------------------------------\n如果每小时增加30分钟，那么一小时等于多少分钟？",
+    "ok": true,
+    "answer": "90分钟",
+    "audit": {
+      "route": "verified_arithmetic",
+      "sources": [],
+      "retrieval_errors": [],
+      "math": {
+        "answer": "90分钟",
+        "value": 90.0,
+        "expression": "1 * 60 + 30",
+        "constants": [
+          "hour_minutes"
+        ],
+        "independent_computation": true,
+        "interpretation_verified": false,
+        "note": "Arithmetic checked independently; text-to-expression interpretation still model-dependent."
+      }
+    },
+    "seconds": 4.594,
+    "content_check": null
+  },
+  {
+    "id": "26",
+    "question": "如果儒学典籍目录规定，“四书”条目仍按现实中的通行构成列出，那么应列出哪四部？",
+    "ok": true,
+    "answer": "四书应列出《大学》《中庸》《论语》《孟子》。",
+    "audit": {
+      "route": "model_only",
+      "sources": [],
+      "retrieval_errors": [],
+      "usage": {
+        "completion_tokens": 21,
+        "prompt_tokens": 97,
+        "total_tokens": 118,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "seconds": 3.25,
+    "content_check": null
+  },
+  {
+    "id": "30",
+    "question": "如果家庭照明全部更换为功率为原灯泡1.5倍的灯具，共安装10盏，总功率是多少瓦？",
+    "ok": true,
+    "answer": "所给信息不足，无法确定具体数值；题目没有提供可构成所问单位的原始测量值。",
+    "audit": {
+      "route": "measurement_missing",
+      "sources": [],
+      "retrieval_errors": [],
+      "quantity_check": {
+        "status": "missing",
+        "quantities": [
+          {
+            "id": "q0",
+            "literal": "1.5倍",
+            "value": 1.5,
+            "unit": "倍",
+            "si_value": 1.5,
+            "dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "base_dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "delta": false,
+            "position": 17
+          },
+          {
+            "id": "q1",
+            "literal": "10盏",
+            "value": 10.0,
+            "unit": "盏",
+            "si_value": 10.0,
+            "dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "base_dimensions": [
+              0,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "delta": false,
+            "position": 28
+          }
+        ],
+        "target_unit": "瓦",
+        "target_scale": 1,
+        "target_dimensions": [
+          1,
+          2,
+          -3,
+          0,
+          0,
+          0
+        ],
+        "reason": "题目没有提供可构成所问单位的原始测量值。"
+      }
+    },
+    "seconds": 0.0,
+    "content_check": null
+  },
+  {
+    "id": "35",
+    "question": "假如闰年的规则被修改为2月比平年多3天，而不是现行规则，那么闰年2月有多少天？",
+    "ok": true,
+    "answer": "31天",
+    "audit": {
+      "route": "verified_arithmetic",
+      "sources": [],
+      "retrieval_errors": [],
+      "math": {
+        "answer": "31天",
+        "value": 31.0,
+        "expression": "february_nonleap_days + 3",
+        "constants": [
+          "february_nonleap_days"
+        ],
+        "independent_computation": true,
+        "interpretation_verified": false,
+        "note": "Arithmetic checked independently; text-to-expression interpretation still model-dependent."
+      }
+    },
+    "seconds": 2.594,
+    "content_check": null
+  },
+  {
+    "id": "39",
+    "question": "如果地球公转规则规定一年天数在常规平年基础上增加10天，那么该年份共有多少天？",
+    "ok": true,
+    "answer": "375天",
+    "audit": {
+      "route": "verified_arithmetic",
+      "sources": [],
+      "retrieval_errors": [],
+      "math": {
+        "answer": "375天",
+        "value": 375.0,
+        "expression": "common_year_days + 10",
+        "constants": [
+          "common_year_days"
+        ],
+        "independent_computation": true,
+        "interpretation_verified": false,
+        "note": "Arithmetic checked independently; text-to-expression interpretation still model-dependent."
+      }
+    },
+    "seconds": 1.484,
+    "content_check": null
+  },
+  {
+    "id": "42",
+    "question": "【设问知识】三角形角数量\n----------------------------------\n如果几何规则规定三角形增加4个角，那么三角形有多少个角？",
+    "ok": true,
+    "answer": "7个角",
+    "audit": {
+      "route": "verified_count_change",
+      "sources": [],
+      "retrieval_errors": [],
+      "math": {
+        "answer": "7个角",
+        "value": 7,
+        "base": 3,
+        "delta": 4,
+        "entity": "三角形",
+        "baseline_source": "ordinary_polygon_vertex_count",
+        "independent_computation": true,
+        "interpretation_verified": true,
+        "method": "complete count-change grammar; baseline plus signed change"
+      }
+    },
+    "seconds": 0.0,
+    "content_check": null
+  },
+  {
+    "id": "46",
+    "question": "如果中国传统“六艺”被假设新增一艺，那么共有几艺？",
+    "ok": true,
+    "answer": "如果中国传统“六艺”被假设新增一艺，则共有七艺。",
+    "audit": {
+      "route": "model_only",
+      "sources": [],
+      "retrieval_errors": [],
+      "usage": {
+        "completion_tokens": 17,
+        "prompt_tokens": 86,
+        "total_tokens": 103,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      }
+    },
+    "seconds": 3.657,
+    "content_check": null
+  },
+  {
+    "id": "47",
+    "question": "如果英国文学数据库规定，那部围绕荒原庄园与强烈情感纠葛的小说应直接以真实作者命名条目，那么条目应使用谁的名字？",
+    "ok": true,
+    "answer": "根据检索到的情节描述，所指应为《呼啸山庄》，其作者是艾米莉·勃朗特。 来源：https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html；https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+    "audit": {
+      "route": "bibliographic_evidence",
+      "sources": [
+        {
+          "id": "independent-cache-57b6d4338e233ad6",
+          "url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:10.574320+00:00",
+          "raw_sha256": "97efa1ba953440b3ab48388a083035eb40068ce7c4fcd329eec2f7ef81f8abb2",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "independent-cache-38cce96b4a928cc7",
+          "url": "https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:10.159602+00:00",
+          "raw_sha256": "52851e1a1348cb7aa4c15a4f2d44a25721aa8622fa02363285f8e56e6ffb6044",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-38cce96b4a928cc7",
+          "title": "重庆医科大学图书馆",
+          "url": "https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+          "text_sha256": "25daf8bf31eda31f79ed4107ef97d847394c1cccbdb0af2fb5295c790992e5f0",
+          "retrieved_at": "2026-10-31T17:06:09.956172+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "荒原庄园 强烈情感纠葛 小说 真实作者",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.772564709186554,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-18ab9fb015b6fbfa",
+          "title": "伊夫林·沃|-当当图书 - 新窗口打开无障碍说明页面,按Ctrl加波浪键打开导盲模式",
+          "url": "https://search.dangdang.com/?medium=01&key2=%E4%BC%8A%E5%A4%AB%E6%9E%97%C2%B7%E6%B2%83%7C&category_path=01.00.00.00.00.00&city=136&att=s4294967296%3A4294972761",
+          "text_sha256": "f7e71e57767c7500234392bf07005a838faf009ffd08fe1d9c90c0032e864149",
+          "retrieved_at": "2026-10-31T17:06:09.957676+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "荒原庄园 强烈情感纠葛 小说 真实作者",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.6956717371940613,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-57b6d4338e233ad6",
+          "title": "呼啸山庄_好书推荐_郑州卫生健康职业学院图书馆",
+          "url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html",
+          "text_sha256": "5f374cd184aed449751f920601341fba5a9b1e00f27feac332beb49883ac52ea",
+          "retrieved_at": "2026-10-31T17:06:09.957676+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "荒原庄园 强烈情感纠葛 小说 真实作者",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.6399375796318054,
+          "page_date": "2026-03-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-7a1b5773023a16a4",
+          "title": "陷入“魔改”争议",
+          "url": "https://sjb.qlwb.com.cn/qlwb/PDF/20260316/A10.pdf",
+          "text_sha256": "7ad9f46f99ac7602269f2ba9e76a51125272742e0ac01cc636dbc2f1fde64285",
+          "retrieved_at": "2026-10-31T17:06:09.965212+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "围绕荒原庄园与强烈情感纠葛的小说 真实作者名字",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.2972742319107056,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "direct-bibliographic-6",
+          "source_kind": "direct_registered_publication_https",
+          "url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html",
+          "raw_sha256": "97efa1ba953440b3ab48388a083035eb40068ce7c4fcd329eec2f7ef81f8abb2",
+          "retrieved_at": "2026-10-31T16:32:10.574320+00:00",
+          "transport": "independent_https"
+        },
+        {
+          "id": "direct-bibliographic-7",
+          "source_kind": "direct_registered_publication_https",
+          "url": "https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+          "raw_sha256": "52851e1a1348cb7aa4c15a4f2d44a25721aa8622fa02363285f8e56e6ffb6044",
+          "retrieved_at": "2026-10-31T16:32:10.159602+00:00",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "literal_bibliographic_chain_bound",
+      "phase": "independent_bibliographic_chain",
+      "plan_seconds": 3.922,
+      "retrieval_seconds": 0.094,
+      "queries": [
+        "荒原庄园 强烈情感纠葛 小说 真实作者",
+        "围绕荒原庄园与强烈情感纠葛的小说 真实作者名字"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "bibliographic_evidence": {
+        "status": "supported",
+        "work": "呼啸山庄",
+        "author": "艾米莉·勃朗特",
+        "clue_matches": [
+          {
+            "work": "呼啸山庄",
+            "block": "《呼啸山庄》\n\n(英) 艾米莉·勃朗特著;方平译\n\n馆藏地址：流通四库 \n\n索书号：I561.44/58\n\n《呼啸山庄》是艾米莉・勃朗特的传世经典，以荒原般浓烈狂暴的笔触，讲述了希斯克利夫与凯瑟琳跨越生死的爱恨纠葛。故事交织着复仇与执念、人性的光明与阴暗，情感炽热而残酷，打破了传统温情小说的范式。荒凉的庄园、偏执的爱恋、宿命般的纠缠，构成震撼人心的悲剧力量。它不仅是一部爱情史诗，更是对人性、阶级与灵魂的深刻叩问，读来令人久久难忘。\n\n（ 编辑：徐莹莹  复审：万东海  终审：李红霞）\n\r\n\n\r\n\r\n\n\r\n\n\r\n\n\r\n\r\n\n上一篇：汴京之围 \n\r\n\n下一篇：小妇人\n\r\n\r\n\n\r\n\n\r\n返回首页\r\n关闭页面\r\n\n\r\n\n\r\n\n\r\n\n\r\n\n\r\n\n\r\n\n\r\n\n\r\n\n\r\n\r\n\n友情链接：\n\r\n\r\n\n学校首页\n\r\n\n 行政办公室\n\r\n\n 教务处（科研处） \n\r\n\n 人事处 \n\r\n\n 财务处 \n\r\n\n 招生就业处\n\r\n\n后勤处（爱卫办） \n\r\n\n 安全保卫处 \n\r\n\n 图书馆 \n\r\n\n 信息技术管理中心 \n\r\n\r\n\n\r\n\n\r\n\n地址：郑州市荥阳市京襄路69号\r\n  联系电话：0371-68538103  68538877  15637157220\n\r\n  招生咨询电话：0371-68217799  68218899\n\r\n  信访投诉电话：0371-68538877  \n\r\n版权所有：郑州卫生健康职业学院\n\n\r\n\n\n\r\n\n\r\n\n\r\n\n\r\n\r\n\r\n",
+            "credits": [
+              {
+                "author": "艾米莉·勃朗特",
+                "country": "英国",
+                "quote": "《呼啸山庄》\n\n(英) 艾米莉·勃朗特著;"
+              },
+              {
+                "author": "艾米莉・勃朗特",
+                "country": null,
+                "quote": "《呼啸山庄》是艾米莉・勃朗特的传世经典"
+              }
+            ],
+            "unresolved_credit": false,
+            "source_url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html",
+            "clue_coverage": [
+              [
+                "荒原",
+                "荒原"
+              ],
+              [
+                "庄园",
+                "庄园"
+              ],
+              [
+                "强烈",
+                "浓烈"
+              ],
+              [
+                "情感",
+                "情感"
+              ],
+              [
+                "纠葛",
+                "纠葛"
+              ]
+            ]
+          }
+        ],
+        "credit_sources": [
+          {
+            "author": "艾米莉·勃朗特",
+            "country": "英国",
+            "quote": "《呼啸山庄》\n\n(英) 艾米莉·勃朗特著;",
+            "source_url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html"
+          },
+          {
+            "author": "艾米莉・勃朗特",
+            "country": null,
+            "quote": "《呼啸山庄》是艾米莉・勃朗特的传世经典",
+            "source_url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html"
+          },
+          {
+            "author": "艾米莉·勃朗特",
+            "country": "英国",
+            "quote": "《呼啸山庄》是英国作家艾米莉·勃朗特的唯一长篇代表作",
+            "source_url": "https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea"
+          }
+        ],
+        "answer": "根据检索到的情节描述，所指应为《呼啸山庄》，其作者是艾米莉·勃朗特。 来源：https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html；https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+        "limitation": "Bounded lexical clue matching and source-credit agreement; neither global identity nor independent origins of sources are proven.",
+        "fetch_errors": [],
+        "source_access": [
+          {
+            "url": "https://www.zzhvc.cn/tsg/2026_03/30_16/content-20919.html",
+            "raw_sha256": "97efa1ba953440b3ab48388a083035eb40068ce7c4fcd329eec2f7ef81f8abb2",
+            "retrieved_at": "2026-10-31T16:32:10.574320+00:00",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://se.zhangyue.com/book/detail?bookId=13687470&bookType=1&appId=c52940ea",
+            "raw_sha256": "52851e1a1348cb7aa4c15a4f2d44a25721aa8622fa02363285f8e56e6ffb6044",
+            "retrieved_at": "2026-10-31T16:32:10.159602+00:00",
+            "transport": "independent_https"
+          }
+        ]
+      },
+      "binding_limitation": "Bounded lexical clue matching and source-credit agreement; neither global identity nor independent origins of sources are proven."
+    },
+    "seconds": 4.515,
+    "content_check": null
+  },
+  {
+    "id": "4",
+    "question": "提出蒸汽机改良方案并推动工业革命的发明家，其出生地所在国家的官方语言主要是什么？",
+    "ok": true,
+    "answer": "若题干指詹姆斯·瓦特，按出生地现今所属主权国家英国理解，主要使用语言是英语。未核实全国层面的法定官方语言，以上明确采用主要使用语言的替代口径；地区法律地位不能等同全国法律地位。 来源：https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf；https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt；https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/；https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+    "audit": {
+      "route": "curated_birth_country_language",
+      "sources": [
+        {
+          "id": "independent-cache-e26b9674c0b5703d",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "independent-cache-f67cd88fa5e99ea6",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+          "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-7a348172814974c4",
+          "title": "瓦特-科普/百科-新书推荐-精品图书-中国出版集团",
+          "url": "http://book.cnpubg.com/?app=book&controller=book&action=showBook&typeid=389,390,391,392,393,394,395,396,397,398,399&bookid=57868",
+          "text_sha256": "5c4831c4a758e6c642d31bb300aed89583dda16005f46efe1da5cf7a2b412245",
+          "retrieved_at": "2026-10-31T17:06:11.176332+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "蒸汽机改良发明家出生地国家官方语言",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.0493242740631104,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-4849973056d39179",
+          "title": "詹姆斯·瓦特 - 維基百科，自由的百科全書 - 詹姆斯·瓦特",
+          "url": "https://zh.wikipedia.org/zh-hant/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E7%93%A6%E7%89%B9",
+          "text_sha256": "c8c934e7d8f34ac5d26d76c129d454ec4cb2eb25641cb639377ac77e10be55f6",
+          "retrieved_at": "2026-10-31T17:06:11.176332+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "蒸汽机改良发明家出生地国家官方语言",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.0372793674468994,
+          "page_date": "2005-03-06T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-85e47632170ce204",
+          "title": "德尼·帕潘 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/wiki?curid=3499050",
+          "text_sha256": "fe04f2303b9749536b1284e7141c10b73b2b2f08162d8d35413a6805f918bb61",
+          "retrieved_at": "2026-10-31T17:06:11.176332+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "蒸汽机改良发明家出生地国家官方语言",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.9895043969154358,
+          "page_date": "2013-06-10T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-52750a8b9e260bff",
+          "title": "给小学生讲世界历史（下）最新章节_李锋敏著_掌阅小说网 - 随着历史的不断向前推进，生产力发展之后，生产产品的原料增加了，同时劳动力的数量增加了，而且由于多年的海外贸易和扩张，生产出的产品也不愁没有销路了，此时，传统的生产方式愈加显得无法满足需求",
+          "url": "https://m.zhangyue.com/readbook/11317580/2?p2=108047",
+          "text_sha256": "a289cfe340684536380964ed3e20d894ad85fd2a0b52212736072605aa252565",
+          "retrieved_at": "2026-10-31T17:06:11.941209+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "推动工业革命发明家出生国主要使用语言",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.851311981678009,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-e95282a389113fa1",
+          "title": "詹姆斯·瓦特",
+          "url": "https://wapbaike.baidu.com/item/%E8%A9%B9%E5%A7%86%E6%96%AF%C2%B7%E7%93%A6%E7%89%B9/972340?fromModule=lemma_starMap&lemmaFrom=lemma_relation_starMap&structureId=7e4db7414905664e5dd90c21&structureClickId=972340&structureItemId=12a05361702a9fd312341273&lemmaIdFrom=980777",
+          "text_sha256": "c4994b2337c788392540b025f5b5ed89ad5296889aa6b04de09942f8addb2c0c",
+          "retrieved_at": "2026-10-31T17:06:11.941209+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "推动工业革命发明家出生国主要使用语言",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.8075005412101746,
+          "page_date": "2026-08-29T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-175336a9b7fc1c23",
+          "title": "工业革命的进程练习题及答案-高中历史学业考试-困难-组卷网 - 难度：",
+          "url": "https://zujuan.xkw.com/gzls/zsd150090/d3pt15o2/",
+          "text_sha256": "8de9c3524c8111be516d26522ef8c6eff77d342ed090940fc33c17d393f191e5",
+          "retrieved_at": "2026-10-31T17:06:11.942224+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "推动工业革命发明家出生国主要使用语言",
+          "provider_authority": 2,
+          "provider_rerank_score": 0.7914180159568787,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf",
+          "retrieved_at": "2026-10-31T15:58:04.320077+00:00",
+          "raw_sha256": "cd222a577e32339db0c017ff12080380e00b3936964f75f44c7a60280943b4cd",
+          "text_sha256": "ecc86ebec27aeb5f8d0fa2f750e6de25eb1267aee4824ffa8aba47b347391501",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt",
+          "retrieved_at": "2026-10-31T16:12:24.169197+00:00",
+          "text_sha256": "1de11685f38a280a9633c15cfc1bb6de5599b0a675c42165fd645de99c0f6135",
+          "transport": "independent_web_primary_reader_excerpt"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/",
+          "retrieved_at": "2026-10-31T15:35:18.846415+00:00",
+          "raw_sha256": "f70754fe139fc4f19ed8c3b4a8146287744f61c9e43c38c1244713ac7daed313",
+          "text_sha256": "addfa92b37740028c410588bbd39c5ca751902c4508414b680d490f95568b6e7",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+          "retrieved_at": "2026-10-31T16:12:24.169212+00:00",
+          "text_sha256": "40bda32e137cdf7af3866e4fae80acb0395868b53da0a42efb6b65925261707c",
+          "transport": "independent_web_primary_reader_excerpt"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "language",
+        "preferred_scopes": [
+          "legal",
+          "usage"
+        ],
+        "retrieval_hint": "法定官方语言 法律地位 主要使用语言",
+        "instruction": "优先核查具有法律地位的官方语言。未取得法律地位证据时，主要使用语言只能标注为替代口径；检索不到不代表法律上不存在。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 3.922,
+      "retrieval_seconds": 1.437,
+      "queries": [
+        "蒸汽机改良发明家出生地国家官方语言",
+        "推动工业革命发明家出生国主要使用语言"
+      ],
+      "curated_evidence": {
+        "kind": "birth_country_language",
+        "source_access": [
+          {
+            "url": "https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf",
+            "retrieved_at": "2026-10-31T15:58:04.320077+00:00",
+            "raw_sha256": "cd222a577e32339db0c017ff12080380e00b3936964f75f44c7a60280943b4cd",
+            "text_sha256": "ecc86ebec27aeb5f8d0fa2f750e6de25eb1267aee4824ffa8aba47b347391501",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt",
+            "retrieved_at": "2026-10-31T16:12:24.169197+00:00",
+            "text_sha256": "1de11685f38a280a9633c15cfc1bb6de5599b0a675c42165fd645de99c0f6135",
+            "transport": "independent_web_primary_reader_excerpt"
+          },
+          {
+            "url": "https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/",
+            "retrieved_at": "2026-10-31T15:35:18.846415+00:00",
+            "raw_sha256": "f70754fe139fc4f19ed8c3b4a8146287744f61c9e43c38c1244713ac7daed313",
+            "text_sha256": "addfa92b37740028c410588bbd39c5ca751902c4508414b680d490f95568b6e7",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+            "retrieved_at": "2026-10-31T16:12:24.169212+00:00",
+            "text_sha256": "40bda32e137cdf7af3866e4fae80acb0395868b53da0a42efb6b65925261707c",
+            "transport": "independent_web_primary_reader_excerpt"
+          }
+        ],
+        "limitation": "Small editorially curated corpus; scope guards do not prove general entailment.",
+        "status": "qualified",
+        "answer": "若题干指詹姆斯·瓦特，按出生地现今所属主权国家英国理解，主要使用语言是英语。未核实全国层面的法定官方语言，以上明确采用主要使用语言的替代口径；地区法律地位不能等同全国法律地位。 来源：https://education.gov.scot/media/kywjo1d0/gael8_jameswatteng.pdf；https://collection.sciencemuseumgroup.org.uk/people/cp37593/james-watt；https://www.historicenvironment.scot/about-us/our-work/commemorative-plaques/explore/james-watt/；https://www.northlincs.gov.uk/community-advice-and-support/life-in-uk/",
+        "scope": "national_usage_fallback"
+      }
+    },
+    "seconds": 5.375,
+    "content_check": null
+  },
+  {
+    "id": "5",
+    "question": "举办了2023年亚运会的浙江省会，其濒临的河流全长约多少公里？",
+    "ok": true,
+    "answer": "若题干指杭州附近的钱塘江，按水利普查河流名录口径，钱塘江长度约609公里。另有北源起算至入海口约668公里的资料，两者口径不同，不能直接取最大值。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+    "audit": {
+      "route": "curated_river_length",
+      "sources": [
+        {
+          "id": "web-ef15ca34ae21e2e4",
+          "title": "杭州钱塘江沿江经济带发展研究_江苏智库网",
+          "url": "https://www.jsthinktank.com/jiangsuzhiku/cjcyjjyjy/news/201705/t20170522_4120325.shtml",
+          "text_sha256": "3febf425e1699e4c8655f45ab1432b35aca5b8e83f700f2f209cb734f09e3c96",
+          "retrieved_at": "2026-10-31T17:06:11.755827+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州市 濒临河流 全长 干流 源头至河口 长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.274011731147766,
+          "page_date": "2017-05-21T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-1c9cec061da28e77",
+          "title": "杭州的河湖水系分属太湖水系和钱塘江水系",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web3249/site/attach/0/0592ca8b3b8344d6859ef72c52b188d5.pdf",
+          "text_sha256": "1286a267c43fd66955cc2ac0cb6ad61cf61f9b0a69629de80a0dd05ff40094e6",
+          "retrieved_at": "2026-10-31T17:06:11.755827+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州市 濒临河流 全长 干流 源头至河口 长度",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.227292776107788,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-9014345b5fdb2c88",
+          "title": "杭州首次公布“地理国情家底” 记者带你重新认识她",
+          "url": "http://hangzhou.zjol.com.cn/jrsd/bwzg/201803/t20180314_6796538_ext.shtml",
+          "text_sha256": "fe7b8e39e7370bf79ca36cc7fe209a040041931bc7255ab6aa1e2181481c9802",
+          "retrieved_at": "2026-10-31T17:06:11.755827+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州市 濒临河流 全长 干流 源头至河口 长度",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.1333075761795044,
+          "page_date": "2018-03-13T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-272724fbbec7ae69",
+          "title": "杭州市林业水利局文件",
+          "url": "http://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web149/site/attach/0/ad9b9835ab1f4001aa601619aa66e56f.pdf",
+          "text_sha256": "340da76ed7451bc08758f1fe167917a78c1a63e9d1ba20148a416cec0c9ba277",
+          "retrieved_at": "2026-10-31T17:06:12.150928+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州 流域 主要河流 全河长度 干流 测量口径",
+          "provider_authority": 4,
+          "provider_rerank_score": 0.6800767183303833,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-3ffc9d892a914d7b",
+          "title": "杭州水系总介绍.doc - 杭州水系总介绍.doc",
+          "url": "https://m.zixin.com.cn/doc/8326833.html",
+          "text_sha256": "a1dffe22463b4c88364fb58bf44a451de9ab4ba7122bb995d7991c215f947ac9",
+          "retrieved_at": "2026-10-31T17:06:12.151934+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州 流域 主要河流 全河长度 干流 测量口径",
+          "provider_authority": 1,
+          "provider_rerank_score": 0.6071047186851501,
+          "page_date": "2025-02-09T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-4356f5eccf73d6a7",
+          "title": "杭州首次水利普查盘家底:这座城市有多少水资源",
+          "url": "http://qz.zjol.com.cn/07qztk/system/2014/02/25/017718121.shtml",
+          "text_sha256": "7738116a46159993d13b644a86f0b520cd3c59acd2c5f5c08b2fefd7bd3ead80",
+          "retrieved_at": "2026-10-31T17:06:12.151934+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "杭州 流域 主要河流 全河长度 干流 测量口径",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.5223826766014099,
+          "page_date": "2014-02-24T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+          "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+          "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+          "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+          "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+          "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+          "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+          "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+          "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+          "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+          "transport": "independent_https"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+          "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+          "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+          "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "length",
+        "preferred_scopes": [
+          "whole",
+          "mainstem",
+          "reach"
+        ],
+        "retrieval_hint": "全河 源头至河口 干流 长度 测量口径",
+        "instruction": "优先全河或水系干流长度；同一范围的不同值要核查冲突，不能直接取最大。仅有河段时说明河段名与范围，不将它当作全河长度。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 3.766,
+      "retrieval_seconds": 0.468,
+      "queries": [
+        "杭州市 濒临河流 全长 干流 源头至河口 长度",
+        "杭州 流域 主要河流 全河长度 干流 测量口径"
+      ],
+      "curated_evidence": {
+        "kind": "river_length",
+        "source_access": [
+          {
+            "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf",
+            "retrieved_at": "2026-10-31T15:57:59.487864+00:00",
+            "raw_sha256": "1506a3260af754a58349a411596f9f889a64e31d22e35a321d6455fb0b459521",
+            "text_sha256": "582614afda2c75816078439e1262f57ca3e4a744acca7e7d76f52b2c30a674a9",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm",
+            "retrieved_at": "2026-10-31T15:57:59.038208+00:00",
+            "raw_sha256": "af638a0ca691d64e766e61f3c53491d52bf49da2d7618a910174b9e108595854",
+            "text_sha256": "0450f20d06f55f2334c7ac3e18f2d47bf33bd41956c0f28fe914d0f57ace6e65",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html",
+            "retrieved_at": "2026-10-31T15:58:01.898718+00:00",
+            "raw_sha256": "33a9ddf53c505cc8e665db949e6b002ef46871c753d451d7ad28907267709f23",
+            "text_sha256": "025fca7d39bb099d632248ae26cf0890d00cd3b2423ab7c03db7182c673025f2",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+            "retrieved_at": "2026-10-31T15:35:16.333976+00:00",
+            "raw_sha256": "4f0b1bda20de94ca958eecea9812b3a9dd2654e225a8c3b18e71157567d21fc8",
+            "text_sha256": "5e872c61ae80565d08167e5002c9f27ede67affc72cada6c106b22f905b512e2",
+            "transport": "independent_https"
+          }
+        ],
+        "limitation": "Small editorially curated corpus; scope guards do not prove general entailment.",
+        "status": "qualified",
+        "answer": "若题干指杭州附近的钱塘江，按水利普查河流名录口径，钱塘江长度约609公里。另有北源起算至入海口约668公里的资料，两者口径不同，不能直接取最大值。 来源：https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2210/site/attach/0/388e6933f7ee46f782c7008ccf3a3906.pdf；https://www.ehangzhou.gov.cn/2023-02/20/c_271123.htm；https://www.edb.gov.hk/en/curriculum-development/kla/pe/asap/AG_Hangzhou.html；https://www.shuizhishi.cn/c/2020-04-09/521961.shtml",
+        "scope": "census_whole"
+      }
+    },
+    "seconds": 4.25,
+    "content_check": null
+  },
+  {
+    "id": "9",
+    "question": "1848年首次出版并由政治组织推动发行的理论著作，其相关政治组织成立年份是多少？",
+    "ok": true,
+    "answer": "按该组织改组成立的口径，《共产党宣言》相关组织共产主义者同盟的成立年份为1847年。 来源：https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml；https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+    "audit": {
+      "route": "bibliographic_evidence",
+      "sources": [
+        {
+          "id": "independent-cache-f67cd88fa5e99ea6",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+          "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "independent-cache-e26b9674c0b5703d",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-bc74710bb535f186",
+          "title": "档案君|《共产党宣言》的前世今生",
+          "url": "http://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "text_sha256": "686e042b88f866ab51d92f6744a2c0ccb2e4f76ba1ed43f9b061605cc4a985df",
+          "retrieved_at": "2026-10-31T17:06:13.018849+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "1848年首次出版并由政治组织推动发行的理论著作，其相关政治组织成立年份是多少？",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.6412975788116455,
+          "page_date": "2018-05-02T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-f67cd88fa5e99ea6",
+          "title": "档案君|《共产党宣言》的前世今生 - 档案君|《共产党宣言》的前世今生",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "text_sha256": "26f3aa67a95a21f022533f60926da988894494bafdced74506599e5705471e3b",
+          "retrieved_at": "2026-10-31T17:06:13.018849+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "1848年首次出版并由政治组织推动发行的理论著作，其相关政治组织成立年份是多少？",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.5951817035675049,
+          "page_date": "2018-05-02T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-b19395d3a48dd109",
+          "title": "档案君|《共产党宣言》的前世今生_新闻频道_中国青年网",
+          "url": "http://news.youth.cn/gn/201805/t20180502_11611201.htm",
+          "text_sha256": "5dcf48c71996f56477b9dbf8955588c5d2fedb805878437a7148384dcd96a988",
+          "retrieved_at": "2026-10-31T17:06:13.019849+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "1848年首次出版并由政治组织推动发行的理论著作，其相关政治组织成立年份是多少？",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.4225133657455444,
+          "page_date": "2018-05-01T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-c5043ceed8d54348",
+          "title": "人类思想史上的一个伟大事件",
+          "url": "http://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "text_sha256": "5719ba2d435ea181d8ddfd839184f1f2522e6b223c76c25c8257f03c025fd878",
+          "retrieved_at": "2026-10-31T17:06:13.021363+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "site:news.cnr.cn 1848 首次出版 政治组织 委托 起草 成立 改组",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.320075511932373,
+          "page_date": "2019-11-17T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "direct-bibliographic-6",
+          "source_kind": "direct_registered_publication_https",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+          "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+          "transport": "independent_https"
+        },
+        {
+          "id": "direct-bibliographic-7",
+          "source_kind": "direct_registered_publication_https",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "literal_bibliographic_chain_bound",
+      "phase": "independent_bibliographic_chain",
+      "planner_timeout": true,
+      "plan_seconds": 4.062,
+      "query_fallback": "original_question",
+      "registered_publication_query_added": true,
+      "retrieval_seconds": 0.484,
+      "queries": [
+        "1848年首次出版并由政治组织推动发行的理论著作，其相关政治组织成立年份是多少？",
+        "site:news.cnr.cn 1848 首次出版 政治组织 委托 起草 成立 改组"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "bibliographic_evidence": {
+        "status": "supported",
+        "work": "共产党宣言",
+        "organization": "共产主义者同盟",
+        "year": 1847,
+        "publication_records": [
+          {
+            "work": "共产党宣言",
+            "year": 1848,
+            "quote": "1848年2月21日，《共产党宣言》德文单行本在伦敦问世",
+            "source_url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml"
+          },
+          {
+            "work": "共产党宣言",
+            "year": 1848,
+            "quote": "1848年2月的一天，一个永载史册的日子。这一天，《共产党宣言》单行本以德文在英国伦敦问世",
+            "source_url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml"
+          }
+        ],
+        "commission": {
+          "work": "共产党宣言",
+          "organization": "共产主义者同盟",
+          "quote": "《共产党宣言》，正是马克思恩格斯受同盟委托起草的党纲",
+          "source_url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml"
+        },
+        "foundation": {
+          "organization": "共产主义者同盟",
+          "year": 1847,
+          "kind": "reorganized",
+          "predecessor": "正义者同盟",
+          "quote": "在他们的指导帮助下，1847年6月，“正义者同盟”这一秘密工人组织改组为“共产主义者同盟”，成为世界上第一个共产党组织。",
+          "position": 2087,
+          "end": 2147,
+          "source_url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml"
+        },
+        "answer": "按该组织改组成立的口径，《共产党宣言》相关组织共产主义者同盟的成立年份为1847年。 来源：https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml；https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+        "limitation": "Bounded literal publication/commission/inception relations; not a general historical or source-truth proof.",
+        "fetch_errors": [],
+        "source_access": [
+          {
+            "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+            "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+            "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+            "transport": "independent_https"
+          },
+          {
+            "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+            "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+            "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+            "transport": "independent_https"
+          }
+        ]
+      },
+      "binding_limitation": "Bounded literal publication/commission/inception relations; not a general historical or source-truth proof."
+    },
+    "seconds": 4.89,
+    "content_check": null
+  },
+  {
+    "id": "14",
+    "question": "设计于20世纪80年代中期并由贝尔实验室研究人员开发的程序设计语言，其设计者当时所在研究机构所属美国州份是什么？",
+    "ok": true,
+    "answer": "若题干指C++，历史地点证据指向新泽西州（New Jersey）。相关工作始于1979年，首个商业实现发布为1985年；设计起点与发布时期的地点端点记录一致，但不等于已逐年核实整个期间。题干中的年代不能直接当作开始设计年份。 来源：https://www.stroustrup.com/bio.html；https://www.stroustrup.com/bs_faq.html；https://www.stroustrup.com/1st.html；https://www.stroustrup.com/1st_pref.html",
+    "audit": {
+      "route": "curated_historical_workplace",
+      "sources": [
+        {
+          "id": "independent-cache-f67cd88fa5e99ea6",
+          "url": "https://news.cnr.cn/native/gd/20180503/t20180503_524220639.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:12.585405+00:00",
+          "raw_sha256": "bdcd859950d1756a99d9eb16c2deede434d52f57d4a50235aa289bbd8432c3f6",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "primary-3f3d242b1e9d",
+          "title": "Bjarne Stroustrup biography",
+          "url": "https://stroustrup.com/bio.html",
+          "source_kind": "primary_or_original_reporting",
+          "entity_tags": [
+            "C++",
+            "Stroustrup",
+            "贝尔实验室",
+            "斯特劳斯特鲁普"
+          ],
+          "retrieved_at": "2026-10-30T05:42:47.098958+00:00",
+          "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+          "text_sha256": "ae2aa6f236c8c6ed8c2d01d24bd4e95e61ff4297de1127a0e630f11411e4a536"
+        },
+        {
+          "id": "web-b4b5e7be197b8d79",
+          "title": "涨姿势！你造这些编程语言的创始人是谁么？",
+          "url": "https://mip.xinnet.com/mip/63/19354.html",
+          "text_sha256": "6db1dbc73cc81ed99a8ef8dce8a989f9ab9c88995f9420b19d2873422189b396",
+          "retrieved_at": "2026-10-31T17:06:13.965754+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C语言 设计者 所在州份",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6566694974899292,
+          "page_date": "2018-05-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-a4f291b968091694",
+          "title": "National Academy of Engineering Memorial Tribute for Dennis M. Ritchie (1941-2011)",
+          "url": "https://www.cs.princeton.edu/%7Ebwk/dmr.html",
+          "text_sha256": "319f49b25580040c40d193327e8b1b0e1fc1e170b6dc31a36f081408658ef05e",
+          "retrieved_at": "2026-10-31T17:06:13.966758+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C语言 设计者 所在州份",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.6566694974899292,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-35da7e15b28c3477",
+          "title": "C语言编程之父丹尼斯·里奇和他的C世界",
+          "url": "https://tech.sina.cn/2011-10-19/detail-ichmifpy3794774.d.html?from=wap",
+          "text_sha256": "7ebd36a507c763976cd03f2780b02acb7ac6656838a203462f264a19ed181268",
+          "retrieved_at": "2026-10-31T17:06:13.966758+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "C语言 设计者 所在州份",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.648983597755432,
+          "page_date": "2011-10-18T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-1eb9b9a2b41bb4d1",
+          "title": "Rob Pike",
+          "url": "http://cm.bell-labs.co/who/rob/",
+          "text_sha256": "f8a634994b3f835f27e4b43a2cd9d3a1de5461dce11a934426a822718be53d86",
+          "retrieved_at": "2026-10-31T17:06:14.490684+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "贝尔实验室 80年代中期 研究人员 州份",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.077418565750122,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-2e9b4f319f331dd8",
+          "title": "維基百科",
+          "url": "https://zh.wikipedia.org/api/rest_v1/page/pdf/%E8%B4%9D%E5%B0%94%E5%AE%9E%E9%AA%8C%E5%AE%A4",
+          "text_sha256": "fda95012524f5ce1ce34b1b9167f9a2fe866dc7b7882f6683450cef9df2689e3",
+          "retrieved_at": "2026-10-31T17:06:14.490684+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "贝尔实验室 80年代中期 研究人员 州份",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.9815711975097656,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-237ebb7b9a11344b",
+          "title": "Bernard M. Oliver — Wikipédia - Bernard M. Oliver",
+          "url": "https://fr.wikipedia.org/wiki?oldid=197343363&title=Bernard_M._Oliver",
+          "text_sha256": "e93a79fda563a1125e2212856c70c6c8510105585bab617b762cfb9ad49277e5",
+          "retrieved_at": "2026-10-31T17:06:14.490684+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "贝尔实验室 80年代中期 研究人员 州份",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.945956826210022,
+          "page_date": "2013-09-22T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/bio.html",
+          "retrieved_at": "2026-10-31T15:05:00.374266+00:00",
+          "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+          "text_sha256": "e6722f3c2c664f6ff0ab9148073a499b44d267e629160e7f8a7f30719f2296ee"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/bs_faq.html",
+          "retrieved_at": "2026-10-31T15:05:04.991995+00:00",
+          "raw_sha256": "2f0e35a9519217a12dfac5cd033a61c08e78d423671c8ddbcc4257c299c0d87e",
+          "text_sha256": "dfaa5f23bc4d14367a438c1ad02b7aa05853fbbff9b52f52ffcab68110cdae60"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/1st.html",
+          "retrieved_at": "2026-10-31T15:05:00.734473+00:00",
+          "raw_sha256": "e7ab4296b9b36ccd1741bb497248c70389672688234a18b3c4e3cccfc1850648",
+          "text_sha256": "93a7504811511d3b7e7ef2e8ceb4144be83e829890aeb9b020d9dc6fe7089620"
+        },
+        {
+          "source_kind": "curated_independently_read_source",
+          "url": "https://www.stroustrup.com/1st_pref.html",
+          "retrieved_at": "2026-10-31T15:04:59.418696+00:00",
+          "raw_sha256": "70231b4c805ddc3dbb8e97496e5280e9d7eaff536e97398151ed0f8817934a1f",
+          "text_sha256": "19c38a6f7413539997d359bf5c4137f4c92424518a1892419d79c6ef4e2e484b"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "curated_source_graph_qualified",
+      "factual_scope": {
+        "kind": "workplace",
+        "preferred_scopes": [
+          "employment"
+        ],
+        "retrieval_hint": "开始设计 首次发布 任职 起止时间 历史工作地点",
+        "instruction": "优先开始设计到首次发布期间的工作地点。核查时间窗，区分设计、命名、发布和图书出版日期；不使用当前工作地点代替。期间发生变动应保留多个地点及日期。"
+      },
+      "phase": "retrieval",
+      "plan_seconds": 3.203,
+      "retrieval_seconds": 0.844,
+      "queries": [
+        "C语言 设计者 所在州份",
+        "贝尔实验室 80年代中期 研究人员 州份"
+      ],
+      "curated_evidence": {
+        "status": "qualified",
+        "kind": "historical_workplace",
+        "subject": "C++",
+        "answer": "若题干指C++，历史地点证据指向新泽西州（New Jersey）。相关工作始于1979年，首个商业实现发布为1985年；设计起点与发布时期的地点端点记录一致，但不等于已逐年核实整个期间。题干中的年代不能直接当作开始设计年份。 来源：https://www.stroustrup.com/bio.html；https://www.stroustrup.com/bs_faq.html；https://www.stroustrup.com/1st.html；https://www.stroustrup.com/1st_pref.html",
+        "source_access": [
+          {
+            "url": "https://www.stroustrup.com/bio.html",
+            "retrieved_at": "2026-10-31T15:05:00.374266+00:00",
+            "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+            "text_sha256": "e6722f3c2c664f6ff0ab9148073a499b44d267e629160e7f8a7f30719f2296ee"
+          },
+          {
+            "url": "https://www.stroustrup.com/bs_faq.html",
+            "retrieved_at": "2026-10-31T15:05:04.991995+00:00",
+            "raw_sha256": "2f0e35a9519217a12dfac5cd033a61c08e78d423671c8ddbcc4257c299c0d87e",
+            "text_sha256": "dfaa5f23bc4d14367a438c1ad02b7aa05853fbbff9b52f52ffcab68110cdae60"
+          },
+          {
+            "url": "https://www.stroustrup.com/1st.html",
+            "retrieved_at": "2026-10-31T15:05:00.734473+00:00",
+            "raw_sha256": "e7ab4296b9b36ccd1741bb497248c70389672688234a18b3c4e3cccfc1850648",
+            "text_sha256": "93a7504811511d3b7e7ef2e8ceb4144be83e829890aeb9b020d9dc6fe7089620"
+          },
+          {
+            "url": "https://www.stroustrup.com/1st_pref.html",
+            "retrieved_at": "2026-10-31T15:04:59.418696+00:00",
+            "raw_sha256": "70231b4c805ddc3dbb8e97496e5280e9d7eaff536e97398151ed0f8817934a1f",
+            "text_sha256": "19c38a6f7413539997d359bf5c4137f4c92424518a1892419d79c6ef4e2e484b"
+          }
+        ],
+        "coverage": "dated_endpoints",
+        "limitation": "Small curated corpus; exact quote/fingerprint checks do not prove arbitrary semantic entailment."
+      }
+    },
+    "seconds": 4.063,
+    "content_check": null
+  },
+  {
+    "id": "15",
+    "question": "提出了生态化反的乐视网创始人，其出生县位于哪个省份？",
+    "ok": true,
+    "answer": "按乐视网创始人贾跃亭出生地的现今行政归属查询：山西省。 来源：Wikidata（https://www.wikidata.org/wiki/Q27808154）。",
+    "audit": {
+      "route": "structured_evidence",
+      "sources": [
+        {
+          "id": "web-27dc51b4564251c5",
+          "title": "乐视网退市！半个娱乐圈和28万股民，因贾跃亭梦想窒息 - 乐视网退市！半个娱乐圈和28万股民，因贾跃亭梦想窒息",
+          "url": "http://news.china.com.cn/2020-07/21/content_76293832.htm",
+          "text_sha256": "7d74b579095456b1a6f61040193917c2a6e653946483dbcb08eb93d5c78c476c",
+          "retrieved_at": "2026-10-31T17:06:14.740460+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "乐视网创始人 生态化反 出生县 省份",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.842631220817566,
+          "page_date": "2020-07-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-0cfd71332fe59e68",
+          "title": "乐视网退市！ - 乐视网退市",
+          "url": "https://zx.zxy.hunanzx.gov.cn/szxapp/1/180/content_736515.html",
+          "text_sha256": "6a5fec6b5928df73ea206130a005046d1c1f9e5ab5857b6a74834260b91faf67",
+          "retrieved_at": "2026-10-31T17:06:14.741464+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "乐视网创始人 生态化反 出生县 省份",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.648983597755432,
+          "page_date": "2020-07-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-6a859b4a27262c8d",
+          "title": "乐视网退市！贾跃亭的败局，孙宏斌的隐痛，明星们的血泪 - 乐视网退市！贾跃亭的败局，孙宏斌的隐痛，明星们的血泪",
+          "url": "http://news.jstv.com/a/20200721/1595288270132.shtml",
+          "text_sha256": "72cb7c6ee49905cce5283a5dfe6be484c84e2be525b5c5ef15f6833e089d6f06",
+          "retrieved_at": "2026-10-31T17:06:14.741464+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "乐视网创始人 生态化反 出生县 省份",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6412975788116455,
+          "page_date": "2020-07-20T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-b72ef74cce97a7a4",
+          "title": "小镇青年贾跃亭：还有人愿意相信他吗？_内容 - 评论",
+          "url": "https://www.sohu.com/a/285147298_114930",
+          "text_sha256": "e7d0c0111f371de4cab33d8cd900def45106386d5185536f0cfda2375feb3723",
+          "retrieved_at": "2026-10-31T17:06:14.743131+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "生态化反 乐视网创始人 出生地 省份",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.7032105922698977,
+          "page_date": "2018-12-27T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "wikidata-Q27808154",
+          "url": "https://www.wikidata.org/wiki/Q27808154",
+          "source_kind": "community_structured_data",
+          "revision": 2534646140
+        },
+        {
+          "id": "wikidata-Q24836929",
+          "url": "https://www.wikidata.org/wiki/Q24836929",
+          "source_kind": "community_structured_data",
+          "revision": 2516469383
+        },
+        {
+          "id": "wikidata-Q1197358",
+          "url": "https://www.wikidata.org/wiki/Q1197358",
+          "source_kind": "community_structured_data",
+          "revision": 2526577428
+        },
+        {
+          "id": "wikidata-Q73156",
+          "url": "https://www.wikidata.org/wiki/Q73156",
+          "source_kind": "community_structured_data",
+          "revision": 2529206198
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "connected_structured_statements",
+      "factual_scope": {
+        "kind": "birthplace",
+        "preferred_scopes": [
+          "birthplace"
+        ],
+        "retrieval_hint": "出生地 born in 传记",
+        "instruction": "出生地、祖籍、籍贯和住所是不同属性。缺少出生地证据时保留已确认身份，明确缺失出生地，不能用祖籍替代。"
+      },
+      "phase": "structured_evidence",
+      "plan_seconds": 2.672,
+      "retrieval_seconds": 0.109,
+      "queries": [
+        "乐视网创始人 生态化反 出生县 省份",
+        "生态化反 乐视网创始人 出生地 省份"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "structured_evidence": {
+        "plan": {
+          "anchor": "乐视网",
+          "kind": "founder_birth_province",
+          "types": [],
+          "scope": "current_birthplace_administration",
+          "unverified_prefix": "提出了生态化反的"
+        },
+        "scope": "current_birthplace_administration",
+        "provider": "wikidata",
+        "identity_limitation": "Positive typed matches among at most five exact-name candidates; not globally exhaustive.",
+        "source_limitation": "Community-maintained structured evidence, not authoritative independent truth verification.",
+        "root": "Q27808154",
+        "candidate_ids": [
+          "Q27808154"
+        ],
+        "search_exhaustive": true,
+        "administrative_name_source": "https://www.lswz.gov.cn/html/ywpd/bzzl/2024-01/26/275402/files/29d04adc161148c0bc313cffbfecc401.pdf",
+        "status": "supported",
+        "answer": "按乐视网创始人贾跃亭出生地的现今行政归属查询：山西省。 来源：Wikidata（https://www.wikidata.org/wiki/Q27808154）。",
+        "edges": [
+          {
+            "subject": "Q27808154",
+            "property": "P112",
+            "object": "Q24836929",
+            "statement_id": "Q27808154$B4F2EB9B-84D8-4FA4-9EAD-4166E726ABDD",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ],
+            "revision": 2534646140,
+            "source_url": "https://www.wikidata.org/wiki/Q27808154",
+            "accessed_at": "2026-10-31T16:57:14.730825+00:00",
+            "response_sha256": "b210b9156c104f205cb80d9938fd05f551066c0a31707ca02e0347ad8fad729f"
+          },
+          {
+            "subject": "Q24836929",
+            "property": "P19",
+            "object": "Q1197358",
+            "statement_id": "Q24836929$903A9E9F-8131-4811-AADF-39FAC253D2E5",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [],
+            "revision": 2516469383,
+            "source_url": "https://www.wikidata.org/wiki/Q24836929",
+            "accessed_at": "2026-10-31T16:57:15.941707+00:00",
+            "response_sha256": "579000d0049914a4cfd94b3a087e2cda8a5b3d2e550fb3d09abd5930877de0ad"
+          },
+          {
+            "subject": "Q1197358",
+            "property": "P131",
+            "object": "Q73156",
+            "statement_id": "q1197358$3355D8B1-A12F-4D85-ACD9-9999DE83225F",
+            "rank": "preferred",
+            "qualifiers": {
+              "P580": [
+                {
+                  "snaktype": "value",
+                  "property": "P580",
+                  "hash": "66c7af9fdef1c0e71e1a12d7254c286d3ddd14e5",
+                  "datavalue": {
+                    "value": {
+                      "time": "+2000-11-01T00:00:00Z",
+                      "timezone": 0,
+                      "before": 0,
+                      "after": 0,
+                      "precision": 11,
+                      "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                    },
+                    "type": "time"
+                  },
+                  "datatype": "time"
+                }
+              ]
+            },
+            "references": [],
+            "revision": 2526577428,
+            "source_url": "https://www.wikidata.org/wiki/Q1197358",
+            "accessed_at": "2026-10-31T16:57:17.199544+00:00",
+            "response_sha256": "ccfa0ff03ab2acfe1c366577995848bc574d8e02cfca6b5b562bc12e86719564"
+          },
+          {
+            "subject": "Q73156",
+            "property": "P131",
+            "object": "Q46913",
+            "statement_id": "q73156$60D13E34-252E-447C-BA57-3420F07B91D1",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [],
+            "revision": 2529206198,
+            "source_url": "https://www.wikidata.org/wiki/Q73156",
+            "accessed_at": "2026-10-31T16:57:18.426435+00:00",
+            "response_sha256": "e2688c81a9b63d2719c9f29c49d33b4333c2d12476acd0bc12f2816dcdc32829"
+          }
+        ],
+        "disambiguation": [],
+        "network_requests": []
+      },
+      "structured_seconds": 0.204,
+      "binding_limitation": "社区结构化资料中的明确关系链；有限候选，不保证全球唯一、来源真实性或题干所有修饰语均获核实。"
+    },
+    "seconds": 3.016,
+    "content_check": null
+  },
+  {
+    "id": "22",
+    "question": "负责产生ATP且具有自身DNA的细胞结构，其人体细胞数量通常达到什么范围？",
+    "ok": true,
+    "answer": "按每个人体细胞中该结构的数量理解，通常为数百至数千个；这是一般描述，不能作为所有细胞类型的统一数量。 来源：https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+    "audit": {
+      "route": "functional_cell_evidence",
+      "sources": [
+        {
+          "id": "independent-cache-e6134b289e8720f8",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:16.372934+00:00",
+          "raw_sha256": "445f42a75ee6102736cdf3c6f982e9a6304fe555eee0a7d015c87cad699cc82c",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "independent-cache-b76680478a109481",
+          "url": "https://www.stroustrup.com/bio.html",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T15:05:00.374266+00:00",
+          "raw_sha256": "c7bd0090769a1cad5ab4a1ffabf3fa347339a6be70e10542b5e534c47627a293",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "independent-cache-6d78140a0c291c91",
+          "url": "https://www.stroustrup.com/bs_faq.html",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T15:05:04.991995+00:00",
+          "raw_sha256": "2f0e35a9519217a12dfac5cd033a61c08e78d423671c8ddbcc4257c299c0d87e",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-1242d49bffc7c8d2",
+          "title": "Mitochondrial DNA: Consensuses and Controversies - The copy number of mtDNA molecules per cell varies between tissues; the two extremes of this spectrum are mammalian erythrocytes...",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9648901/",
+          "text_sha256": "7369298f54e4d6215b61cdfc34abedba31b69ee676831ea769ce3eb72b9d7f66",
+          "retrieved_at": "2026-10-31T17:06:15.564420+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "人体细胞中线粒体数量范围",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.6566694974899292,
+          "page_date": "2022-06-09T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-9ca7b9e14715858b",
+          "title": "Table 1",
+          "url": "https://bionumbers.hms.harvard.edu/files/Measurements%20of%20the%20absolute%20mtDNA%20copy%20number%20per%20cell%20and%20per%20nucleoid.pdf",
+          "text_sha256": "1db53a818fcecd5996227a114d39db362a42a2eead9bdd850c0e7415eaf3a6a8",
+          "retrieved_at": "2026-10-31T17:06:15.564924+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "人体细胞中线粒体数量范围",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.5496634244918823,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-76699dc46b0d5831",
+          "title": "Number of mitochondrial genomes per mononuclear somatic cell",
+          "url": "https://bionumbers.hms.harvard.edu/bionumber.aspx?s=n&v=0&id=107620",
+          "text_sha256": "83fc08749c22079327495fde3adb0942b8ef13d390eced8430fa3a4e7ada1aeb",
+          "retrieved_at": "2026-10-31T17:06:15.564924+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "人体细胞中线粒体数量范围",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.527171015739441,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-83cce9b60c527ea7",
+          "title": "Mitochondrial DNA: MedlinePlus Genetics - URL of this page: https://medlineplus",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/?source=post_page-----798ef41e93c6---------------------------------------",
+          "text_sha256": "3c518223ceecda3beca1cc069a42c310c1664383e98b00c068e27773a45cbb07",
+          "retrieved_at": "2026-10-31T17:06:15.565929+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "site:medlineplus.gov \"each cell\" \"own DNA\" ATP human",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.2506648302078247,
+          "page_date": "2018-05-31T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-e6134b289e8720f8",
+          "title": "Mitochondrial DNA: MedlinePlus Genetics",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+          "text_sha256": "2d2d9c18a7016ad7b0f48d8cc268929f0d76d49c364a4be31f3db158c3e7765e",
+          "retrieved_at": "2026-10-31T17:06:15.566927+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "site:medlineplus.gov \"each cell\" \"own DNA\" ATP human",
+          "provider_authority": 4,
+          "provider_rerank_score": 0.9776140451431274,
+          "page_date": "2018-05-31T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-f99fd79484e06e19",
+          "title": "What is genetic ancestry testing?: MedlinePlus Genetics - URL of this page: https://medlineplus",
+          "url": "https://medlineplus.gov/genetics/understanding/dtcgenetictesting/ancestrytesting/",
+          "text_sha256": "00ad78b3b4d09eea05bb0abb895249193a9c3dd94c37f23e17915f97175d4b0a",
+          "retrieved_at": "2026-10-31T17:06:15.566927+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "site:medlineplus.gov \"each cell\" \"own DNA\" ATP human",
+          "provider_authority": 4,
+          "provider_rerank_score": 0.5424289107322693,
+          "page_date": "2026-06-01T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "independent-primary-cell",
+          "url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+          "source_kind": "direct_primary_https",
+          "retrieved_at": "2026-10-31T16:32:16.372934+00:00",
+          "raw_sha256": "445f42a75ee6102736cdf3c6f982e9a6304fe555eee0a7d015c87cad699cc82c",
+          "transport": "independent_https"
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "independent_primary_function_and_count_bound",
+      "factual_scope": {
+        "kind": "count",
+        "preferred_scopes": [
+          "per_human_cell"
+        ],
+        "retrieval_hint": "每个人体细胞 细胞器 数量范围 细胞类型",
+        "instruction": "默认问每个人体细胞中该结构的数量，明确问全身总数时尊重原题。核对物种、分母、细胞类型和数量范围，不将特殊细胞类型推广到所有细胞。"
+      },
+      "phase": "independent_primary_cell_source",
+      "plan_seconds": 3.344,
+      "primary_cell_query_added": true,
+      "retrieval_seconds": 0.062,
+      "queries": [
+        "人体细胞中线粒体数量范围",
+        "site:medlineplus.gov \"each cell\" \"own DNA\" ATP human"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "functional_cell_evidence": {
+        "status": "supported",
+        "subject": "mitochondria",
+        "value": "数百至数千个",
+        "scope": "per_human_cell",
+        "answer": "按每个人体细胞中该结构的数量理解，通常为数百至数千个；这是一般描述，不能作为所有细胞类型的统一数量。 来源：https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+        "source_url": "https://medlineplus.gov/genetics/chromosome/mitochondrial-dna/",
+        "source_quotes": {
+          "count": "Each cell contains hundreds to thousands of mitochondria, which are located in the fluid that surrounds the nucleus (the cytoplasm).",
+          "own_dna": "mitochondria also have a small amount of their own DNA.",
+          "energy": "Mitochondria are structures within cells that convert the energy from food into a form that cells can use.",
+          "atp": " Oxidative phosphorylation is a process that uses oxygen and simple sugars to create adenosine triphosphate (ATP), the cell's main energy source.",
+          "human_context": "In humans, mitochondrial DNA spans about 16,500 DNA building blocks (base pairs), representing a small fraction of the total DNA in cells."
+        },
+        "description_sha256": "3e99f974ecc50396540827a0367d4b3da021431f40028f101824e820e8b37947",
+        "source_access": {
+          "retrieved_at": "2026-10-31T16:32:16.372934+00:00",
+          "raw_sha256": "445f42a75ee6102736cdf3c6f982e9a6304fe555eee0a7d015c87cad699cc82c",
+          "transport": "independent_https"
+        },
+        "limitation": "Bounded source-section and lexical functional binding, not general biological inference or population extrema."
+      }
+    },
+    "seconds": 3.625,
+    "content_check": null
+  },
+  {
+    "id": "31",
+    "question": "创作《堂吉诃德》并被誉为西班牙文学巨匠的作家，其出生国家的首都是什么？",
+    "ok": true,
+    "answer": "按《堂吉诃德》作者米格尔·德·塞万提斯的出生地现今所属国家查询：西班牙的首都是马德里。 来源：Wikidata（https://www.wikidata.org/wiki/Q480）。",
+    "audit": {
+      "route": "structured_evidence",
+      "sources": [
+        {
+          "id": "independent-cache-e26b9674c0b5703d",
+          "url": "https://news.cnr.cn/native/gd/20191118/t20191118_524863063.shtml",
+          "title": "Previously independently read source",
+          "source_kind": "fresh_independent_body_cache",
+          "retrieved_at": "2026-10-31T16:32:13.545999+00:00",
+          "raw_sha256": "da8fcec297cbedc1d919e9bd052ca607ccf65f7a1029ef49ceec683d408be000",
+          "discovery": "local lexical retrieval; relevance is not verified entailment"
+        },
+        {
+          "id": "web-73149889e0fc327d",
+          "title": "米格尔·德·塞万提斯 - 维基百科，自由的百科全书",
+          "url": "https://zh.wikipedia.org/zh-hans/Miguel_de_Cervantes?oldformat=true",
+          "text_sha256": "185c18a85243c67a7dbcb2e9315260f3566506d4ade87a5bd1da5efe51b4ce2e",
+          "retrieved_at": "2026-10-31T17:06:16.722277+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "创作《堂吉诃德》并被誉为西班牙文学巨匠的作家 出生国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.5798097848892212,
+          "page_date": "2004-07-28T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-53940b4a80b32424",
+          "title": "他与他笔下的经典人物，见证了一个阶层的没落与一个黄金时代 - - +1",
+          "url": "https://www.thepaper.cn/newsDetail_forward_18686603",
+          "text_sha256": "76063f3e858f3c6a22e9470772eb72c5a2b276b4be3d597eeb91993147e56999",
+          "retrieved_at": "2026-10-31T17:06:16.722277+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "创作《堂吉诃德》并被誉为西班牙文学巨匠的作家 出生国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.5798097848892212,
+          "page_date": "2022-06-21T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-2f4f1f6dd1492d05",
+          "title": "他与他笔下的经典人物，见证了一个阶层的没落与一个黄金时代 - 他与他笔下的经典人物，见证了一个阶层的没落与一个黄金时代",
+          "url": "https://m.thepaper.cn/newsDetail_forward_18686603",
+          "text_sha256": "0b898649058140cf0af35bff232a3d865298a1017ffe0f599a080d2e45254f69",
+          "retrieved_at": "2026-10-31T17:06:16.723281+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "创作《堂吉诃德》并被誉为西班牙文学巨匠的作家 出生国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.5798097848892212,
+          "page_date": "2022-06-21T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-2b8fd24c18251b0f",
+          "title": "El ingenioso hidalgo Don Quijote de La Mancha",
+          "url": "https://www.google.com.sg/books/edition/El_ingenioso_hidalgo_Don_Quijote_de_la_M/47CgzQEACAAJ?hl=zh-CN&sa=X&ved=2ahUKEwiOvMDQtNuIAxVET2cHHVWsEQcQiKUDegQIDRAH",
+          "text_sha256": "67329e46429d988a37fec656f68f58bb741c51d7309f6a176632e4291d8e48c6",
+          "retrieved_at": "2026-10-31T17:06:16.736919+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "西班牙文学巨匠 创作《堂吉诃德》 出生国家首都",
+          "provider_authority": 4,
+          "provider_rerank_score": 1.6412975788116455,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-a14f2d2e289ebad8",
+          "title": "堂吉诃德_百度百科",
+          "url": "https://wapbaike.baidu.com/item/%E5%A0%82%E5%90%89%E8%AF%83%E5%BE%B7/63102916",
+          "text_sha256": "be5cfab4754c240557c2ac8e2633109988c5a430da00cc6f182114e9ad15aca9",
+          "retrieved_at": "2026-10-31T17:06:16.736919+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "西班牙文学巨匠 创作《堂吉诃德》 出生国家首都",
+          "provider_authority": 3,
+          "provider_rerank_score": 1.6259256601333618,
+          "page_date": "2026-01-06T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "wikidata-Q480",
+          "url": "https://www.wikidata.org/wiki/Q480",
+          "source_kind": "community_structured_data",
+          "revision": 2558010319
+        },
+        {
+          "id": "wikidata-Q5682",
+          "url": "https://www.wikidata.org/wiki/Q5682",
+          "source_kind": "community_structured_data",
+          "revision": 2563048298
+        },
+        {
+          "id": "wikidata-Q46940",
+          "url": "https://www.wikidata.org/wiki/Q46940",
+          "source_kind": "community_structured_data",
+          "revision": 2504483911
+        },
+        {
+          "id": "wikidata-Q29",
+          "url": "https://www.wikidata.org/wiki/Q29",
+          "source_kind": "community_structured_data",
+          "revision": 2562159263
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "connected_structured_statements",
+      "factual_scope": {
+        "kind": "birthplace",
+        "preferred_scopes": [
+          "birthplace"
+        ],
+        "retrieval_hint": "出生地 born in 传记",
+        "instruction": "出生地、祖籍、籍贯和住所是不同属性。缺少出生地证据时保留已确认身份，明确缺失出生地，不能用祖籍替代。"
+      },
+      "phase": "structured_evidence",
+      "plan_seconds": 3.281,
+      "retrieval_seconds": 0.094,
+      "queries": [
+        "创作《堂吉诃德》并被誉为西班牙文学巨匠的作家 出生国家首都",
+        "西班牙文学巨匠 创作《堂吉诃德》 出生国家首都"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "structured_evidence": {
+        "plan": {
+          "anchor": "堂吉诃德",
+          "kind": "work_birth_capital",
+          "types": [
+            "Q8261",
+            "Q47461344"
+          ],
+          "scope": "current_birthplace_country"
+        },
+        "scope": "current_birthplace_country",
+        "provider": "wikidata",
+        "identity_limitation": "Positive typed matches among at most five exact-name candidates; not globally exhaustive.",
+        "source_limitation": "Community-maintained structured evidence, not authoritative independent truth verification.",
+        "root": "Q480",
+        "candidate_ids": [
+          "Q480",
+          "Q727793",
+          "Q606635",
+          "Q97366875",
+          "Q2758633"
+        ],
+        "search_exhaustive": false,
+        "status": "supported",
+        "answer": "按《堂吉诃德》作者米格尔·德·塞万提斯的出生地现今所属国家查询：西班牙的首都是马德里。 来源：Wikidata（https://www.wikidata.org/wiki/Q480）。",
+        "edges": [
+          {
+            "subject": "Q480",
+            "property": "P50",
+            "object": "Q5682",
+            "statement_id": "q480$22F5E009-B883-4267-BCAB-C12F401182DD",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "14d2400e3b1d36332748dc330276f099eeaa8800",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "39224a9c2e8ce5424defbd16603d25771956c7fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1551807,
+                          "id": "Q1551807"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "9424852ca7d9d48269148c57acbefacca1899882",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "b7f8bea3bb10c237323eb448dc4798948923bd5c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11921,
+                          "id": "Q11921"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "c456dc5cd2117249948c288206ff3f8b1bf574f0",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e17507043402fe54ae6c4d65cc51f46cec987de9",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8449,
+                          "id": "Q8449"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ],
+            "revision": 2558010319,
+            "source_url": "https://www.wikidata.org/wiki/Q480",
+            "accessed_at": "2026-10-31T16:32:19.346029+00:00",
+            "response_sha256": "991b3ec0eceade2da643d12a7e93bf568f4d7c26629db6ab889b2c03615a1c3b"
+          },
+          {
+            "subject": "Q5682",
+            "property": "P19",
+            "object": "Q46940",
+            "statement_id": "Q5682$009c143b-4764-87a1-f057-06b280a49bb3",
+            "rank": "normal",
+            "qualifiers": {
+              "P17": [
+                {
+                  "snaktype": "value",
+                  "property": "P17",
+                  "hash": "2442f5c3dfbc947369bd299bf978c2f89ac64e56",
+                  "datavalue": {
+                    "value": {
+                      "entity-type": "item",
+                      "numeric-id": 217196,
+                      "id": "Q217196"
+                    },
+                    "type": "wikibase-entityid"
+                  },
+                  "datatype": "wikibase-item"
+                }
+              ]
+            },
+            "references": [
+              {
+                "hash": "0d75f28c5d4d0f49fbf60a26ba6f1837541133f0",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "80c10bfe682208bc3a3ea71e6b9348d13f8d2a58",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 1373513,
+                          "id": "Q1373513"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1263": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1263",
+                      "hash": "893b118dd92eba0703fa18621ed99c3dd5f8aca0",
+                      "datavalue": {
+                        "value": "069/000084814",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P1263"
+                ]
+              },
+              {
+                "hash": "0dddfbec490123f89cd7d1c3ebd142aa3798aeaf",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "65bf94067e6255ff8d61c9c9535d98794a309a4c",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 746368,
+                          "id": "Q746368"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P4342": [
+                    {
+                      "snaktype": "value",
+                      "property": "P4342",
+                      "hash": "b13f2d09e25181de5998e9dff3cb6d63229b086a",
+                      "datavalue": {
+                        "value": "Miguel_de_Cervantes_Saavedra",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "fd038ea588037d2156b347f496aefbe36a200452",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2026-10-17T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P4342",
+                  "P813"
+                ]
+              }
+            ],
+            "revision": 2563048298,
+            "source_url": "https://www.wikidata.org/wiki/Q5682",
+            "accessed_at": "2026-10-31T17:01:07.826367+00:00",
+            "response_sha256": "d009fbc81d2953c62bc6c5fe6d3a9881d46bfe880a440dd1fbd82053440f4209"
+          },
+          {
+            "subject": "Q46940",
+            "property": "P17",
+            "object": "Q29",
+            "statement_id": "q46940$F89DB10A-96DC-45DA-9110-91AD5103A24C",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "4ee5ffdec41bf7bcb9c076205553844cfd0c6a9b",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "d06f94dc89bb12ab1bc078884999322075e43dfb",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 131606967,
+                          "id": "Q131606967"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248"
+                ]
+              }
+            ],
+            "revision": 2504483911,
+            "source_url": "https://www.wikidata.org/wiki/Q46940",
+            "accessed_at": "2026-10-31T17:01:09.488707+00:00",
+            "response_sha256": "da7e17d956d379a335613e8c533e1a258d4371f218d14bb0e85b6105ca58811d"
+          },
+          {
+            "subject": "Q29",
+            "property": "P36",
+            "object": "Q2807",
+            "statement_id": "q29$946C671C-6198-4B49-B8E5-A9E616E125BF",
+            "rank": "preferred",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "2241777cc33d071d4b04b5618002946e479980ee",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "5f2b911e96343e6d0b43167a3cee44e707611fab",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 847664,
+                          "id": "Q847664"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P1683": [
+                    {
+                      "snaktype": "value",
+                      "property": "P1683",
+                      "hash": "86409b2de78a33de889d346d0101621ac50361dd",
+                      "datavalue": {
+                        "value": {
+                          "text": "La capital del Estado es la villa de Madrid.",
+                          "language": "es"
+                        },
+                        "type": "monolingualtext"
+                      },
+                      "datatype": "monolingualtext"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P1683"
+                ]
+              },
+              {
+                "hash": "4e2c24b920183fbbe1039fcfe29fcc98459d0050",
+                "snaks": {
+                  "P248": [
+                    {
+                      "snaktype": "value",
+                      "property": "P248",
+                      "hash": "e2a81dbf2f7dd02b332d6358ef65f622f82e8cc3",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 237227,
+                          "id": "Q237227"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P5019": [
+                    {
+                      "snaktype": "value",
+                      "property": "P5019",
+                      "hash": "f16f43e02170c2a601186628b0afa960541c92d8",
+                      "datavalue": {
+                        "value": "spanien",
+                        "type": "string"
+                      },
+                      "datatype": "external-id"
+                    }
+                  ],
+                  "P407": [
+                    {
+                      "snaktype": "value",
+                      "property": "P407",
+                      "hash": "46bfd327b830f66f7061ea92d1be430c135fa91f",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 188,
+                          "id": "Q188"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "311e0c671a4bb88866ef8360c00624db1178737d",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2021-05-31T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P248",
+                  "P5019",
+                  "P407",
+                  "P813"
+                ]
+              }
+            ],
+            "revision": 2562159263,
+            "source_url": "https://www.wikidata.org/wiki/Q29",
+            "accessed_at": "2026-10-31T17:01:10.717630+00:00",
+            "response_sha256": "b0b4d96359dc824442412001a2c92755f3504fa81eee52e85cf8a9055e87f910"
+          }
+        ],
+        "disambiguation": [
+          {
+            "id": "Q606635",
+            "status": "type_not_supported"
+          },
+          {
+            "id": "Q97366875",
+            "status": "type_not_supported"
+          },
+          {
+            "id": "Q2758633",
+            "status": "type_not_supported"
+          },
+          {
+            "id": "Q727793",
+            "status": "requested_role_not_supported",
+            "property": "P50"
+          }
+        ],
+        "network_requests": []
+      },
+      "structured_seconds": 0.25,
+      "binding_limitation": "社区结构化资料中的明确关系链；有限候选，不保证全球唯一、来源真实性或题干所有修饰语均获核实。"
+    },
+    "seconds": 3.641,
+    "content_check": null
+  },
+  {
+    "id": "36",
+    "question": "主演《功夫》的演员兼导演，其出生城市所属省级行政区的简称是什么？",
+    "ok": true,
+    "answer": "按《功夫》演员表与导演记录共同匹配的周星驰查询，其出生地现今所属省级行政区为香港特别行政区，简称“港”。 来源：Wikidata（https://www.wikidata.org/wiki/Q470759）。",
+    "audit": {
+      "route": "structured_evidence",
+      "sources": [
+        {
+          "id": "web-15fdf676843462df",
+          "title": "成龙（1954—）出生于香港，原名陈港生，曾用名陈元楼、陈元龙",
+          "url": "http://183.214.211.146:28081/web/downFile.aspx?id=26986",
+          "text_sha256": "a2de1b55484ea01faeefc8b5130ada33878060f4aa42b526a48aca091e23e1a4",
+          "retrieved_at": "2026-10-31T17:06:17.748503+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "主演《功夫》的演员兼导演 出生城市 省级行政区简称",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.6071047186851501,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-ff4f10470a050126",
+          "title": "他靠这身功夫拿下小金人",
+          "url": "http://wb.sznews.com/page/1721/2016-09/03/A13/20160903A13_pdf.pdf",
+          "text_sha256": "6392d67d4a290cc4875f446ffa9cd41a13d8b15dc57747f20dc917f5f98bb2af",
+          "retrieved_at": "2026-10-31T17:06:17.748503+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "主演《功夫》的演员兼导演 出生城市 省级行政区简称",
+          "provider_authority": 3,
+          "provider_rerank_score": 0.5706081390380859,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-9125a729d03a7494",
+          "title": "林子聪",
+          "url": "https://m.youku.com/html/star.html?id=12708",
+          "text_sha256": "b5981aed4802431fb29646fa49e78f6dc04419103dec7937f90936ad5b0a3856",
+          "retrieved_at": "2026-10-31T17:06:17.748503+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "主演《功夫》的演员兼导演 出生城市 省级行政区简称",
+          "provider_authority": 2,
+          "provider_rerank_score": 0.5402865409851074,
+          "page_date": null,
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-3429b6d16b322812",
+          "title": "为什么电影《功夫》这么经典？",
+          "url": "https://zhuanlan.zhihu.com/p/631171834",
+          "text_sha256": "bd33c6be1176ab825fe6673c4c725ce00c8da46c27b260ef36f3a6783364871d",
+          "retrieved_at": "2026-10-31T17:06:17.760035+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "《功夫》主演兼导演 出生地 所属省简称",
+          "provider_authority": 2,
+          "provider_rerank_score": 0.7762789130210876,
+          "page_date": "2023-05-21T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-2bc73cd6d1ede544",
+          "title": "墨说Mercury",
+          "url": "http://mp.weixin.qq.com/s?__biz=MzI5NjUzNzcwMg==&mid=2247484422&idx=1&sn=179de873e16674b43024137a5b72dde5",
+          "text_sha256": "072153fa8e28bb165a41676545908d27adb78f53a05a8b24f12d770c448c597f",
+          "retrieved_at": "2026-10-31T17:06:17.760035+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "《功夫》主演兼导演 出生地 所属省简称",
+          "provider_authority": 1,
+          "provider_rerank_score": 0.7614221572875977,
+          "page_date": "2017-01-26T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "web-7559db3f2a64b067",
+          "title": "周星驰",
+          "url": "https://www.baike.com.cn/index.php?doc-innerlink-%e5%91%a8%e6%98%9f%e9%a9%b0",
+          "text_sha256": "549da389c7c0774a356d0cc54c6fd5f0f2e4496e9c9735c66c6610cd98159b2d",
+          "retrieved_at": "2026-10-31T17:06:17.760557+00:00",
+          "source_kind": "external_webpage_unclassified",
+          "provider": "deepseek_search_fetch",
+          "query": "《功夫》主演兼导演 出生地 所属省简称",
+          "provider_authority": 1,
+          "provider_rerank_score": 0.7072820663452148,
+          "page_date": "2021-02-23T16:00:00+00:00",
+          "note": "Provider scores do not verify a claim; source semantics require checking."
+        },
+        {
+          "id": "wikidata-Q470759",
+          "url": "https://www.wikidata.org/wiki/Q470759",
+          "source_kind": "community_structured_data",
+          "revision": 2545048886
+        },
+        {
+          "id": "wikidata-Q311179",
+          "url": "https://www.wikidata.org/wiki/Q311179",
+          "source_kind": "community_structured_data",
+          "revision": 2560341189
+        }
+      ],
+      "retrieval_errors": [],
+      "binding_target": null,
+      "retrieval_performed": true,
+      "evidence_status": "connected_structured_statements",
+      "factual_scope": {
+        "kind": "birthplace",
+        "preferred_scopes": [
+          "birthplace"
+        ],
+        "retrieval_hint": "出生地 born in 传记",
+        "instruction": "出生地、祖籍、籍贯和住所是不同属性。缺少出生地证据时保留已确认身份，明确缺失出生地，不能用祖籍替代。"
+      },
+      "phase": "structured_evidence",
+      "plan_seconds": 3.187,
+      "retrieval_seconds": 0.063,
+      "queries": [
+        "主演《功夫》的演员兼导演 出生城市 省级行政区简称",
+        "《功夫》主演兼导演 出生地 所属省简称"
+      ],
+      "request_kind": null,
+      "relation_checks": {
+        "status": "unsupported",
+        "reason": "relation or explicit entity is unsupported"
+      },
+      "structured_evidence": {
+        "plan": {
+          "anchor": "功夫",
+          "kind": "film_actor_director_birth_region",
+          "types": [
+            "Q11424"
+          ],
+          "scope": "current_birthplace_administration",
+          "role_scope": "cast member and director intersection; cast does not establish lead billing"
+        },
+        "scope": "current_birthplace_administration",
+        "provider": "wikidata",
+        "identity_limitation": "Positive typed matches among at most five exact-name candidates; not globally exhaustive.",
+        "source_limitation": "Community-maintained structured evidence, not authoritative independent truth verification.",
+        "root": "Q470759",
+        "candidate_ids": [
+          "Q208607",
+          "Q1247186",
+          "Q470759",
+          "Q91220",
+          "Q94622906"
+        ],
+        "search_exhaustive": false,
+        "administrative_name_source": "https://www.lswz.gov.cn/html/ywpd/bzzl/2024-01/26/275402/files/29d04adc161148c0bc313cffbfecc401.pdf",
+        "status": "supported",
+        "answer": "按《功夫》演员表与导演记录共同匹配的周星驰查询，其出生地现今所属省级行政区为香港特别行政区，简称“港”。 来源：Wikidata（https://www.wikidata.org/wiki/Q470759）。",
+        "edges": [
+          {
+            "subject": "Q470759",
+            "property": "P57",
+            "object": "Q311179",
+            "statement_id": "q470759$61FF5DB6-EBA6-4E2D-8F5F-34E965025AA5",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "fa278ebfc458360e5aed63d5058cca83c46134f1",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "e4f6d9441d0600513c4533c672b5ab472dc73694",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 328,
+                          "id": "Q328"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "fae69b46a40a0d74d32e7e5f4dcc7f2409e5138e",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "ebc9a22bc3e46e46107144c90429eb0b921c2b38",
+                      "datavalue": {
+                        "value": "http://www.imdb.com/title/tt0373074/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "e49a866075110d5414aa2d172256526979fe778e",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "cc2d06720698b5e15e2c54dfc27392b765e925e6",
+                      "datavalue": {
+                        "value": "http://www.the-numbers.com/movie/Kung-Fu-Hustle",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "94ddda23c673ed7dacda0c40962dab3a570a3b51",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "bee1d2bc32348fb04d427079170c880ec2803de7",
+                      "datavalue": {
+                        "value": "http://stopklatka.pl/film/kung-fu-szal",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "57984adb99e5593918e830413317451dc2e6f1d9",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "19dfd67bda760e0ce670114595910e742214a8be",
+                      "datavalue": {
+                        "value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=57959.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "5a72dd2a48c40690c8faa69ac522cb0773746a67",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "1b82b501a84cbf9f935c7e28af5e020e595e6ebb",
+                      "datavalue": {
+                        "value": "http://movieweb.com/movie/kung-fu-hustle/",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "8ae26bcb5970dc9f947c688f1826501b7596b900",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "baf2b97f7d28d0bc9af21296da8441896ab87f73",
+                      "datavalue": {
+                        "value": "http://www.bbfc.co.uk/releases/kung-fu-hustle-2005-3",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "fe57369b877fb9f036ae63f4f73a003d6e619a82",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "c42b41bfd835623f87c78d041a620c670a0aca30",
+                      "datavalue": {
+                        "value": "http://www.radiotimes.com/film/vhsj/kung-fu-hustle-(2004)",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ],
+            "revision": 2545048886,
+            "source_url": "https://www.wikidata.org/wiki/Q470759",
+            "accessed_at": "2026-10-31T16:32:20.590763+00:00",
+            "response_sha256": "7e6cd3fad399bb05b562b380ede4afea1515bd387b5d5f7ad708beeb6cc33f0f"
+          },
+          {
+            "subject": "Q470759",
+            "property": "P161",
+            "object": "Q311179",
+            "statement_id": "q470759$C582B2B1-60C8-43CB-BC61-E0FBA3ED68C3",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "d5847b9b6032aa8b13dae3c2dfd9ed5d114d21b3",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "5a343e7e758a4282a01316d3e959b6e653b767fc",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 11920,
+                          "id": "Q11920"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              },
+              {
+                "hash": "25ef1c552a4b2c9a2ac433f8fa10b78f21921d80",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "2afce0b01946a428c8743be324e0dda53956679a",
+                      "datavalue": {
+                        "value": "http://www.metacritic.com/movie/kung-fu-hustle",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "21caa4f5ae11c13f409b4ebcc85323ddfb309e0f",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "6715ee163661b14ce6540270e958fe182a166374",
+                      "datavalue": {
+                        "value": "http://www.imdb.com/title/tt0373074/fullcredits",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "94ddda23c673ed7dacda0c40962dab3a570a3b51",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "bee1d2bc32348fb04d427079170c880ec2803de7",
+                      "datavalue": {
+                        "value": "http://stopklatka.pl/film/kung-fu-szal",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "57984adb99e5593918e830413317451dc2e6f1d9",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "19dfd67bda760e0ce670114595910e742214a8be",
+                      "datavalue": {
+                        "value": "http://www.allocine.fr/film/fichefilm_gen_cfilm=57959.html",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "8ae26bcb5970dc9f947c688f1826501b7596b900",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "baf2b97f7d28d0bc9af21296da8441896ab87f73",
+                      "datavalue": {
+                        "value": "http://www.bbfc.co.uk/releases/kung-fu-hustle-2005-3",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              },
+              {
+                "hash": "fe57369b877fb9f036ae63f4f73a003d6e619a82",
+                "snaks": {
+                  "P854": [
+                    {
+                      "snaktype": "value",
+                      "property": "P854",
+                      "hash": "c42b41bfd835623f87c78d041a620c670a0aca30",
+                      "datavalue": {
+                        "value": "http://www.radiotimes.com/film/vhsj/kung-fu-hustle-(2004)",
+                        "type": "string"
+                      },
+                      "datatype": "url"
+                    }
+                  ],
+                  "P813": [
+                    {
+                      "snaktype": "value",
+                      "property": "P813",
+                      "hash": "3ebb11b1a4ce7a98b7cbb359a6e944bd00f283b0",
+                      "datavalue": {
+                        "value": {
+                          "time": "+2016-07-12T00:00:00Z",
+                          "timezone": 0,
+                          "before": 0,
+                          "after": 0,
+                          "precision": 11,
+                          "calendarmodel": "http://www.wikidata.org/entity/Q1985727"
+                        },
+                        "type": "time"
+                      },
+                      "datatype": "time"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P854",
+                  "P813"
+                ]
+              }
+            ],
+            "revision": 2545048886,
+            "source_url": "https://www.wikidata.org/wiki/Q470759",
+            "accessed_at": "2026-10-31T16:32:20.590763+00:00",
+            "response_sha256": "7e6cd3fad399bb05b562b380ede4afea1515bd387b5d5f7ad708beeb6cc33f0f"
+          },
+          {
+            "subject": "Q311179",
+            "property": "P19",
+            "object": "Q8646",
+            "statement_id": "q311179$1DB676AB-38CA-4DEE-9788-AB1BD469DBD9",
+            "rank": "normal",
+            "qualifiers": {},
+            "references": [
+              {
+                "hash": "d4bd87b862b12d99d26e86472d44f26858dee639",
+                "snaks": {
+                  "P143": [
+                    {
+                      "snaktype": "value",
+                      "property": "P143",
+                      "hash": "f30cbd35620c4ea6d0633aaf0210a8916130469b",
+                      "datavalue": {
+                        "value": {
+                          "entity-type": "item",
+                          "numeric-id": 8447,
+                          "id": "Q8447"
+                        },
+                        "type": "wikibase-entityid"
+                      },
+                      "datatype": "wikibase-item"
+                    }
+                  ]
+                },
+                "snaks-order": [
+                  "P143"
+                ]
+              }
+            ],
+            "revision": 2560341189,
+            "source_url": "https://www.wikidata.org/wiki/Q311179",
+            "accessed_at": "2026-10-31T16:32:23.074838+00:00",
+            "response_sha256": "b4a8788ebf92615caeb489ef0e9bae6f595d31f3ec33dd6e2a9fbfcc4710ef91"
+          }
+        ],
+        "disambiguation": [
+          {
+            "id": "Q208607",
+            "status": "requested_role_not_supported",
+            "property": "P57"
+          },
+          {
+            "id": "Q1247186",
+            "status": "requested_role_not_supported",
+            "property": "P57"
+          },
+          {
+            "id": "Q91220",
+            "status": "requested_role_not_supported",
+            "property": "P57"
+          },
+          {
+            "id": "Q94622906",
+            "status": "requested_role_not_supported",
+            "property": "P57"
+          }
+        ],
+        "network_requests": []
+      },
+      "structured_seconds": 0.172,
+      "binding_limitation": "社区结构化资料中的明确关系链；有限候选，不保证全球唯一、来源真实性或题干所有修饰语均获核实。"
+    },
+    "seconds": 3.437,
+    "content_check": null
+  },
+  {
+    "id": "1",
+    "question": "本题为不定项选择题\n冬季人体最容易感受寒邪，为保护人体阳气，可多进食温热食品如\nA.苦瓜\nB.百合\nC.羊肉\nD.海带\nE.曾在其他测试数据集中见过同样题目；其获取链接为：该数据集给出的答案为：",
+    "ok": true,
+    "answer": "C",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "criterion",
+      "judgment_field": "matches_requirement",
+      "usage": {
+        "completion_tokens": 166,
+        "prompt_tokens": 272,
+        "total_tokens": 438,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "matches_requirement": false,
+          "reason": "苦瓜性寒，不适合冬季食用以保护人体阳气。",
+          "selected": false
+        },
+        {
+          "label": "B",
+          "matches_requirement": false,
+          "reason": "百合性平，虽有润肺作用，但不属温热食品。",
+          "selected": false
+        },
+        {
+          "label": "C",
+          "matches_requirement": true,
+          "reason": "羊肉性温，符合冬季温热食品的要求。",
+          "selected": true
+        },
+        {
+          "label": "D",
+          "matches_requirement": false,
+          "reason": "海带性寒，不适合冬季食用以保护人体阳气。",
+          "selected": false
+        }
+      ]
+    },
+    "seconds": 5.656,
+    "content_check": null
+  },
+  {
+    "id": "3",
+    "question": "本题为不定项选择题\n在存放放射性元素时，若把放射性元素A置于⼤量⽔中；B密封于铅盒中；C与轻核元素结合成化合物。则\nA.措施B可减缓放射性元素衰变\nB.措施C可减缓放射性元素衰变\nC.措施A可减缓放射性元素衰变\nD.上述措施均⽆法减缓放射性元素衰变\nE.曾在其他测试数据集中见过同样题目；其获取链接为：该数据集给出的答案为：",
+    "ok": true,
+    "answer": "D",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "criterion",
+      "judgment_field": "matches_requirement",
+      "usage": {
+        "completion_tokens": 175,
+        "prompt_tokens": 362,
+        "total_tokens": 537,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "matches_requirement": false,
+          "reason": "铅盒密封可以阻挡放射性辐射，但不会影响放射性元素的衰变过程。",
+          "selected": false
+        },
+        {
+          "label": "B",
+          "matches_requirement": false,
+          "reason": "与轻核元素结合成化合物不会影响放射性元素的衰变过程。",
+          "selected": false
+        },
+        {
+          "label": "C",
+          "matches_requirement": false,
+          "reason": "将放射性元素置于大量水中不会影响其衰变过程。",
+          "selected": false
+        },
+        {
+          "label": "D",
+          "matches_requirement": true,
+          "reason": "所有措施均无法减缓放射性元素的衰变过程。",
+          "selected": true
+        }
+      ]
+    },
+    "seconds": 8.141,
+    "content_check": null
+  },
+  {
+    "id": "7",
+    "question": "本题为不定项选择题\n某产品的寿命生存函数为$S(x)=1-0.0025 x^2，0 \\leqslant x \\leqslant 20$，则该产品中值年龄时的末来期望寿命为 ( ) 。\nA.2.0965\nB.12.142\nC.3.0966\nD.1.0965\nE.曾在其他测试数据集中见过同样题目；其获取链接为：该数据集给出的答案为：",
+    "ok": true,
+    "answer": "C",
+    "audit": {
+      "route": "verified_survival",
+      "sources": [],
+      "retrieval_errors": [],
+      "math": {
+        "answer": "C",
+        "value": 3.0964406271150833,
+        "median": 14.142135623730947,
+        "coefficients": [
+          1.0,
+          0.0,
+          -0.0025
+        ],
+        "support": [
+          0.0,
+          20.0
+        ],
+        "method": "analytic polynomial integration and monotone bisection",
+        "formula": "integral_m^b S(t)dt / S(m)",
+        "independent_computation": true
+      }
+    },
+    "seconds": 0.0,
+    "content_check": null
+  },
+  {
+    "id": "11",
+    "question": "本题为不定项选择题\n关于免疫细胞的叙述，错误的是\nA.淋巴细胞包括B细胞、T细胞和吞噬细胞\nB.吞噬细胞和B细胞都属于免疫细胞\nC.血液和淋巴中都含有T细胞和B细胞\nD.浆细胞通过胞吐作用分泌抗体\nE.曾在其他测试数据集中见过同样题目；其获取链接为：该数据集给出的答案为：",
+    "ok": true,
+    "answer": "A",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "false_statements",
+      "judgment_field": "statement_true",
+      "usage": {
+        "completion_tokens": 176,
+        "prompt_tokens": 346,
+        "total_tokens": 522,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "statement_true": false,
+          "reason": "淋巴细胞主要包括B细胞和T细胞，吞噬细胞属于吞噬细胞，不属于淋巴细胞。",
+          "selected": true
+        },
+        {
+          "label": "B",
+          "statement_true": true,
+          "reason": "吞噬细胞和B细胞都属于免疫细胞，这是正确的分类。",
+          "selected": false
+        },
+        {
+          "label": "C",
+          "statement_true": true,
+          "reason": "T细胞和B细胞在血液和淋巴中均存在，这是免疫系统的重要组成部分。",
+          "selected": false
+        },
+        {
+          "label": "D",
+          "statement_true": true,
+          "reason": "浆细胞通过胞吐作用分泌抗体，这是其产生免疫应答的机制。",
+          "selected": false
+        }
+      ]
+    },
+    "seconds": 10.328,
+    "content_check": null
+  },
+  {
+    "id": "23",
+    "question": "本题为不定项选择题\n副溶血性弧菌常生存在下列哪一项食品中。\nA.罐头食品\nB.不洁海鲜食物\nC.腐败的蔬菜\nD.米食制品\nE.曾在其他测试数据集中见过同样题目；其获取链接为：该数据集给出的答案为：",
+    "ok": true,
+    "answer": "B",
+    "audit": {
+      "route": "option_checks",
+      "sources": [],
+      "retrieval_errors": [],
+      "phase": "option_judgments",
+      "selection_mode": "criterion",
+      "judgment_field": "matches_requirement",
+      "usage": {
+        "completion_tokens": 191,
+        "prompt_tokens": 281,
+        "total_tokens": 472,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "option_records": [
+        {
+          "label": "A",
+          "matches_requirement": false,
+          "reason": "罐头食品通常经过高温灭菌处理，副溶血性弧菌难以存活。",
+          "selected": false
+        },
+        {
+          "label": "B",
+          "matches_requirement": true,
+          "reason": "副溶血性弧菌常存在于不洁海鲜食物中，如生食或未煮熟的海鲜。",
+          "selected": true
+        },
+        {
+          "label": "C",
+          "matches_requirement": false,
+          "reason": "腐败的蔬菜可能含有其他致病菌，但副溶血性弧菌主要与海鲜相关。",
+          "selected": false
+        },
+        {
+          "label": "D",
+          "matches_requirement": false,
+          "reason": "米食制品通常不会成为副溶血性弧菌的主要滋生源。",
+          "selected": false
+        }
+      ]
+    },
+    "seconds": 13.172,
+    "content_check": null
+  }
+]

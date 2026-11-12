@@ -1,0 +1,9 @@
+.local/
+__pycache__/
+*.pyc
+*.dpapi
+.env
+*.gguf
+*.zip
+*.rar
+work/
